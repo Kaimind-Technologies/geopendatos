@@ -1,0 +1,23 @@
+{
+  "version": 8,
+  "name": "P01 · Edificios de Caracas por fuente",
+  "sources": {},
+  "layers": [
+    {
+      "id": "edificios-caracas-fuente",
+      "type": "fill-extrusion",
+      "paint": {
+        "fill-extrusion-color": [
+          "match", ["get", "fuente"],
+          "OpenStreetMap", "#22c55e",
+          "Microsoft ML Buildings", "#3b82f6",
+          "Google Open Buildings", "#f59e0b",
+          "#9ca3af"
+        ],
+        "fill-extrusion-height": ["coalesce", ["get", "height"], 8],
+        "fill-extrusion-base": 0,
+        "fill-extrusion-opacity": 0.95
+      }
+    }
+  ]
+}

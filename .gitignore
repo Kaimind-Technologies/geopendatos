@@ -4,6 +4,11 @@ data/
 # Salidas demasiado pesadas para el repo (se publican solo las capas livianas)
 p01-edificios-overture/output/ven_edificios.parquet
 
+# Videos y cuadros (el video se publica en LinkedIn, no en el repo)
+*/video/*.mp4
+*/video/frames/
+*/video/_txt/
+
 # Python / editor
 __pycache__/
 *.py[cod]

@@ -19,7 +19,13 @@ Top 5: Zulia 1.554.330 · Lara 824.152 · Carabobo 751.634 · Miranda 738.954 ·
 
 ## Ábrelo tú mismo
 
-Descarga [`output/ven_h3_r7.parquet`](output/ven_h3_r7.parquet) (país en hexágonos de ~5 km²) o [`output/caracas_edificios.parquet`](output/caracas_edificios.parquet) (cada edificio del Distrito Capital) y arrástralo a [GeoLibre](https://geolibre.app), un SIG que corre en el navegador.
+**[Abrir en GeoLibre](https://web.geolibre.app/?welcome=0&theme=dark&data=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp01-edificios-overture%2Foutput%2Fven_h3_r7.parquet&data=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp01-edificios-overture%2Foutput%2Fcaracas_edificios.parquet&style=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp01-edificios-overture%2Fstyles%2Fh3.style.json&style=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp01-edificios-overture%2Fstyles%2Fcaracas.style.json)**: el país en hexágonos 3D y cada edificio de Caracas coloreado por fuente, en [GeoLibre](https://geolibre.app), un SIG que corre en el navegador. Para el 3D, inclina el mapa con clic derecho + arrastrar.
+
+También puedes descargar [`output/ven_h3_r7.parquet`](output/ven_h3_r7.parquet) (país en hexágonos de ~5 km²) o [`output/caracas_edificios.parquet`](output/caracas_edificios.parquet) (cada edificio del Distrito Capital) y abrirlos en cualquier SIG. Los estilos están en [`styles/`](styles/).
+
+## Video
+
+El video del post se grabó dentro de GeoLibre, cuadro a cuadro: [`video/record.py`](video/record.py) maneja la cámara con el mouse (Playwright + Chrome) y [`video/edit.py`](video/edit.py) agrega los textos con ffmpeg.
 
 ## Reproducir
 

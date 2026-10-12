@@ -1,0 +1,30 @@
+{
+  "version": 8,
+  "name": "P01 · Edificios de Venezuela en hexágonos H3 (3D)",
+  "sources": {},
+  "layers": [
+    {
+      "id": "edificios-h3-3d",
+      "type": "fill-extrusion",
+      "maxzoom": 11.2,
+      "paint": {
+        "fill-extrusion-color": [
+          "interpolate", ["linear"], ["get", "edificios"],
+          1, "#3b0f70",
+          50, "#721f81",
+          300, "#b73779",
+          1500, "#f1605d",
+          5000, "#feb078",
+          15000, "#fcfdbf"
+        ],
+        "fill-extrusion-height": [
+          "interpolate", ["linear"], ["zoom"],
+          9, ["*", ["sqrt", ["get", "edificios"]], 250],
+          11, 0
+        ],
+        "fill-extrusion-base": 0,
+        "fill-extrusion-opacity": 0.9
+      }
+    }
+  ]
+}
