@@ -1,0 +1,201 @@
+{
+  "release_overture": "2026-09-23.1",
+  "poligono": "geoBoundaries gbOpen VEN ADM1 (OCHA Venezuela / INE), CC BY 3.0 IGO, sin Esequibo",
+  "criterio": "edificio asignado por el centro de su bbox",
+  "total_edificios": 10861395,
+  "descartados_fuera_de_venezuela": 4687318,
+  "suma_por_estados": 10861395,
+  "por_estado": [
+    {
+      "estado": "Zulia",
+      "edificios": 1554330
+    },
+    {
+      "estado": "Lara",
+      "edificios": 824152
+    },
+    {
+      "estado": "Carabobo",
+      "edificios": 751634
+    },
+    {
+      "estado": "Miranda",
+      "edificios": 738954
+    },
+    {
+      "estado": "Anzoátegui",
+      "edificios": 657925
+    },
+    {
+      "estado": "Bolívar",
+      "edificios": 655473
+    },
+    {
+      "estado": "Aragua",
+      "edificios": 513191
+    },
+    {
+      "estado": "Táchira",
+      "edificios": 488959
+    },
+    {
+      "estado": "Barinas",
+      "edificios": 484271
+    },
+    {
+      "estado": "Falcón",
+      "edificios": 461739
+    },
+    {
+      "estado": "Portuguesa",
+      "edificios": 448007
+    },
+    {
+      "estado": "Monagas",
+      "edificios": 421995
+    },
+    {
+      "estado": "Guárico",
+      "edificios": 388140
+    },
+    {
+      "estado": "Sucre",
+      "edificios": 361627
+    },
+    {
+      "estado": "Trujillo",
+      "edificios": 335761
+    },
+    {
+      "estado": "Mérida",
+      "edificios": 329426
+    },
+    {
+      "estado": "Yaracuy",
+      "edificios": 279842
+    },
+    {
+      "estado": "Apure",
+      "edificios": 260652
+    },
+    {
+      "estado": "Distrito Capital",
+      "edificios": 244833
+    },
+    {
+      "estado": "Nueva Esparta",
+      "edificios": 208846
+    },
+    {
+      "estado": "Cojedes",
+      "edificios": 182422
+    },
+    {
+      "estado": "La Guaira",
+      "edificios": 116964
+    },
+    {
+      "estado": "Delta Amacuro",
+      "edificios": 77952
+    },
+    {
+      "estado": "Amazonas",
+      "edificios": 73423
+    },
+    {
+      "estado": "Dependencias Federales",
+      "edificios": 877
+    }
+  ],
+  "por_fuente": [
+    {
+      "fuente": "Microsoft ML Buildings",
+      "edificios": 5204571,
+      "pct": 47.9
+    },
+    {
+      "fuente": "Google Open Buildings",
+      "edificios": 4799703,
+      "pct": 44.2
+    },
+    {
+      "fuente": "OpenStreetMap",
+      "edificios": 857121,
+      "pct": 7.9
+    }
+  ],
+  "por_tipo": [
+    {
+      "tipo": "sin dato",
+      "edificios": 10663471,
+      "pct": 98.2
+    },
+    {
+      "tipo": "residential",
+      "edificios": 171602,
+      "pct": 1.6
+    },
+    {
+      "tipo": "commercial",
+      "edificios": 7435,
+      "pct": 0.1
+    },
+    {
+      "tipo": "industrial",
+      "edificios": 5523,
+      "pct": 0.1
+    },
+    {
+      "tipo": "education",
+      "edificios": 4883,
+      "pct": 0.0
+    },
+    {
+      "tipo": "outbuilding",
+      "edificios": 1921,
+      "pct": 0.0
+    },
+    {
+      "tipo": "civic",
+      "edificios": 1149,
+      "pct": 0.0
+    },
+    {
+      "tipo": "religious",
+      "edificios": 1141,
+      "pct": 0.0
+    },
+    {
+      "tipo": "medical",
+      "edificios": 1110,
+      "pct": 0.0
+    },
+    {
+      "tipo": "service",
+      "edificios": 1029,
+      "pct": 0.0
+    },
+    {
+      "tipo": "agricultural",
+      "edificios": 986,
+      "pct": 0.0
+    },
+    {
+      "tipo": "entertainment",
+      "edificios": 559,
+      "pct": 0.0
+    },
+    {
+      "tipo": "transportation",
+      "edificios": 354,
+      "pct": 0.0
+    },
+    {
+      "tipo": "military",
+      "edificios": 232,
+      "pct": 0.0
+    }
+  ],
+  "con_dato_de_pisos": 131311,
+  "segundos_asignacion": 327.4
+}

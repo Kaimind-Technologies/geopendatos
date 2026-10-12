@@ -1,0 +1,14 @@
+# Datos crudos y descargas (pesados, se regeneran con los scripts)
+data/
+
+# Salidas demasiado pesadas para el repo (se publican solo las capas livianas)
+p01-edificios-overture/output/ven_edificios.parquet
+
+# Python / editor
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
