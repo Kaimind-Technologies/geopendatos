@@ -15,7 +15,25 @@ Venezuela no tiene censo desde 2011, pero los mapas abiertos ya contaron sus edi
 
 Top 5: Zulia 1.554.330 · Lara 824.152 · Carabobo 751.634 · Miranda 738.954 · Anzoátegui 657.925. Detalle completo en [`output/p01_cifras.json`](output/p01_cifras.json).
 
-**Edificio ≠ vivienda.** Frente a las 8.216.443 viviendas del censo 2011 hay 1,32 edificios por vivienda, con un patrón claro: en el Distrito Capital hay 2,4 viviendas por edificio (apartamentos) y en Apure, 2 edificios por vivienda (anexos rurales). La cifra incluye construcciones no residenciales y anexos, y las imágenes satelitales son de distintos años.
+## ¿Qué cuenta como edificio?
+
+Cada edificio es **el contorno de un techo** (huella o *footprint*): un polígono que marca una construcción vista desde arriba, en el tema `buildings` de Overture Maps (solo el tipo `building`; no se cuentan las partes de edificio). Viene de una de estas fuentes:
+
+- **Dibujado por voluntarios** de OpenStreetMap: 7,9%.
+- **Detectado por IA en imágenes satelitales:** Microsoft ML Buildings (47,9%, imágenes de Bing de 2014 a 2024) y Google Open Buildings (44,2%).
+
+**Incluye:** casas, quintas y ranchos; edificios de apartamentos (**una torre cuenta como uno**, sin importar sus pisos); comercios, industrias, galpones, escuelas e iglesias; y anexos como cocinas aparte, depósitos o techos de estacionamiento (el 19% de los detectados por Google mide menos de 20 m²).
+
+**No es:** un conteo de viviendas, de hogares ni de personas, ni una cifra oficial.
+
+**Limitaciones:**
+
+- Las imágenes satelitales son de distintos años, así que las construcciones recientes pueden faltar.
+- La IA puede unir techos pegados en zonas muy densas (cuenta de menos) o detectar estructuras que no son edificios (cuenta de más).
+- Cada edificio se asigna al estado que contiene el centro de su techo, dentro de los límites de geoBoundaries (sin la Guayana Esequiba).
+- No hay duplicados entre fuentes: Overture las fusiona, y en Caracas solo el 0,03% de los techos se solapa con otro.
+
+**Edificio ≠ vivienda.** Frente a las 8.216.443 viviendas del censo 2011 hay 1,32 edificios por vivienda, con un patrón claro: en el Distrito Capital hay 2,4 viviendas por edificio (apartamentos) y en Apure, 2 edificios por vivienda (anexos rurales).
 
 ## Ábrelo tú mismo
 
