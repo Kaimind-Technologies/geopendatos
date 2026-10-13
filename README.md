@@ -7,10 +7,13 @@ Una serie de **Kaimind** que explora Venezuela con datos abiertos y herramientas
 | # | Publicación / Post | Carpeta / Folder |
 |---|---|---|
 | P01 | ¿Cuántas construcciones tiene Venezuela? / How many structures does Venezuela have? | [`p01-edificios-overture/`](p01-edificios-overture/) |
+| P02 | La Venezuela concentrada / Concentrated Venezuela | [`p02-concentracion/`](p02-concentracion/) |
 
 ## Stack
 
-DuckDB · GeoParquet · H3 · Overture Maps · geoBoundaries · GeoLibre
+DuckDB · GeoParquet · H3 · Overture Maps · geoBoundaries · GeoLibre (Time Slider, 3D) · estadística espacial (Gini, Getis-Ord Gi\*, Zipf)
+
+Utilidades compartidas en [`common/`](common/): límites de Venezuela, un servidor local con lectura por rangos para probar capas en GeoLibre, y un puente para exportar el estado de un proyecto de GeoLibre.
 
 ## Requisitos
 

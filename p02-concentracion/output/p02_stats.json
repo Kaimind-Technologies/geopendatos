@@ -1,0 +1,248 @@
+{
+  "gini_espacial_territorio": 0.953,
+  "gini_solo_celdas_con_construcciones": 0.899,
+  "celdas_r7_territorio": 192832,
+  "celdas_r7_vacias_pct": 53.9,
+  "gistar": {
+    "celdas_territorio": 192832,
+    "km2_territorio_celdas": 921230,
+    "umbral_p_FDR": {
+      "99": 0.00015948011651066498,
+      "95": 0.0008730407943997436,
+      "90": 0.0018337264370102589
+    },
+    "clases": {
+      "No significativo": {
+        "celdas": 189280,
+        "km2": 904677,
+        "construcciones": 3461480
+      },
+      "Punto caliente 90%": {
+        "celdas": 183,
+        "km2": 854,
+        "construcciones": 93258
+      },
+      "Punto caliente 95%": {
+        "celdas": 284,
+        "km2": 1329,
+        "construcciones": 174693
+      },
+      "Punto caliente 99%": {
+        "celdas": 3085,
+        "km2": 14370,
+        "construcciones": 7131964
+      }
+    },
+    "pct_construcciones_en_puntos_calientes_99": 65.7,
+    "pct_territorio_en_puntos_calientes_99": 1.56
+  },
+  "zipf": {
+    "150": {
+      "aglomeraciones": 2779,
+      "exponente_zipf": 0.882,
+      "r2": 0.964,
+      "primacia_1_sobre_2": 1.31,
+      "pct_construcciones_en_la_mayor": 7.8,
+      "top10": [
+        {
+          "construcciones": 652369,
+          "km2": 483.8,
+          "lat": 10.6733,
+          "lng": -71.698
+        },
+        {
+          "construcciones": 498088,
+          "km2": 440.5,
+          "lat": 10.173,
+          "lng": -67.9789
+        },
+        {
+          "construcciones": 411847,
+          "km2": 359.5,
+          "lat": 10.4622,
+          "lng": -66.8849
+        },
+        {
+          "construcciones": 372651,
+          "km2": 266.6,
+          "lat": 10.0532,
+          "lng": -69.3376
+        },
+        {
+          "construcciones": 277382,
+          "km2": 217.2,
+          "lat": 10.2231,
+          "lng": -67.5419
+        },
+        {
+          "construcciones": 220084,
+          "km2": 189.3,
+          "lat": 8.3013,
+          "lng": -62.7091
+        },
+        {
+          "construcciones": 172029,
+          "km2": 167.9,
+          "lat": 10.1429,
+          "lng": -64.6496
+        },
+        {
+          "construcciones": 159598,
+          "km2": 157.8,
+          "lat": 9.7516,
+          "lng": -63.1819
+        },
+        {
+          "construcciones": 155165,
+          "km2": 205.8,
+          "lat": 10.9999,
+          "lng": -63.9161
+        },
+        {
+          "construcciones": 133019,
+          "km2": 151.6,
+          "lat": 7.8023,
+          "lng": -72.231
+        }
+      ]
+    },
+    "250": {
+      "aglomeraciones": 1847,
+      "exponente_zipf": 0.868,
+      "r2": 0.964,
+      "primacia_1_sobre_2": 1.28,
+      "pct_construcciones_en_la_mayor": 7.9,
+      "top10": [
+        {
+          "construcciones": 616657,
+          "km2": 370.3,
+          "lat": 10.6493,
+          "lng": -71.6852
+        },
+        {
+          "construcciones": 482861,
+          "km2": 379.7,
+          "lat": 10.1741,
+          "lng": -67.9803
+        },
+        {
+          "construcciones": 399337,
+          "km2": 307.1,
+          "lat": 10.4652,
+          "lng": -66.8853
+        },
+        {
+          "construcciones": 344915,
+          "km2": 212.5,
+          "lat": 10.05,
+          "lng": -69.3373
+        },
+        {
+          "construcciones": 214254,
+          "km2": 161.7,
+          "lat": 8.3041,
+          "lng": -62.7034
+        },
+        {
+          "construcciones": 197301,
+          "km2": 135.5,
+          "lat": 10.2456,
+          "lng": -67.5606
+        },
+        {
+          "construcciones": 168521,
+          "km2": 150.2,
+          "lat": 10.1433,
+          "lng": -64.6514
+        },
+        {
+          "construcciones": 136658,
+          "km2": 162.2,
+          "lat": 11.0041,
+          "lng": -63.9024
+        },
+        {
+          "construcciones": 128468,
+          "km2": 128.5,
+          "lat": 7.7996,
+          "lng": -72.2305
+        },
+        {
+          "construcciones": 124232,
+          "km2": 95.6,
+          "lat": 9.7307,
+          "lng": -63.1864
+        }
+      ]
+    },
+    "400": {
+      "aglomeraciones": 1303,
+      "exponente_zipf": 0.896,
+      "r2": 0.981,
+      "primacia_1_sobre_2": 1.36,
+      "pct_construcciones_en_la_mayor": 8.2,
+      "top10": [
+        {
+          "construcciones": 583161,
+          "km2": 312.5,
+          "lat": 10.6325,
+          "lng": -71.6773
+        },
+        {
+          "construcciones": 427826,
+          "km2": 300.7,
+          "lat": 10.1732,
+          "lng": -67.9932
+        },
+        {
+          "construcciones": 355864,
+          "km2": 240.7,
+          "lat": 10.4738,
+          "lng": -66.8848
+        },
+        {
+          "construcciones": 333415,
+          "km2": 181.1,
+          "lat": 10.0511,
+          "lng": -69.3358
+        },
+        {
+          "construcciones": 208025,
+          "km2": 142.8,
+          "lat": 8.3055,
+          "lng": -62.7009
+        },
+        {
+          "construcciones": 193755,
+          "km2": 123.8,
+          "lat": 10.2448,
+          "lng": -67.563
+        },
+        {
+          "construcciones": 143548,
+          "km2": 108.5,
+          "lat": 10.1512,
+          "lng": -64.6619
+        },
+        {
+          "construcciones": 120649,
+          "km2": 108.3,
+          "lat": 7.8008,
+          "lng": -72.229
+        },
+        {
+          "construcciones": 120337,
+          "km2": 85.1,
+          "lat": 9.7321,
+          "lng": -63.1854
+        },
+        {
+          "construcciones": 111185,
+          "km2": 75.8,
+          "lat": 8.8903,
+          "lng": -64.2175
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "territorio_km2": 921230,
+  "total": 10861395,
+  "steps": [
+    {
+      "k": 1,
+      "construcciones_pct": 0.91,
+      "territorio_pct": 0.0
+    },
+    {
+      "k": 2,
+      "construcciones_pct": 1.92,
+      "territorio_pct": 0.01
+    },
+    {
+      "k": 3,
+      "construcciones_pct": 3.0,
+      "territorio_pct": 0.01
+    },
+    {
+      "k": 4,
+      "construcciones_pct": 3.9,
+      "territorio_pct": 0.02
+    },
+    {
+      "k": 5,
+      "construcciones_pct": 4.99,
+      "territorio_pct": 0.02
+    },
+    {
+      "k": 6,
+      "construcciones_pct": 6.0,
+      "territorio_pct": 0.03
+    },
+    {
+      "k": 7,
+      "construcciones_pct": 6.96,
+      "territorio_pct": 0.03
+    },
+    {
+      "k": 8,
+      "construcciones_pct": 7.98,
+      "territorio_pct": 0.04
+    },
+    {
+      "k": 9,
+      "construcciones_pct": 8.96,
+      "territorio_pct": 0.04
+    },
+    {
+      "k": 10,
+      "construcciones_pct": 10.0,
+      "territorio_pct": 0.05
+    },
+    {
+      "k": 11,
+      "construcciones_pct": 10.92,
+      "territorio_pct": 0.05
+    },
+    {
+      "k": 12,
+      "construcciones_pct": 11.98,
+      "territorio_pct": 0.06
+    },
+    {
+      "k": 13,
+      "construcciones_pct": 12.99,
+      "territorio_pct": 0.07
+    },
+    {
+      "k": 14,
+      "construcciones_pct": 13.97,
+      "territorio_pct": 0.07
+    },
+    {
+      "k": 15,
+      "construcciones_pct": 15.0,
+      "territorio_pct": 0.08
+    },
+    {
+      "k": 16,
+      "construcciones_pct": 15.93,
+      "territorio_pct": 0.09
+    },
+    {
+      "k": 17,
+      "construcciones_pct": 16.98,
+      "territorio_pct": 0.09
+    },
+    {
+      "k": 18,
+      "construcciones_pct": 17.93,
+      "territorio_pct": 0.1
+    },
+    {
+      "k": 19,
+      "construcciones_pct": 18.99,
+      "territorio_pct": 0.11
+    },
+    {
+      "k": 20,
+      "construcciones_pct": 19.96,
+      "territorio_pct": 0.12
+    },
+    {
+      "k": 21,
+      "construcciones_pct": 20.97,
+      "territorio_pct": 0.13
+    },
+    {
+      "k": 22,
+      "construcciones_pct": 21.95,
+      "territorio_pct": 0.13
+    },
+    {
+      "k": 23,
+      "construcciones_pct": 22.96,
+      "territorio_pct": 0.14
+    },
+    {
+      "k": 24,
+      "construcciones_pct": 23.95,
+      "territorio_pct": 0.15
+    },
+    {
+      "k": 25,
+      "construcciones_pct": 24.97,
+      "territorio_pct": 0.16
+    },
+    {
+      "k": 26,
+      "construcciones_pct": 25.97,
+      "territorio_pct": 0.17
+    },
+    {
+      "k": 27,
+      "construcciones_pct": 26.99,
+      "territorio_pct": 0.18
+    },
+    {
+      "k": 28,
+      "construcciones_pct": 27.99,
+      "territorio_pct": 0.19
+    },
+    {
+      "k": 29,
+      "construcciones_pct": 28.97,
+      "territorio_pct": 0.2
+    },
+    {
+      "k": 30,
+      "construcciones_pct": 29.97,
+      "territorio_pct": 0.21
+    },
+    {
+      "k": 31,
+      "construcciones_pct": 30.98,
+      "territorio_pct": 0.22
+    },
+    {
+      "k": 32,
+      "construcciones_pct": 31.96,
+      "territorio_pct": 0.23
+    },
+    {
+      "k": 33,
+      "construcciones_pct": 33.0,
+      "territorio_pct": 0.24
+    },
+    {
+      "k": 34,
+      "construcciones_pct": 34.0,
+      "territorio_pct": 0.25
+    },
+    {
+      "k": 35,
+      "construcciones_pct": 34.96,
+      "territorio_pct": 0.26
+    },
+    {
+      "k": 36,
+      "construcciones_pct": 35.98,
+      "territorio_pct": 0.28
+    },
+    {
+      "k": 37,
+      "construcciones_pct": 36.97,
+      "territorio_pct": 0.29
+    },
+    {
+      "k": 38,
+      "construcciones_pct": 37.98,
+      "territorio_pct": 0.3
+    },
+    {
+      "k": 39,
+      "construcciones_pct": 38.98,
+      "territorio_pct": 0.32
+    },
+    {
+      "k": 40,
+      "construcciones_pct": 39.98,
+      "territorio_pct": 0.33
+    },
+    {
+      "k": 41,
+      "construcciones_pct": 40.99,
+      "territorio_pct": 0.34
+    },
+    {
+      "k": 42,
+      "construcciones_pct": 42.0,
+      "territorio_pct": 0.36
+    },
+    {
+      "k": 43,
+      "construcciones_pct": 42.97,
+      "territorio_pct": 0.37
+    },
+    {
+      "k": 44,
+      "construcciones_pct": 44.0,
+      "territorio_pct": 0.39
+    },
+    {
+      "k": 45,
+      "construcciones_pct": 44.99,
+      "territorio_pct": 0.41
+    },
+    {
+      "k": 46,
+      "construcciones_pct": 45.98,
+      "territorio_pct": 0.43
+    },
+    {
+      "k": 47,
+      "construcciones_pct": 46.98,
+      "territorio_pct": 0.44
+    },
+    {
+      "k": 48,
+      "construcciones_pct": 47.99,
+      "territorio_pct": 0.46
+    },
+    {
+      "k": 49,
+      "construcciones_pct": 49.0,
+      "territorio_pct": 0.48
+    },
+    {
+      "k": 50,
+      "construcciones_pct": 49.98,
+      "territorio_pct": 0.5
+    },
+    {
+      "k": 51,
+      "construcciones_pct": 50.98,
+      "territorio_pct": 0.53
+    },
+    {
+      "k": 52,
+      "construcciones_pct": 51.99,
+      "territorio_pct": 0.55
+    },
+    {
+      "k": 53,
+      "construcciones_pct": 52.99,
+      "territorio_pct": 0.57
+    },
+    {
+      "k": 54,
+      "construcciones_pct": 53.98,
+      "territorio_pct": 0.6
+    },
+    {
+      "k": 55,
+      "construcciones_pct": 54.99,
+      "territorio_pct": 0.62
+    },
+    {
+      "k": 56,
+      "construcciones_pct": 55.98,
+      "territorio_pct": 0.65
+    },
+    {
+      "k": 57,
+      "construcciones_pct": 56.99,
+      "territorio_pct": 0.68
+    },
+    {
+      "k": 58,
+      "construcciones_pct": 58.0,
+      "territorio_pct": 0.71
+    },
+    {
+      "k": 59,
+      "construcciones_pct": 59.0,
+      "territorio_pct": 0.75
+    },
+    {
+      "k": 60,
+      "construcciones_pct": 60.0,
+      "territorio_pct": 0.78
+    },
+    {
+      "k": 61,
+      "construcciones_pct": 60.99,
+      "territorio_pct": 0.82
+    },
+    {
+      "k": 62,
+      "construcciones_pct": 62.0,
+      "territorio_pct": 0.86
+    },
+    {
+      "k": 63,
+      "construcciones_pct": 62.99,
+      "territorio_pct": 0.9
+    },
+    {
+      "k": 64,
+      "construcciones_pct": 63.99,
+      "territorio_pct": 0.95
+    },
+    {
+      "k": 65,
+      "construcciones_pct": 64.99,
+      "territorio_pct": 1.0
+    },
+    {
+      "k": 66,
+      "construcciones_pct": 65.99,
+      "territorio_pct": 1.05
+    },
+    {
+      "k": 67,
+      "construcciones_pct": 66.99,
+      "territorio_pct": 1.11
+    },
+    {
+      "k": 68,
+      "construcciones_pct": 67.99,
+      "territorio_pct": 1.17
+    },
+    {
+      "k": 69,
+      "construcciones_pct": 69.0,
+      "territorio_pct": 1.23
+    },
+    {
+      "k": 70,
+      "construcciones_pct": 69.99,
+      "territorio_pct": 1.31
+    },
+    {
+      "k": 71,
+      "construcciones_pct": 71.0,
+      "territorio_pct": 1.38
+    },
+    {
+      "k": 72,
+      "construcciones_pct": 72.0,
+      "territorio_pct": 1.47
+    },
+    {
+      "k": 73,
+      "construcciones_pct": 73.0,
+      "territorio_pct": 1.56
+    },
+    {
+      "k": 74,
+      "construcciones_pct": 74.0,
+      "territorio_pct": 1.66
+    },
+    {
+      "k": 75,
+      "construcciones_pct": 75.0,
+      "territorio_pct": 1.78
+    },
+    {
+      "k": 76,
+      "construcciones_pct": 76.0,
+      "territorio_pct": 1.9
+    },
+    {
+      "k": 77,
+      "construcciones_pct": 77.0,
+      "territorio_pct": 2.04
+    },
+    {
+      "k": 78,
+      "construcciones_pct": 78.0,
+      "territorio_pct": 2.19
+    },
+    {
+      "k": 79,
+      "construcciones_pct": 79.0,
+      "territorio_pct": 2.35
+    },
+    {
+      "k": 80,
+      "construcciones_pct": 80.0,
+      "territorio_pct": 2.54
+    },
+    {
+      "k": 81,
+      "construcciones_pct": 81.0,
+      "territorio_pct": 2.74
+    },
+    {
+      "k": 82,
+      "construcciones_pct": 82.0,
+      "territorio_pct": 2.97
+    },
+    {
+      "k": 83,
+      "construcciones_pct": 83.0,
+      "territorio_pct": 3.22
+    },
+    {
+      "k": 84,
+      "construcciones_pct": 84.0,
+      "territorio_pct": 3.5
+    },
+    {
+      "k": 85,
+      "construcciones_pct": 85.0,
+      "territorio_pct": 3.83
+    },
+    {
+      "k": 86,
+      "construcciones_pct": 86.0,
+      "territorio_pct": 4.19
+    },
+    {
+      "k": 87,
+      "construcciones_pct": 87.0,
+      "territorio_pct": 4.61
+    },
+    {
+      "k": 88,
+      "construcciones_pct": 88.0,
+      "territorio_pct": 5.08
+    },
+    {
+      "k": 89,
+      "construcciones_pct": 89.0,
+      "territorio_pct": 5.63
+    },
+    {
+      "k": 90,
+      "construcciones_pct": 90.0,
+      "territorio_pct": 6.27
+    },
+    {
+      "k": 91,
+      "construcciones_pct": 91.0,
+      "territorio_pct": 7.03
+    },
+    {
+      "k": 92,
+      "construcciones_pct": 92.0,
+      "territorio_pct": 7.93
+    },
+    {
+      "k": 93,
+      "construcciones_pct": 93.0,
+      "territorio_pct": 9.01
+    },
+    {
+      "k": 94,
+      "construcciones_pct": 94.0,
+      "territorio_pct": 10.31
+    },
+    {
+      "k": 95,
+      "construcciones_pct": 95.0,
+      "territorio_pct": 11.91
+    },
+    {
+      "k": 96,
+      "construcciones_pct": 96.0,
+      "territorio_pct": 13.92
+    },
+    {
+      "k": 97,
+      "construcciones_pct": 97.0,
+      "territorio_pct": 16.54
+    },
+    {
+      "k": 98,
+      "construcciones_pct": 98.0,
+      "territorio_pct": 20.17
+    },
+    {
+      "k": 99,
+      "construcciones_pct": 99.0,
+      "territorio_pct": 25.98
+    },
+    {
+      "k": 100,
+      "construcciones_pct": 100.0,
+      "territorio_pct": 45.62
+    }
+  ]
+}

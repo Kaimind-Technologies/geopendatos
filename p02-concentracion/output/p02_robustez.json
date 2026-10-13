@@ -1,0 +1,46 @@
+[
+  {
+    "resolucion_h3": 6,
+    "filtro_area_min_m2": 0,
+    "construcciones": 10861395,
+    "km2_territorio_celdas": 932280,
+    "A_mitad_en_km2": 8525,
+    "A_mitad_pct_territorio": 0.91,
+    "A_mitad_pct_area_oficial": 0.93,
+    "90pct_en_pct_territorio": 10.1,
+    "B_vacio_pct_territorio": 34.6
+  },
+  {
+    "resolucion_h3": 7,
+    "filtro_area_min_m2": 0,
+    "construcciones": 10861395,
+    "km2_territorio_celdas": 921230,
+    "A_mitad_en_km2": 4647,
+    "A_mitad_pct_territorio": 0.5,
+    "A_mitad_pct_area_oficial": 0.51,
+    "90pct_en_pct_territorio": 6.27,
+    "B_vacio_pct_territorio": 54.4
+  },
+  {
+    "resolucion_h3": 8,
+    "filtro_area_min_m2": 0,
+    "construcciones": 10861395,
+    "km2_territorio_celdas": 917808,
+    "A_mitad_en_km2": 3175,
+    "A_mitad_pct_territorio": 0.35,
+    "A_mitad_pct_area_oficial": 0.35,
+    "90pct_en_pct_territorio": 3.65,
+    "B_vacio_pct_territorio": 78.5
+  },
+  {
+    "resolucion_h3": 7,
+    "filtro_area_min_m2": 20,
+    "construcciones": 9774557,
+    "km2_territorio_celdas": 921026,
+    "A_mitad_en_km2": 4564,
+    "A_mitad_pct_territorio": 0.5,
+    "A_mitad_pct_area_oficial": 0.5,
+    "90pct_en_pct_territorio": 6.07,
+    "B_vacio_pct_territorio": 55.9
+  }
+]

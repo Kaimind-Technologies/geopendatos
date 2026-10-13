@@ -1,0 +1,446 @@
+{
+  "total_construcciones": 10861395,
+  "techo_total_km2": 1155.6,
+  "techo_pct_territorio": 0.126,
+  "techo_mediana_m2_nacional": 69.0,
+  "curva_concentracion_r7": [
+    {
+      "pct_construcciones": 10,
+      "km2": 450,
+      "pct_territorio": 0.05
+    },
+    {
+      "pct_construcciones": 25,
+      "km2": 1477,
+      "pct_territorio": 0.16
+    },
+    {
+      "pct_construcciones": 50,
+      "km2": 4647,
+      "pct_territorio": 0.51
+    },
+    {
+      "pct_construcciones": 75,
+      "km2": 16374,
+      "pct_territorio": 1.79
+    },
+    {
+      "pct_construcciones": 90,
+      "km2": 57762,
+      "pct_territorio": 6.3
+    },
+    {
+      "pct_construcciones": 100,
+      "km2": 420238,
+      "pct_territorio": 45.86
+    }
+  ],
+  "top_r9_por_construcciones": [
+    {
+      "h3": "89674120aafffff",
+      "construcciones": 995,
+      "techo_m2": 43203.0,
+      "cobertura_pct": 47.4,
+      "techo_mediana_m2": 37.0,
+      "estado": "Distrito Capital",
+      "lat": 10.52516,
+      "lng": -66.9338
+    },
+    {
+      "h3": "89674120a37ffff",
+      "construcciones": 848,
+      "techo_m2": 40459.0,
+      "cobertura_pct": 44.4,
+      "techo_mediana_m2": 39.0,
+      "estado": "Distrito Capital",
+      "lat": 10.5223,
+      "lng": -66.93399
+    },
+    {
+      "h3": "89674120b53ffff",
+      "construcciones": 833,
+      "techo_m2": 43248.0,
+      "cobertura_pct": 47.4,
+      "techo_mediana_m2": 39.0,
+      "estado": "Distrito Capital",
+      "lat": 10.51759,
+      "lng": -66.93168
+    },
+    {
+      "h3": "89674120a27ffff",
+      "construcciones": 825,
+      "techo_m2": 43340.0,
+      "cobertura_pct": 47.5,
+      "techo_mediana_m2": 39.0,
+      "estado": "Distrito Capital",
+      "lat": 10.51945,
+      "lng": -66.93418
+    },
+    {
+      "h3": "89674120bd7ffff",
+      "construcciones": 809,
+      "techo_m2": 43518.0,
+      "cobertura_pct": 47.7,
+      "techo_mediana_m2": 46.0,
+      "estado": "Distrito Capital",
+      "lat": 10.52244,
+      "lng": -66.9261
+    },
+    {
+      "h3": "896741252cbffff",
+      "construcciones": 794,
+      "techo_m2": 49101.0,
+      "cobertura_pct": 53.8,
+      "techo_mediana_m2": 48.0,
+      "estado": "Distrito Capital",
+      "lat": 10.48744,
+      "lng": -66.91529
+    },
+    {
+      "h3": "89674126a0bffff",
+      "construcciones": 789,
+      "techo_m2": 45144.0,
+      "cobertura_pct": 49.6,
+      "techo_mediana_m2": 51.0,
+      "estado": "Miranda",
+      "lat": 10.48283,
+      "lng": -66.80013
+    },
+    {
+      "h3": "89674126ad7ffff",
+      "construcciones": 784,
+      "techo_m2": 45290.0,
+      "cobertura_pct": 49.7,
+      "techo_mediana_m2": 50.0,
+      "estado": "Miranda",
+      "lat": 10.4914,
+      "lng": -66.79957
+    },
+    {
+      "h3": "8967412c6cbffff",
+      "construcciones": 716,
+      "techo_m2": 46038.0,
+      "cobertura_pct": 50.4,
+      "techo_mediana_m2": 51.0,
+      "estado": "Distrito Capital",
+      "lat": 10.45942,
+      "lng": -66.9907
+    },
+    {
+      "h3": "89674126a1bffff",
+      "construcciones": 712,
+      "techo_m2": 35661.0,
+      "cobertura_pct": 39.2,
+      "techo_mediana_m2": 43.0,
+      "estado": "Miranda",
+      "lat": 10.48569,
+      "lng": -66.79994
+    }
+  ],
+  "top_r9_por_cobertura": [
+    {
+      "h3": "89674eca86bffff",
+      "construcciones": 25,
+      "techo_m2": 119022.0,
+      "cobertura_pct": 128.3,
+      "techo_mediana_m2": 51.0,
+      "estado": "Aragua",
+      "lat": 10.18685,
+      "lng": -67.57877
+    },
+    {
+      "h3": "89674328e4bffff",
+      "construcciones": 177,
+      "techo_m2": 115995.0,
+      "cobertura_pct": 124.1,
+      "techo_mediana_m2": 75.0,
+      "estado": "Carabobo",
+      "lat": 10.15025,
+      "lng": -68.01369
+    },
+    {
+      "h3": "895f4b2e9dbffff",
+      "construcciones": 1,
+      "techo_m2": 110616.0,
+      "cobertura_pct": 122.6,
+      "techo_mediana_m2": 110616.0,
+      "estado": "Nueva Esparta",
+      "lat": 11.06761,
+      "lng": -63.99484
+    },
+    {
+      "h3": "895f4b285d3ffff",
+      "construcciones": 66,
+      "techo_m2": 109419.0,
+      "cobertura_pct": 120.7,
+      "techo_mediana_m2": 47.0,
+      "estado": "Nueva Esparta",
+      "lat": 10.99266,
+      "lng": -63.82544
+    },
+    {
+      "h3": "89675dd4edbffff",
+      "construcciones": 8,
+      "techo_m2": 106286.0,
+      "cobertura_pct": 112.7,
+      "techo_mediana_m2": 43.0,
+      "estado": "Cojedes",
+      "lat": 9.91726,
+      "lng": -68.28844
+    },
+    {
+      "h3": "8967412421bffff",
+      "construcciones": 12,
+      "techo_m2": 101859.0,
+      "cobertura_pct": 111.8,
+      "techo_mediana_m2": 1501.0,
+      "estado": "Miranda",
+      "lat": 10.48471,
+      "lng": -66.8551
+    },
+    {
+      "h3": "89674ed4b73ffff",
+      "construcciones": 37,
+      "techo_m2": 79203.0,
+      "cobertura_pct": 85.8,
+      "techo_mediana_m2": 80.0,
+      "estado": "Aragua",
+      "lat": 10.22269,
+      "lng": -67.33316
+    },
+    {
+      "h3": "89674ec6637ffff",
+      "construcciones": 3,
+      "techo_m2": 75239.0,
+      "cobertura_pct": 81.4,
+      "techo_mediana_m2": 357.0,
+      "estado": "Aragua",
+      "lat": 10.20681,
+      "lng": -67.36064
+    },
+    {
+      "h3": "895f41720cbffff",
+      "construcciones": 14,
+      "techo_m2": 77224.0,
+      "cobertura_pct": 80.4,
+      "techo_mediana_m2": 130.0,
+      "estado": "Bolívar",
+      "lat": 8.26787,
+      "lng": -62.83693
+    },
+    {
+      "h3": "895f41720d7ffff",
+      "construcciones": 20,
+      "techo_m2": 76994.0,
+      "cobertura_pct": 80.2,
+      "techo_mediana_m2": 83.0,
+      "estado": "Bolívar",
+      "lat": 8.26462,
+      "lng": -62.8422
+    }
+  ],
+  "top_r8_por_construcciones": [
+    {
+      "h3": "88674120bdfffff",
+      "construcciones": 4524,
+      "techo_m2": 279303.0,
+      "cobertura_pct": 43.8,
+      "techo_mediana_m2": 47.0,
+      "estado": "Distrito Capital",
+      "lat": 10.52144,
+      "lng": -66.92879
+    },
+    {
+      "h3": "88674120a3fffff",
+      "construcciones": 4329,
+      "techo_m2": 267959.0,
+      "cobertura_pct": 42.0,
+      "techo_mediana_m2": 45.0,
+      "estado": "Distrito Capital",
+      "lat": 10.5213,
+      "lng": -66.93668
+    },
+    {
+      "h3": "88674126a9fffff",
+      "construcciones": 3622,
+      "techo_m2": 222265.0,
+      "cobertura_pct": 34.9,
+      "techo_mediana_m2": 46.0,
+      "estado": "Miranda",
+      "lat": 10.49054,
+      "lng": -66.79438
+    },
+    {
+      "h3": "8867412f17fffff",
+      "construcciones": 3565,
+      "techo_m2": 225797.0,
+      "cobertura_pct": 35.3,
+      "techo_mediana_m2": 50.0,
+      "estado": "Distrito Capital",
+      "lat": 10.46714,
+      "lng": -66.98493
+    },
+    {
+      "h3": "88674126a1fffff",
+      "construcciones": 3565,
+      "techo_m2": 243809.0,
+      "cobertura_pct": 38.3,
+      "techo_mediana_m2": 50.0,
+      "estado": "Miranda",
+      "lat": 10.48383,
+      "lng": -66.79744
+    }
+  ],
+  "por_estado": [
+    {
+      "estado": "Zulia",
+      "construcciones": 1554330,
+      "techo_mediana_m2": 66.0,
+      "techo_km2": 154.1
+    },
+    {
+      "estado": "Lara",
+      "construcciones": 824152,
+      "techo_mediana_m2": 64.0,
+      "techo_km2": 81.5
+    },
+    {
+      "estado": "Carabobo",
+      "construcciones": 751634,
+      "techo_mediana_m2": 71.0,
+      "techo_km2": 95.0
+    },
+    {
+      "estado": "Miranda",
+      "construcciones": 738954,
+      "techo_mediana_m2": 67.0,
+      "techo_km2": 87.0
+    },
+    {
+      "estado": "Anzoátegui",
+      "construcciones": 657925,
+      "techo_mediana_m2": 67.0,
+      "techo_km2": 70.0
+    },
+    {
+      "estado": "Bolívar",
+      "construcciones": 655473,
+      "techo_mediana_m2": 73.0,
+      "techo_km2": 72.7
+    },
+    {
+      "estado": "Aragua",
+      "construcciones": 513191,
+      "techo_mediana_m2": 75.0,
+      "techo_km2": 69.5
+    },
+    {
+      "estado": "Táchira",
+      "construcciones": 488959,
+      "techo_mediana_m2": 78.0,
+      "techo_km2": 54.2
+    },
+    {
+      "estado": "Barinas",
+      "construcciones": 484271,
+      "techo_mediana_m2": 72.0,
+      "techo_km2": 47.8
+    },
+    {
+      "estado": "Falcón",
+      "construcciones": 461739,
+      "techo_mediana_m2": 69.0,
+      "techo_km2": 47.6
+    },
+    {
+      "estado": "Portuguesa",
+      "construcciones": 448007,
+      "techo_mediana_m2": 70.0,
+      "techo_km2": 43.9
+    },
+    {
+      "estado": "Monagas",
+      "construcciones": 421995,
+      "techo_mediana_m2": 69.0,
+      "techo_km2": 45.0
+    },
+    {
+      "estado": "Guárico",
+      "construcciones": 388140,
+      "techo_mediana_m2": 65.0,
+      "techo_km2": 38.4
+    },
+    {
+      "estado": "Sucre",
+      "construcciones": 361627,
+      "techo_mediana_m2": 68.0,
+      "techo_km2": 36.6
+    },
+    {
+      "estado": "Trujillo",
+      "construcciones": 335761,
+      "techo_mediana_m2": 75.0,
+      "techo_km2": 32.0
+    },
+    {
+      "estado": "Mérida",
+      "construcciones": 329426,
+      "techo_mediana_m2": 77.0,
+      "techo_km2": 34.8
+    },
+    {
+      "estado": "Yaracuy",
+      "construcciones": 279842,
+      "techo_mediana_m2": 69.0,
+      "techo_km2": 27.6
+    },
+    {
+      "estado": "Apure",
+      "construcciones": 260652,
+      "techo_mediana_m2": 67.0,
+      "techo_km2": 23.1
+    },
+    {
+      "estado": "Distrito Capital",
+      "construcciones": 244833,
+      "techo_mediana_m2": 57.0,
+      "techo_km2": 27.8
+    },
+    {
+      "estado": "Nueva Esparta",
+      "construcciones": 208846,
+      "techo_mediana_m2": 69.0,
+      "techo_km2": 22.0
+    },
+    {
+      "estado": "Cojedes",
+      "construcciones": 182422,
+      "techo_mediana_m2": 74.0,
+      "techo_km2": 20.2
+    },
+    {
+      "estado": "La Guaira",
+      "construcciones": 116964,
+      "techo_mediana_m2": 59.0,
+      "techo_km2": 11.0
+    },
+    {
+      "estado": "Delta Amacuro",
+      "construcciones": 77952,
+      "techo_mediana_m2": 71.0,
+      "techo_km2": 7.3
+    },
+    {
+      "estado": "Amazonas",
+      "construcciones": 73423,
+      "techo_mediana_m2": 67.0,
+      "techo_km2": 6.6
+    },
+    {
+      "estado": "Dependencias Federales",
+      "construcciones": 877,
+      "techo_mediana_m2": 67.0,
+      "techo_km2": 0.1
+    }
+  ]
+}

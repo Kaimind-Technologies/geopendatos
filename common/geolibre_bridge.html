@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Puente GeoLibre (pruebas locales)</title>
+<style>html,body{margin:0;height:100%;background:#0b1020}iframe{border:0;width:100%;height:100%;display:block}</style>
+</head>
+<body>
+<iframe id="app" allow="fullscreen"></iframe>
+<script>
+// Abre GeoLibre en modo embebido (?src=URL con embed=1) y expone el puente de proyecto:
+//   window.bridge.requestState() -> último proyecto recibido (geolibre:state)
+//   window.bridge.loadProject(obj) -> aplica un proyecto (geolibre:load-project)
+const frame = document.getElementById("app");
+frame.src = new URLSearchParams(location.search).get("src");
+window.bridge = { ready: false, state: null, errors: [] };
+window.addEventListener("message", (ev) => {
+  const m = ev.data;
+  if (!m || typeof m !== "object") return;
+  if (m.type === "geolibre:ready") window.bridge.ready = true;
+  if (m.type === "geolibre:state") window.bridge.state = m.project;
+  if (m.type === "geolibre:error") window.bridge.errors.push(m.message);
+});
+window.bridge.requestState = () => frame.contentWindow.postMessage({ type: "geolibre:request-state" }, "*");
+window.bridge.loadProject = (project) => frame.contentWindow.postMessage({ type: "geolibre:load-project", project }, "*");
+</script>
+</body>
+</html>
