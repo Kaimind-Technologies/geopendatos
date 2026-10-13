@@ -70,9 +70,9 @@ def render_png(con: duckdb.DuckDBPyConnection) -> None:
     ax.axis("off")
 
     fig.text(0.06, 0.93, total_txt, color="white", fontsize=64, fontweight="bold")
-    fig.text(0.06, 0.885, "edificios detectados en Venezuela con mapas abiertos",
+    fig.text(0.06, 0.885, "construcciones detectadas en Venezuela con mapas abiertos",
              color="#d6d9e6", fontsize=22)
-    fig.text(0.06, 0.06, "Cada hexágono ≈ 5 km². Color = número de edificios (escala log).",
+    fig.text(0.06, 0.06, "Cada hexágono ≈ 5 km². Color = número de construcciones (escala log).",
              color="#9aa0b5", fontsize=14)
     fig.text(0.06, 0.035, "Datos: Overture Maps Foundation (release 2026-09-23.1) · Límites: geoBoundaries / OCHA / INE",
              color="#9aa0b5", fontsize=12)
