@@ -1,20 +1,20 @@
 """P02: estadística espacial de las construcciones de Venezuela.
 
 1. Gini espacial + curva de Lorenz (H3 res 7 sobre TODO el territorio, con celdas vacías).
-2. Puntos calientes Getis-Ord Gi* (vecindad: celda + 6 vecinas), con corrección FDR
-   (Benjamini-Hochberg) por comparaciones múltiples.
-3. Ley de Zipf: aglomeraciones urbanas = componentes conexas de celdas H3 res 8 por
+2. Ley de Zipf: aglomeraciones urbanas = componentes conexas de celdas H3 res 8 por
    encima de un umbral de densidad; ajuste rango-tamaño con 3 umbrales.
 
+Los puntos calientes Getis-Ord Gi* están en gistar.py (p-valores por Monte Carlo) y la
+sensibilidad de Zipf y las áreas metropolitanas, en aglomeraciones.py.
+
 Salidas en output/:
-    p02_stats.json, hex_r7_gistar.parquet, aglomeraciones.parquet, lorenz.png, zipf.png
+    p02_stats.json, aglomeraciones.parquet, lorenz.png, zipf.png
 
 Uso:
     python -P stats.py
 """
 
 import json
-import math
 from pathlib import Path
 
 import duckdb
@@ -90,74 +90,7 @@ def plot_lorenz(pop, share, gini: float) -> None:
     plt.close(fig)
 
 
-# ---------- 2. Getis-Ord Gi* ----------
-def norm_sf(z: np.ndarray) -> np.ndarray:
-    return 0.5 * np.vectorize(math.erfc)(z / math.sqrt(2))
-
-
-def gistar(con) -> dict:
-    con.execute("""
-        CREATE TABLE nb AS
-        SELECT t.cell, unnest(h3_grid_disk(t.cell, 1)) AS nbr FROM terr7 t
-    """)
-    con.execute("""
-        CREATE TABLE gi AS
-        SELECT nb.cell, count(*) AS w_sum, sum(t2.n) AS lag
-        FROM nb JOIN terr7 t2 ON t2.cell = nb.nbr
-        GROUP BY nb.cell
-    """)
-    cells, n_obs, w_sum, lag = map(np.array, zip(*con.execute(
-        "SELECT t.cell, t.n, g.w_sum, g.lag FROM terr7 t JOIN gi g USING (cell)").fetchall()))
-    x = n_obs.astype(float)
-    N = len(x)
-    xbar = x.mean()
-    s = math.sqrt((x ** 2).mean() - xbar ** 2)
-    w = w_sum.astype(float)  # pesos binarios: sum(w) = sum(w²) = número de celdas en la vecindad
-    z = (lag - xbar * w) / (s * np.sqrt((N * w - w ** 2) / (N - 1)))
-    p = 2 * norm_sf(np.abs(z))
-
-    # Benjamini-Hochberg: umbral de p por nivel de confianza controlando la tasa de falsos descubrimientos.
-    order = np.sort(p)
-    ranks = np.arange(1, N + 1)
-
-    def bh_cut(alpha: float) -> float:
-        ok = order <= ranks / N * alpha
-        return order[ok].max() if ok.any() else 0.0
-
-    cuts = {99: bh_cut(0.01), 95: bh_cut(0.05), 90: bh_cut(0.10)}
-    clase = np.full(N, "No significativo", dtype=object)
-    for conf in (90, 95, 99):
-        sig = p <= cuts[conf]
-        clase[sig & (z > 0)] = f"Punto caliente {conf}%"
-        clase[sig & (z < 0)] = f"Punto frío {conf}%"
-
-    con.register("gi_np", {
-        "cell": cells, "construcciones": n_obs, "z": np.round(z, 3), "p": p, "clase": clase.astype(str)})
-    con.execute(f"""
-        COPY (
-            SELECT h3_h3_to_string(cell::UBIGINT) AS h3, construcciones, z, p, clase,
-                   ST_SetCRS(ST_GeomFromText(h3_cell_to_boundary_wkt(cell::UBIGINT)), 'OGC:CRS84') AS geometry
-            FROM gi_np WHERE construcciones > 0 OR clase <> 'No significativo'
-        ) TO '{(OUT / "hex_r7_gistar.parquet").as_posix()}' (FORMAT parquet, COMPRESSION zstd)
-    """)
-    area = np.array([a for (a,) in con.execute(
-        "SELECT h3_cell_area(cell::UBIGINT, 'km^2') FROM gi_np").fetchall()])
-    resumen = {}
-    for c in sorted(set(clase)):
-        m = clase == c
-        resumen[c] = {"celdas": int(m.sum()), "km2": round(float(area[m].sum())), "construcciones": int(x[m].sum())}
-    hot99 = clase == "Punto caliente 99%"
-    return {
-        "celdas_territorio": N,
-        "km2_territorio_celdas": round(float(area.sum())),
-        "umbral_p_FDR": {str(k): v for k, v in cuts.items()},
-        "clases": resumen,
-        "pct_construcciones_en_puntos_calientes_99": round(100 * float(x[hot99].sum() / x.sum()), 1),
-        "pct_territorio_en_puntos_calientes_99": round(100 * float(area[hot99].sum() / area.sum()), 2),
-    }
-
-
-# ---------- 3. Zipf ----------
+# ---------- 2. Zipf ----------
 def components(cells: list[int], edges: list[tuple[int, int]]) -> dict[int, int]:
     parent = {c: c for c in cells}
 
@@ -266,7 +199,6 @@ def main() -> None:
         "gini_solo_celdas_con_construcciones": round(gini_ocupadas, 3),
         "celdas_r7_territorio": int(len(x)),
         "celdas_r7_vacias_pct": round(100 * float((x == 0).mean()), 1),
-        "gistar": gistar(con),
         "zipf": zipf(con),
     }
     (OUT / "p02_stats.json").write_text(json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8")

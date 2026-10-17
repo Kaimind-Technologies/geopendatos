@@ -3,39 +3,6 @@
   "gini_solo_celdas_con_construcciones": 0.899,
   "celdas_r7_territorio": 192832,
   "celdas_r7_vacias_pct": 53.9,
-  "gistar": {
-    "celdas_territorio": 192832,
-    "km2_territorio_celdas": 921230,
-    "umbral_p_FDR": {
-      "99": 0.00015948011651066498,
-      "95": 0.0008730407943997436,
-      "90": 0.0018337264370102589
-    },
-    "clases": {
-      "No significativo": {
-        "celdas": 189280,
-        "km2": 904677,
-        "construcciones": 3461480
-      },
-      "Punto caliente 90%": {
-        "celdas": 183,
-        "km2": 854,
-        "construcciones": 93258
-      },
-      "Punto caliente 95%": {
-        "celdas": 284,
-        "km2": 1329,
-        "construcciones": 174693
-      },
-      "Punto caliente 99%": {
-        "celdas": 3085,
-        "km2": 14370,
-        "construcciones": 7131964
-      }
-    },
-    "pct_construcciones_en_puntos_calientes_99": 65.7,
-    "pct_territorio_en_puntos_calientes_99": 1.56
-  },
   "zipf": {
     "150": {
       "aglomeraciones": 2779,

@@ -1,0 +1,271 @@
+{
+  "metros": [
+    {
+      "ciudad": "Maracaibo",
+      "rango_mancha_principal": 1,
+      "mancha_principal": 616657,
+      "15_km": {
+        "construcciones": 616657,
+        "manchas": 1,
+        "rangos": [
+          1
+        ]
+      },
+      "30_km": {
+        "construcciones": 694348,
+        "manchas": 6,
+        "rangos": [
+          1,
+          56,
+          60,
+          62,
+          107,
+          200
+        ]
+      },
+      "45_km": {
+        "construcciones": 802943,
+        "manchas": 8,
+        "rangos": [
+          1,
+          16,
+          56,
+          60,
+          62,
+          89,
+          107,
+          200
+        ]
+      }
+    },
+    {
+      "ciudad": "Valencia",
+      "rango_mancha_principal": 2,
+      "mancha_principal": 482861,
+      "15_km": {
+        "construcciones": 482861,
+        "manchas": 1,
+        "rangos": [
+          2
+        ]
+      },
+      "30_km": {
+        "construcciones": 504575,
+        "manchas": 2,
+        "rangos": [
+          2,
+          59
+        ]
+      },
+      "45_km": {
+        "construcciones": 626578,
+        "manchas": 10,
+        "rangos": [
+          2,
+          38,
+          43,
+          59,
+          63,
+          105,
+          125,
+          140,
+          157,
+          175
+        ]
+      }
+    },
+    {
+      "ciudad": "Caracas",
+      "rango_mancha_principal": 3,
+      "mancha_principal": 399337,
+      "15_km": {
+        "construcciones": 404687,
+        "manchas": 2,
+        "rangos": [
+          3,
+          173
+        ]
+      },
+      "30_km": {
+        "construcciones": 549343,
+        "manchas": 6,
+        "rangos": [
+          3,
+          24,
+          31,
+          94,
+          126,
+          173
+        ]
+      },
+      "45_km": {
+        "construcciones": 804657,
+        "manchas": 10,
+        "rangos": [
+          3,
+          15,
+          19,
+          23,
+          24,
+          31,
+          94,
+          126,
+          173,
+          190
+        ]
+      }
+    },
+    {
+      "ciudad": "Barquisimeto",
+      "rango_mancha_principal": 4,
+      "mancha_principal": 344915,
+      "15_km": {
+        "construcciones": 364240,
+        "manchas": 3,
+        "rangos": [
+          4,
+          99,
+          114
+        ]
+      },
+      "30_km": {
+        "construcciones": 441139,
+        "manchas": 5,
+        "rangos": [
+          4,
+          33,
+          53,
+          99,
+          114
+        ]
+      },
+      "45_km": {
+        "construcciones": 494505,
+        "manchas": 11,
+        "rangos": [
+          4,
+          33,
+          53,
+          57,
+          99,
+          114,
+          120,
+          139,
+          149,
+          183,
+          193
+        ]
+      }
+    },
+    {
+      "ciudad": "Ciudad Guayana",
+      "rango_mancha_principal": 5,
+      "mancha_principal": 214254,
+      "15_km": {
+        "construcciones": 214254,
+        "manchas": 1,
+        "rangos": [
+          5
+        ]
+      },
+      "30_km": {
+        "construcciones": 221655,
+        "manchas": 2,
+        "rangos": [
+          5,
+          138
+        ]
+      },
+      "45_km": {
+        "construcciones": 221655,
+        "manchas": 2,
+        "rangos": [
+          5,
+          138
+        ]
+      }
+    },
+    {
+      "ciudad": "Maracay",
+      "rango_mancha_principal": 6,
+      "mancha_principal": 197301,
+      "15_km": {
+        "construcciones": 271298,
+        "manchas": 2,
+        "rangos": [
+          6,
+          22
+        ]
+      },
+      "30_km": {
+        "construcciones": 336112,
+        "manchas": 6,
+        "rangos": [
+          6,
+          22,
+          43,
+          55,
+          136,
+          175
+        ]
+      },
+      "45_km": {
+        "construcciones": 457611,
+        "manchas": 10,
+        "rangos": [
+          6,
+          22,
+          30,
+          40,
+          43,
+          55,
+          59,
+          136,
+          157,
+          175
+        ]
+      }
+    }
+  ],
+  "zipf": {
+    "primacia_1_sobre_2": 1.28,
+    "ajustes": [
+      {
+        "aglomeraciones": 10,
+        "exponente_mco": 0.774,
+        "exponente_gabaix_ibragimov": 0.675,
+        "r2": 0.938
+      },
+      {
+        "aglomeraciones": 20,
+        "exponente_mco": 0.773,
+        "exponente_gabaix_ibragimov": 0.689,
+        "r2": 0.973
+      },
+      {
+        "aglomeraciones": 30,
+        "exponente_mco": 0.75,
+        "exponente_gabaix_ibragimov": 0.681,
+        "r2": 0.981
+      },
+      {
+        "aglomeraciones": 50,
+        "exponente_mco": 0.868,
+        "exponente_gabaix_ibragimov": 0.829,
+        "r2": 0.964
+      },
+      {
+        "aglomeraciones": 100,
+        "exponente_mco": 1.021,
+        "exponente_gabaix_ibragimov": 1.002,
+        "r2": 0.969
+      },
+      {
+        "aglomeraciones": 200,
+        "exponente_mco": 1.124,
+        "exponente_gabaix_ibragimov": 1.11,
+        "r2": 0.98
+      }
+    ]
+  }
+}

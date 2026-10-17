@@ -1,0 +1,79 @@
+{
+  "celdas_territorio": 192832,
+  "km2_territorio_celdas": 921230,
+  "simulaciones": 5000000,
+  "semilla": 2026,
+  "z_minimo_posible": -0.327,
+  "montecarlo": {
+    "umbral_p_FDR": {
+      "99": 3.5599992880001424e-05,
+      "95": 0.00022679995464000907,
+      "90": 0.035371592925681414
+    },
+    "clases": {
+      "No significativo": {
+        "celdas": 124608,
+        "km2": 590662,
+        "construcciones": 3721911
+      },
+      "Punto caliente 90%": {
+        "celdas": 2210,
+        "km2": 10306,
+        "construcciones": 2634177
+      },
+      "Punto caliente 95%": {
+        "celdas": 195,
+        "km2": 907,
+        "construcciones": 550522
+      },
+      "Punto caliente 99%": {
+        "celdas": 688,
+        "km2": 3192,
+        "construcciones": 3954785
+      },
+      "Punto frío 90%": {
+        "celdas": 65131,
+        "km2": 316163,
+        "construcciones": 0
+      }
+    },
+    "pct_construcciones_en_puntos_calientes_99": 36.4,
+    "pct_territorio_en_puntos_calientes_99": 0.35
+  },
+  "normal_version_anterior": {
+    "umbral_p_FDR": {
+      "99": 0.00015948011651066498,
+      "95": 0.0008730407943997435,
+      "90": 0.001833726437010259
+    },
+    "clases": {
+      "No significativo": {
+        "celdas": 189280,
+        "km2": 904677,
+        "construcciones": 3461480
+      },
+      "Punto caliente 90%": {
+        "celdas": 183,
+        "km2": 854,
+        "construcciones": 93258
+      },
+      "Punto caliente 95%": {
+        "celdas": 284,
+        "km2": 1329,
+        "construcciones": 174693
+      },
+      "Punto caliente 99%": {
+        "celdas": 3085,
+        "km2": 14370,
+        "construcciones": 7131964
+      }
+    },
+    "pct_construcciones_en_puntos_calientes_99": 65.7,
+    "pct_territorio_en_puntos_calientes_99": 1.56
+  },
+  "borde_99_de_la_normal": {
+    "z": 3.776,
+    "p_normal": 0.00015924494038544834,
+    "p_montecarlo": 0.03554039289192142
+  }
+}

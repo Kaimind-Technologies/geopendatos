@@ -1,0 +1,376 @@
+{
+  "caracas": {
+    "fuentes": [
+      {
+        "fuente": "Google Open Buildings",
+        "construcciones": 108460,
+        "pct": 44.3
+      },
+      {
+        "fuente": "Microsoft ML Buildings",
+        "construcciones": 81155,
+        "pct": 33.1
+      },
+      {
+        "fuente": "OpenStreetMap",
+        "construcciones": 55218,
+        "pct": 22.6
+      }
+    ],
+    "celdas_compactas_por_fuente_dominante": [
+      {
+        "fuente_dominante": "IA (Google o Microsoft)",
+        "celdas": 154,
+        "techos_por_celda": 282.0,
+        "cobertura_pct": 41.7,
+        "techo_mediana_m2": 66.0
+      },
+      {
+        "fuente_dominante": "OpenStreetMap",
+        "celdas": 40,
+        "techos_por_celda": 563.0,
+        "cobertura_pct": 44.3,
+        "techo_mediana_m2": 52.0
+      },
+      {
+        "fuente_dominante": "mixta",
+        "celdas": 38,
+        "techos_por_celda": 166.0,
+        "cobertura_pct": 41.9,
+        "techo_mediana_m2": 111.0
+      }
+    ],
+    "pct_celdas_dominadas_por_osm": {
+      "entre_las_compactas": 17.2,
+      "entre_las_50_con_mas_techos": 60.0
+    },
+    "top10_r9": [
+      {
+        "h3": "89674120aafffff",
+        "construcciones": 995,
+        "pct_osm": 97.7,
+        "lat": 10.52516,
+        "lng": -66.9338
+      },
+      {
+        "h3": "89674120a37ffff",
+        "construcciones": 848,
+        "pct_osm": 96.0,
+        "lat": 10.5223,
+        "lng": -66.93399
+      },
+      {
+        "h3": "89674120b53ffff",
+        "construcciones": 833,
+        "pct_osm": 98.0,
+        "lat": 10.51759,
+        "lng": -66.93168
+      },
+      {
+        "h3": "89674120a27ffff",
+        "construcciones": 825,
+        "pct_osm": 96.7,
+        "lat": 10.51945,
+        "lng": -66.93418
+      },
+      {
+        "h3": "89674120bd7ffff",
+        "construcciones": 809,
+        "pct_osm": 96.5,
+        "lat": 10.52244,
+        "lng": -66.9261
+      },
+      {
+        "h3": "896741252cbffff",
+        "construcciones": 794,
+        "pct_osm": 0.0,
+        "lat": 10.48744,
+        "lng": -66.91529
+      },
+      {
+        "h3": "8967412c6cbffff",
+        "construcciones": 716,
+        "pct_osm": 95.9,
+        "lat": 10.45942,
+        "lng": -66.9907
+      },
+      {
+        "h3": "89674120a2fffff",
+        "construcciones": 709,
+        "pct_osm": 97.7,
+        "lat": 10.51845,
+        "lng": -66.93687
+      },
+      {
+        "h3": "89674120b57ffff",
+        "construcciones": 703,
+        "pct_osm": 96.6,
+        "lat": 10.51573,
+        "lng": -66.92917
+      },
+      {
+        "h3": "8967412522bffff",
+        "construcciones": 700,
+        "pct_osm": 0.1,
+        "lat": 10.47429,
+        "lng": -66.90566
+      }
+    ]
+  },
+  "sobreconteo_celdas_densas": [
+    {
+      "factor_sobreconteo": 1.0,
+      "mitad_en_pct_territorio": 0.5
+    },
+    {
+      "factor_sobreconteo": 1.5,
+      "mitad_en_pct_territorio": 0.75
+    },
+    {
+      "factor_sobreconteo": 2.0,
+      "mitad_en_pct_territorio": 0.93
+    }
+  ],
+  "top_r7": [
+    {
+      "h3": "87675c441ffffff",
+      "construcciones": 19087,
+      "coincide_con_p02": true,
+      "lat": 10.0914,
+      "lng": -69.3184,
+      "fuentes": [
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 98.4,
+          "techo_mediana_m2": 66.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 1.5,
+          "techo_mediana_m2": 55.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.1,
+          "techo_mediana_m2": 728.0
+        }
+      ]
+    },
+    {
+      "h3": "87674126affffff",
+      "construcciones": 16836,
+      "coincide_con_p02": true,
+      "lat": 10.4838,
+      "lng": -66.7974,
+      "fuentes": [
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 57.9,
+          "techo_mediana_m2": 57.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 32.8,
+          "techo_mediana_m2": 36.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 9.4,
+          "techo_mediana_m2": 65.0
+        }
+      ]
+    },
+    {
+      "h3": "8767412f1ffffff",
+      "construcciones": 16750,
+      "coincide_con_p02": true,
+      "lat": 10.4739,
+      "lng": -66.9819,
+      "fuentes": [
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 57.7,
+          "techo_mediana_m2": 55.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 25.9,
+          "techo_mediana_m2": 61.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 16.4,
+          "techo_mediana_m2": 35.0
+        }
+      ]
+    },
+    {
+      "h3": "87675c45dffffff",
+      "construcciones": 16215,
+      "coincide_con_p02": true,
+      "lat": 10.0638,
+      "lng": -69.3393,
+      "fuentes": [
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 80.9,
+          "techo_mediana_m2": 64.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 18.9,
+          "techo_mediana_m2": 93.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.2,
+          "techo_mediana_m2": 278.0
+        }
+      ]
+    },
+    {
+      "h3": "87675c443ffffff",
+      "construcciones": 14933,
+      "coincide_con_p02": true,
+      "lat": 10.0841,
+      "lng": -69.3378,
+      "fuentes": [
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 77.3,
+          "techo_mediana_m2": 61.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 22.1,
+          "techo_mediana_m2": 70.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.6,
+          "techo_mediana_m2": 562.0
+        }
+      ]
+    },
+    {
+      "h3": "87674120bffffff",
+      "construcciones": 14836,
+      "coincide_con_p02": true,
+      "lat": 10.5149,
+      "lng": -66.924,
+      "fuentes": [
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 52.9,
+          "techo_mediana_m2": 48.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 32.5,
+          "techo_mediana_m2": 45.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 14.6,
+          "techo_mediana_m2": 83.0
+        }
+      ]
+    },
+    {
+      "h3": "876741252ffffff",
+      "construcciones": 14750,
+      "coincide_con_p02": true,
+      "lat": 10.4819,
+      "lng": -66.9078,
+      "fuentes": [
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 76.6,
+          "techo_mediana_m2": 49.0
+        },
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 21.9,
+          "techo_mediana_m2": 82.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 1.5,
+          "techo_mediana_m2": 479.0
+        }
+      ]
+    },
+    {
+      "h3": "87662c908ffffff",
+      "construcciones": 14205,
+      "coincide_con_p02": true,
+      "lat": 10.5588,
+      "lng": -71.6595,
+      "fuentes": [
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 72.4,
+          "techo_mediana_m2": 84.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 27.6,
+          "techo_mediana_m2": 48.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.0,
+          "techo_mediana_m2": 5667.0
+        }
+      ]
+    },
+    {
+      "h3": "87662c928ffffff",
+      "construcciones": 13849,
+      "coincide_con_p02": true,
+      "lat": 10.6071,
+      "lng": -71.6362,
+      "fuentes": [
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 58.7,
+          "techo_mediana_m2": 77.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 40.9,
+          "techo_mediana_m2": 50.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.4,
+          "techo_mediana_m2": 1304.0
+        }
+      ]
+    },
+    {
+      "h3": "876752288ffffff",
+      "construcciones": 13780,
+      "coincide_con_p02": true,
+      "lat": 10.7018,
+      "lng": -71.6475,
+      "fuentes": [
+        {
+          "fuente": "Microsoft ML Buildings",
+          "pct": 64.2,
+          "techo_mediana_m2": 75.0
+        },
+        {
+          "fuente": "Google Open Buildings",
+          "pct": 35.5,
+          "techo_mediana_m2": 36.0
+        },
+        {
+          "fuente": "OpenStreetMap",
+          "pct": 0.2,
+          "techo_mediana_m2": 404.0
+        }
+      ]
+    }
+  ]
+}
