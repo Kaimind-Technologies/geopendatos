@@ -1,0 +1,90 @@
+{
+  "epocas": [
+    {
+      "anio": 1975,
+      "observada": true,
+      "construido_km2": 675.6,
+      "poblacion": 12949931,
+      "m2_construidos_por_habitante": 52.2,
+      "celdas_con_construccion": 779799
+    },
+    {
+      "anio": 1980,
+      "observada": false,
+      "construido_km2": 718.5,
+      "poblacion": 14957870,
+      "m2_construidos_por_habitante": 48.0,
+      "celdas_con_construccion": 823187
+    },
+    {
+      "anio": 1985,
+      "observada": false,
+      "construido_km2": 765.2,
+      "poblacion": 17119266,
+      "m2_construidos_por_habitante": 44.7,
+      "celdas_con_construccion": 877441
+    },
+    {
+      "anio": 1990,
+      "observada": true,
+      "construido_km2": 815.3,
+      "poblacion": 19425808,
+      "m2_construidos_por_habitante": 42.0,
+      "celdas_con_construccion": 927342
+    },
+    {
+      "anio": 1995,
+      "observada": false,
+      "construido_km2": 966.6,
+      "poblacion": 21756956,
+      "m2_construidos_por_habitante": 44.4,
+      "celdas_con_construccion": 962041
+    },
+    {
+      "anio": 2000,
+      "observada": true,
+      "construido_km2": 1132.2,
+      "poblacion": 24049618,
+      "m2_construidos_por_habitante": 47.1,
+      "celdas_con_construccion": 997050
+    },
+    {
+      "anio": 2005,
+      "observada": false,
+      "construido_km2": 1218.8,
+      "poblacion": 26255287,
+      "m2_construidos_por_habitante": 46.4,
+      "celdas_con_construccion": 1022333
+    },
+    {
+      "anio": 2010,
+      "observada": false,
+      "construido_km2": 1311.8,
+      "poblacion": 28270229,
+      "m2_construidos_por_habitante": 46.4,
+      "celdas_con_construccion": 1053370
+    },
+    {
+      "anio": 2015,
+      "observada": false,
+      "construido_km2": 1400.8,
+      "poblacion": 30057652,
+      "m2_construidos_por_habitante": 46.6,
+      "celdas_con_construccion": 1088544
+    },
+    {
+      "anio": 2020,
+      "observada": false,
+      "construido_km2": 1457.4,
+      "poblacion": 28044023,
+      "m2_construidos_por_habitante": 52.0,
+      "celdas_con_construccion": 1127249
+    }
+  ],
+  "resumen": {
+    "construido_veces_1975_2020": 2.16,
+    "poblacion_veces_1975_2020": 2.17,
+    "tasa_anual_construido_pct": 1.72,
+    "tasa_anual_poblacion_pct": 1.73
+  }
+}

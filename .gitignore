@@ -4,6 +4,11 @@ data/
 # Salidas demasiado pesadas para el repo (se publican solo las capas livianas)
 p01-edificios-overture/output/ven_edificios.parquet
 p02-concentracion/output/hex_r8.parquet
+# P03: capas solo del GHSL 1975-2020 (no se publican: épocas poco confiables, ver PROCESO.md 3.6)
+p03-crecimiento/output/hex_r7_crecimiento_gistar.parquet
+p03-crecimiento/output/hex_r8_urbanizacion.parquet
+p03-crecimiento/output/p03_lei.json
+p03-crecimiento/output/p03_crecimiento_stats.json
 
 # Videos y cuadros (el video se publica en LinkedIn, no en el repo)
 */video/*.mp4

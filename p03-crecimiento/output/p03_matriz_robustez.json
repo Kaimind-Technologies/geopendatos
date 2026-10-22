@@ -1,0 +1,172 @@
+{
+  "Maracaibo": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.59,
+      "wsf_ghspop": 0.42,
+      "ghsl_censo": 0.51,
+      "wsf_censo": 0.36
+    },
+    "crec_poblacion_ghs_pct": 1.87,
+    "crec_poblacion_censo_estado_pct": 2.16,
+    "estados_proxy": [
+      "ZULIA"
+    ],
+    "lectura": "densificación robusta"
+  },
+  "Valencia": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.8,
+      "wsf_ghspop": 0.54,
+      "ghsl_censo": 0.96,
+      "wsf_censo": 0.64
+    },
+    "crec_poblacion_ghs_pct": 1.81,
+    "crec_poblacion_censo_estado_pct": 1.5,
+    "estados_proxy": [
+      "CARABOBO"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Caracas (valle)": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 3.15,
+      "wsf_ghspop": 2.04,
+      "ghsl_censo": 1.49,
+      "wsf_censo": 0.97
+    },
+    "crec_poblacion_ghs_pct": 0.27,
+    "crec_poblacion_censo_estado_pct": 0.57,
+    "estados_proxy": [
+      "DISTRITO CAPITAL"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Caracas (valle) · proxy DC+Miranda": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 3.15,
+      "wsf_ghspop": 2.04,
+      "ghsl_censo": 0.83,
+      "wsf_censo": 0.53
+    },
+    "crec_poblacion_ghs_pct": 0.27,
+    "crec_poblacion_censo_estado_pct": 1.03,
+    "estados_proxy": [
+      "DISTRITO CAPITAL",
+      "MIRANDA"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Maracay-Turmero": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 2.34,
+      "wsf_ghspop": 1.45,
+      "ghsl_censo": 0.76,
+      "wsf_censo": 0.47
+    },
+    "crec_poblacion_ghs_pct": 0.38,
+    "crec_poblacion_censo_estado_pct": 1.17,
+    "estados_proxy": [
+      "ARAGUA"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Barquisimeto": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.58,
+      "wsf_ghspop": 0.44,
+      "ghsl_censo": 0.46,
+      "wsf_censo": 0.34
+    },
+    "crec_poblacion_ghs_pct": 1.03,
+    "crec_poblacion_censo_estado_pct": 1.31,
+    "estados_proxy": [
+      "LARA"
+    ],
+    "lectura": "densificación robusta"
+  },
+  "Ciudad Guayana": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 1.11,
+      "wsf_ghspop": 0.86,
+      "ghsl_censo": 0.53,
+      "wsf_censo": 0.41
+    },
+    "crec_poblacion_ghs_pct": 0.72,
+    "crec_poblacion_censo_estado_pct": 1.51,
+    "estados_proxy": [
+      "BOLIVAR"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Costa Oriental del Lago": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.81,
+      "wsf_ghspop": 0.98,
+      "ghsl_censo": 0.59,
+      "wsf_censo": 0.72
+    },
+    "crec_poblacion_ghs_pct": 1.59,
+    "crec_poblacion_censo_estado_pct": 2.16,
+    "estados_proxy": [
+      "ZULIA"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Barcelona-Puerto La Cruz": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.43,
+      "wsf_ghspop": 0.4,
+      "ghsl_censo": 0.35,
+      "wsf_censo": 0.32
+    },
+    "crec_poblacion_ghs_pct": 1.49,
+    "crec_poblacion_censo_estado_pct": 1.84,
+    "estados_proxy": [
+      "ANZOATEGUI"
+    ],
+    "lectura": "densificación robusta"
+  },
+  "Maturín": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 1.05,
+      "wsf_ghspop": 0.8,
+      "ghsl_censo": 1.37,
+      "wsf_censo": 1.05
+    },
+    "crec_poblacion_ghs_pct": 3.13,
+    "crec_poblacion_censo_estado_pct": 2.39,
+    "estados_proxy": [
+      "MONAGAS"
+    ],
+    "lectura": "no concluyente"
+  },
+  "Margarita": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 0.26,
+      "wsf_ghspop": 0.27,
+      "ghsl_censo": 0.27,
+      "wsf_censo": 0.28
+    },
+    "crec_poblacion_ghs_pct": 2.83,
+    "crec_poblacion_censo_estado_pct": 2.74,
+    "estados_proxy": [
+      "NUEVA ESPARTA"
+    ],
+    "lectura": "densificación robusta"
+  },
+  "Caracas metropolitana": {
+    "ods_2000_2015": {
+      "ghsl_ghspop": 1.85,
+      "wsf_ghspop": 1.38,
+      "ghsl_censo": 1.1,
+      "wsf_censo": 0.82
+    },
+    "crec_poblacion_ghs_pct": 0.61,
+    "crec_poblacion_censo_estado_pct": 1.03,
+    "estados_proxy": [
+      "DISTRITO CAPITAL",
+      "MIRANDA"
+    ],
+    "lectura": "no concluyente"
+  }
+}

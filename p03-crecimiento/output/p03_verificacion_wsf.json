@@ -1,0 +1,244 @@
+{
+  "wsf_km2_acumulados_por_anio": {
+    "1985": 2594.9,
+    "1986": 2673.0,
+    "1987": 2753.6,
+    "1988": 2787.1,
+    "1989": 2821.0,
+    "1990": 2888.9,
+    "1991": 3017.3,
+    "1992": 3063.1,
+    "1993": 3095.9,
+    "1994": 3122.8,
+    "1995": 3145.6,
+    "1996": 3281.4,
+    "1997": 3376.6,
+    "1998": 3478.5,
+    "1999": 3552.7,
+    "2000": 3618.6,
+    "2001": 3677.4,
+    "2002": 3732.9,
+    "2003": 3780.7,
+    "2004": 3831.6,
+    "2005": 3881.1,
+    "2006": 3935.3,
+    "2007": 4000.9,
+    "2008": 4072.5,
+    "2009": 4139.2,
+    "2010": 4194.7,
+    "2011": 4248.5,
+    "2012": 4299.1,
+    "2013": 4364.7,
+    "2014": 4416.2,
+    "2015": 4457.6
+  },
+  "comparacion_nacional": [
+    {
+      "periodo": "1985-1990",
+      "wsf_asentamiento_pct_anual": 2.15,
+      "ghsl_construido_pct_anual": 1.27,
+      "wsf_km2_nuevos": 294.0
+    },
+    {
+      "periodo": "1990-2000",
+      "wsf_asentamiento_pct_anual": 2.25,
+      "ghsl_construido_pct_anual": 3.28,
+      "wsf_km2_nuevos": 729.7
+    },
+    {
+      "periodo": "2000-2015",
+      "wsf_asentamiento_pct_anual": 1.39,
+      "ghsl_construido_pct_anual": 1.42,
+      "wsf_km2_nuevos": 839.0
+    },
+    {
+      "periodo": "1990-1995",
+      "wsf_asentamiento_pct_anual": 1.7,
+      "ghsl_construido_pct_anual": 3.4,
+      "wsf_km2_nuevos": 256.7
+    },
+    {
+      "periodo": "1995-2000",
+      "wsf_asentamiento_pct_anual": 2.8,
+      "ghsl_construido_pct_anual": 3.16,
+      "wsf_km2_nuevos": 473.0
+    }
+  ],
+  "por_estado": {
+    "Amazonas": {
+      "km2_1985": 14.7,
+      "km2_2015": 27.7,
+      "pct_anual_85_90": 0.34,
+      "pct_anual_90_00": 3.78,
+      "pct_anual_00_15": 1.59
+    },
+    "Anzoátegui": {
+      "km2_1985": 238.2,
+      "km2_2015": 329.1,
+      "pct_anual_85_90": 0.51,
+      "pct_anual_90_00": 1.64,
+      "pct_anual_00_15": 0.9
+    },
+    "Apure": {
+      "km2_1985": 32.3,
+      "km2_2015": 75.6,
+      "pct_anual_85_90": 1.96,
+      "pct_anual_90_00": 3.98,
+      "pct_anual_00_15": 2.36
+    },
+    "Aragua": {
+      "km2_1985": 173.5,
+      "km2_2015": 252.9,
+      "pct_anual_85_90": 1.37,
+      "pct_anual_90_00": 1.74,
+      "pct_anual_00_15": 0.9
+    },
+    "Barinas": {
+      "km2_1985": 74.5,
+      "km2_2015": 148.7,
+      "pct_anual_85_90": 1.35,
+      "pct_anual_90_00": 3.31,
+      "pct_anual_00_15": 1.95
+    },
+    "Bolívar": {
+      "km2_1985": 200.5,
+      "km2_2015": 306.8,
+      "pct_anual_85_90": 1.02,
+      "pct_anual_90_00": 1.96,
+      "pct_anual_00_15": 1.19
+    },
+    "Carabobo": {
+      "km2_1985": 173.6,
+      "km2_2015": 420.1,
+      "pct_anual_85_90": 9.94,
+      "pct_anual_90_00": 1.92,
+      "pct_anual_00_15": 1.3
+    },
+    "Cojedes": {
+      "km2_1985": 31.0,
+      "km2_2015": 74.3,
+      "pct_anual_85_90": 5.41,
+      "pct_anual_90_00": 3.27,
+      "pct_anual_00_15": 1.84
+    },
+    "Delta Amacuro": {
+      "km2_1985": 8.0,
+      "km2_2015": 18.6,
+      "pct_anual_85_90": 0.81,
+      "pct_anual_90_00": 4.48,
+      "pct_anual_00_15": 2.38
+    },
+    "Distrito Capital": {
+      "km2_1985": 91.4,
+      "km2_2015": 101.2,
+      "pct_anual_85_90": 0.12,
+      "pct_anual_90_00": 0.27,
+      "pct_anual_00_15": 0.46
+    },
+    "Falcón": {
+      "km2_1985": 69.4,
+      "km2_2015": 164.3,
+      "pct_anual_85_90": 3.91,
+      "pct_anual_90_00": 3.03,
+      "pct_anual_00_15": 2.43
+    },
+    "Guárico": {
+      "km2_1985": 106.0,
+      "km2_2015": 163.0,
+      "pct_anual_85_90": 0.83,
+      "pct_anual_90_00": 1.99,
+      "pct_anual_00_15": 1.27
+    },
+    "La Guaira": {
+      "km2_1985": 22.9,
+      "km2_2015": 34.3,
+      "pct_anual_85_90": 2.52,
+      "pct_anual_90_00": 1.87,
+      "pct_anual_00_15": 0.6
+    },
+    "Lara": {
+      "km2_1985": 178.8,
+      "km2_2015": 273.9,
+      "pct_anual_85_90": 2.53,
+      "pct_anual_90_00": 1.61,
+      "pct_anual_00_15": 0.92
+    },
+    "Mérida": {
+      "km2_1985": 56.0,
+      "km2_2015": 97.5,
+      "pct_anual_85_90": 1.68,
+      "pct_anual_90_00": 2.92,
+      "pct_anual_00_15": 1.18
+    },
+    "Miranda": {
+      "km2_1985": 213.5,
+      "km2_2015": 337.2,
+      "pct_anual_85_90": 0.26,
+      "pct_anual_90_00": 1.89,
+      "pct_anual_00_15": 1.7
+    },
+    "Monagas": {
+      "km2_1985": 104.5,
+      "km2_2015": 200.4,
+      "pct_anual_85_90": 0.32,
+      "pct_anual_90_00": 2.81,
+      "pct_anual_00_15": 2.36
+    },
+    "Nueva Esparta": {
+      "km2_1985": 67.0,
+      "km2_2015": 118.9,
+      "pct_anual_85_90": 0.46,
+      "pct_anual_90_00": 4.28,
+      "pct_anual_00_15": 0.82
+    },
+    "Portuguesa": {
+      "km2_1985": 103.6,
+      "km2_2015": 167.4,
+      "pct_anual_85_90": 1.37,
+      "pct_anual_90_00": 2.18,
+      "pct_anual_00_15": 1.29
+    },
+    "Sucre": {
+      "km2_1985": 86.3,
+      "km2_2015": 131.7,
+      "pct_anual_85_90": 0.78,
+      "pct_anual_90_00": 1.79,
+      "pct_anual_00_15": 1.36
+    },
+    "Táchira": {
+      "km2_1985": 90.4,
+      "km2_2015": 164.6,
+      "pct_anual_85_90": 1.43,
+      "pct_anual_90_00": 3.32,
+      "pct_anual_00_15": 1.3
+    },
+    "Trujillo": {
+      "km2_1985": 54.8,
+      "km2_2015": 87.4,
+      "pct_anual_85_90": 0.9,
+      "pct_anual_90_00": 2.22,
+      "pct_anual_00_15": 1.33
+    },
+    "Yaracuy": {
+      "km2_1985": 56.2,
+      "km2_2015": 102.1,
+      "pct_anual_85_90": 1.62,
+      "pct_anual_90_00": 2.65,
+      "pct_anual_00_15": 1.68
+    },
+    "Zulia": {
+      "km2_1985": 347.7,
+      "km2_2015": 659.9,
+      "pct_anual_85_90": 2.77,
+      "pct_anual_90_00": 2.61,
+      "pct_anual_00_15": 1.61
+    },
+    "Dependencias Federales": {
+      "km2_1985": 0.0,
+      "km2_2015": 0.0,
+      "pct_anual_85_90": 0.0,
+      "pct_anual_90_00": 0.0,
+      "pct_anual_00_15": 0.0
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "lei_wsf": {
+    "1990-2000": {
+      "km2_nuevos": 641.6,
+      "pct_relleno": 39.5,
+      "pct_expansion_de_borde": 51.5,
+      "pct_salto": 9.0
+    },
+    "2000-2015": {
+      "km2_nuevos": 786.6,
+      "pct_relleno": 38.4,
+      "pct_expansion_de_borde": 52.8,
+      "pct_salto": 8.8
+    }
+  },
+  "lei_ghsl": {
+    "2000-2015": {
+      "km2_nuevos": 706.5,
+      "pct_relleno": 31.8,
+      "pct_expansion_de_borde": 58.1,
+      "pct_salto": 10.1
+    }
+  },
+  "concentracion_crecimiento_2000_2015": {
+    "h3_res6": {
+      "km2_celda_media": 33.44,
+      "wsf": {
+        "50pct_del_crecimiento": {
+          "celdas": 225,
+          "km2": 7355.9,
+          "pct_territorio": 0.8
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 467,
+          "km2": 15248.2,
+          "pct_territorio": 1.66
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 1139,
+          "km2": 37238.2,
+          "pct_territorio": 4.06
+        }
+      },
+      "ghsl": {
+        "50pct_del_crecimiento": {
+          "celdas": 182,
+          "km2": 5937.6,
+          "pct_territorio": 0.65
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 392,
+          "km2": 12787.2,
+          "pct_territorio": 1.39
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 1021,
+          "km2": 33367.2,
+          "pct_territorio": 3.64
+        }
+      }
+    },
+    "h3_res7": {
+      "km2_celda_media": 4.78,
+      "wsf": {
+        "50pct_del_crecimiento": {
+          "celdas": 755,
+          "km2": 3525.5,
+          "pct_territorio": 0.38
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 1533,
+          "km2": 7149.1,
+          "pct_territorio": 0.78
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 3495,
+          "km2": 16284.7,
+          "pct_territorio": 1.78
+        }
+      },
+      "ghsl": {
+        "50pct_del_crecimiento": {
+          "celdas": 659,
+          "km2": 3071.6,
+          "pct_territorio": 0.34
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 1343,
+          "km2": 6256.2,
+          "pct_territorio": 0.68
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 3242,
+          "km2": 15094.2,
+          "pct_territorio": 1.65
+        }
+      }
+    },
+    "h3_res8": {
+      "km2_celda_media": 0.68,
+      "wsf": {
+        "50pct_del_crecimiento": {
+          "celdas": 2741,
+          "km2": 1830.8,
+          "pct_territorio": 0.2
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 5496,
+          "km2": 3662.3,
+          "pct_territorio": 0.4
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 11658,
+          "km2": 7759.0,
+          "pct_territorio": 0.85
+        }
+      },
+      "ghsl": {
+        "50pct_del_crecimiento": {
+          "celdas": 2625,
+          "km2": 1749.6,
+          "pct_territorio": 0.19
+        },
+        "70pct_del_crecimiento": {
+          "celdas": 5296,
+          "km2": 3526.5,
+          "pct_territorio": 0.38
+        },
+        "90pct_del_crecimiento": {
+          "celdas": 11669,
+          "km2": 7757.0,
+          "pct_territorio": 0.85
+        }
+      }
+    }
+  },
+  "mitad_del_crecimiento_res7": {
+    "celdas_wsf": 755,
+    "celdas_ghsl": 659,
+    "coincidencia_jaccard": 0.519,
+    "celdas_en_ambas": 483,
+    "pct_territorio_en_ambas": 0.25,
+    "pct_crecimiento_wsf_en_ambas": 36.7
+  },
+  "gistar_2000_2015_descartado": {
+    "simulaciones": 5000000,
+    "semilla": 2026,
+    "montecarlo": {
+      "99": {
+        "celdas_calientes_wsf": 350,
+        "celdas_calientes_ghsl": 178,
+        "coincidencia_jaccard": 0.337,
+        "km2_calientes_de_ambas": 619.1,
+        "pct_territorio_calientes_de_ambas": 0.07,
+        "pct_crecimiento_wsf_en_calientes_de_ambas": 10.8
+      },
+      "95": {
+        "celdas_calientes_wsf": 505,
+        "celdas_calientes_ghsl": 485,
+        "coincidencia_jaccard": 0.5,
+        "km2_calientes_de_ambas": 1530.5,
+        "pct_territorio_calientes_de_ambas": 0.17,
+        "pct_crecimiento_wsf_en_calientes_de_ambas": 21.6
+      },
+      "90": {
+        "celdas_calientes_wsf": 794,
+        "celdas_calientes_ghsl": 569,
+        "coincidencia_jaccard": 0.516,
+        "km2_calientes_de_ambas": 2155.2,
+        "pct_territorio_calientes_de_ambas": 0.24,
+        "pct_crecimiento_wsf_en_calientes_de_ambas": 27.0
+      }
+    },
+    "normal_version_descartada": {
+      "99": {
+        "celdas_calientes_wsf": 3441,
+        "celdas_calientes_ghsl": 2942,
+        "coincidencia_jaccard": 0.719,
+        "km2_calientes_de_ambas": 12446.9,
+        "pct_territorio_calientes_de_ambas": 1.36,
+        "pct_crecimiento_wsf_en_calientes_de_ambas": 70.4
+      }
+    }
+  },
+  "slider_hexagonos_por_anio": {
+    "1985": 8721,
+    "1986": 65,
+    "1987": 65,
+    "1988": 62,
+    "1989": 96,
+    "1990": 163,
+    "1991": 306,
+    "1992": 69,
+    "1993": 49,
+    "1994": 36,
+    "1995": 46,
+    "1996": 373,
+    "1997": 226,
+    "1998": 271,
+    "1999": 189,
+    "2000": 174,
+    "2001": 172,
+    "2002": 139,
+    "2003": 127,
+    "2004": 123,
+    "2005": 119,
+    "2006": 117,
+    "2007": 147,
+    "2008": 193,
+    "2009": 134,
+    "2010": 136,
+    "2011": 140,
+    "2012": 131,
+    "2013": 177,
+    "2014": 121,
+    "2015": 122
+  }
+}

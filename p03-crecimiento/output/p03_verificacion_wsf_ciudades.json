@@ -1,0 +1,552 @@
+{
+  "Parroquia Francisco Eugenio Bustamante, Estado Zulia": {
+    "wsf_km2_1985": 170.5,
+    "wsf_km2_2015": 266.7,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 3.29,
+        "ghsl_pct": 0.47,
+        "wsf_pct": 2.79,
+        "ods_ghsl": 0.14,
+        "ods_wsf": 0.85,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 1.52,
+        "ghsl_pct": 1.8,
+        "wsf_pct": 1.9,
+        "ods_ghsl": 1.18,
+        "ods_wsf": 1.25,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 1.87,
+        "ghsl_pct": 1.11,
+        "wsf_pct": 0.78,
+        "ods_ghsl": 0.59,
+        "ods_wsf": 0.42,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 1.99,
+        "ghsl_pct": 1.23,
+        "wsf_pct": 1.49,
+        "ods_ghsl": 0.62,
+        "ods_wsf": 0.75,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Valencia, Parroquia Santa Rosa, Estado Carabobo": {
+    "wsf_km2_1985": 110.2,
+    "wsf_km2_2015": 267.1,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 3.74,
+        "ghsl_pct": 0.51,
+        "wsf_pct": 11.49,
+        "ods_ghsl": 0.14,
+        "ods_wsf": 3.08,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 2.74,
+        "ghsl_pct": 2.88,
+        "wsf_pct": 1.65,
+        "ods_ghsl": 1.05,
+        "ods_wsf": 0.6,
+        "coinciden": false,
+        "lectura_ghsl": "equilibrio",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 1.81,
+        "ghsl_pct": 1.44,
+        "wsf_pct": 0.97,
+        "ods_ghsl": 0.8,
+        "ods_wsf": 0.54,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 2.44,
+        "ghsl_pct": 1.77,
+        "wsf_pct": 2.95,
+        "ods_ghsl": 0.72,
+        "ods_wsf": 1.21,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "expansión"
+      }
+    ]
+  },
+  "Caracas, Parroquia Catedral, Distrito Capital": {
+    "wsf_km2_1985": 171.2,
+    "wsf_km2_2015": 193.5,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 0.51,
+        "ghsl_pct": 0.4,
+        "wsf_pct": 0.09,
+        "ods_ghsl": 0.78,
+        "ods_wsf": 0.17,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 0.3,
+        "ghsl_pct": 2.74,
+        "wsf_pct": 0.35,
+        "ods_ghsl": 9.11,
+        "ods_wsf": 1.16,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 0.27,
+        "ghsl_pct": 0.85,
+        "wsf_pct": 0.55,
+        "ods_ghsl": 3.13,
+        "ods_wsf": 2.03,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 0.32,
+        "ghsl_pct": 1.41,
+        "wsf_pct": 0.41,
+        "ods_ghsl": 4.38,
+        "ods_wsf": 1.27,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      }
+    ]
+  },
+  "La Morita, Parroquia Samán de Güere, Estado Aragua": {
+    "wsf_km2_1985": 108.3,
+    "wsf_km2_2015": 145.8,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 4.1,
+        "ghsl_pct": 0.41,
+        "wsf_pct": 1.4,
+        "ods_ghsl": 0.1,
+        "ods_wsf": 0.34,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 1.31,
+        "ghsl_pct": 2.43,
+        "wsf_pct": 1.44,
+        "ods_ghsl": 1.87,
+        "ods_wsf": 1.11,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 0.38,
+        "ghsl_pct": 0.89,
+        "wsf_pct": 0.55,
+        "ods_ghsl": 2.32,
+        "ods_wsf": 1.44,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 1.31,
+        "ghsl_pct": 1.32,
+        "wsf_pct": 0.99,
+        "ods_ghsl": 1.01,
+        "ods_wsf": 0.76,
+        "coinciden": false,
+        "lectura_ghsl": "equilibrio",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Barquisimeto, Parroquia Concepción, Estado Lara": {
+    "wsf_km2_1985": 100.9,
+    "wsf_km2_2015": 135.2,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 2.08,
+        "ghsl_pct": 0.94,
+        "wsf_pct": 2.35,
+        "ods_ghsl": 0.45,
+        "ods_wsf": 1.13,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 1.92,
+        "ghsl_pct": 1.71,
+        "wsf_pct": 1.07,
+        "ods_ghsl": 0.89,
+        "ods_wsf": 0.56,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 1.03,
+        "ghsl_pct": 0.6,
+        "wsf_pct": 0.45,
+        "ods_ghsl": 0.58,
+        "ods_wsf": 0.44,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 1.5,
+        "ghsl_pct": 1.02,
+        "wsf_pct": 0.97,
+        "ods_ghsl": 0.68,
+        "ods_wsf": 0.65,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Ciudad Guayana, Parroquia Cachamay, Estado Bolívar": {
+    "wsf_km2_1985": 92.7,
+    "wsf_km2_2015": 119.4,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 2.47,
+        "ghsl_pct": 0.48,
+        "wsf_pct": 0.55,
+        "ods_ghsl": 0.19,
+        "ods_wsf": 0.22,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 2.02,
+        "ghsl_pct": 3.06,
+        "wsf_pct": 1.33,
+        "ods_ghsl": 1.52,
+        "ods_wsf": 0.66,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 0.72,
+        "ghsl_pct": 0.8,
+        "wsf_pct": 0.62,
+        "ods_ghsl": 1.12,
+        "ods_wsf": 0.86,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 1.44,
+        "ghsl_pct": 1.5,
+        "wsf_pct": 0.84,
+        "ods_ghsl": 1.04,
+        "ods_wsf": 0.58,
+        "coinciden": false,
+        "lectura_ghsl": "equilibrio",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Parroquia Baralt, Estado Zulia": {
+    "wsf_km2_1985": 45.7,
+    "wsf_km2_2015": 86.0,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 2.96,
+        "ghsl_pct": 0.31,
+        "wsf_pct": 2.95,
+        "ods_ghsl": 0.1,
+        "ods_wsf": 0.99,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "equilibrio"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 3.04,
+        "ghsl_pct": 2.32,
+        "wsf_pct": 2.53,
+        "ods_ghsl": 0.77,
+        "ods_wsf": 0.83,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 1.59,
+        "ghsl_pct": 1.28,
+        "wsf_pct": 1.56,
+        "ods_ghsl": 0.81,
+        "ods_wsf": 0.98,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "equilibrio"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 2.3,
+        "ghsl_pct": 1.47,
+        "wsf_pct": 2.11,
+        "ods_ghsl": 0.64,
+        "ods_wsf": 0.92,
+        "coinciden": false,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "equilibrio"
+      }
+    ]
+  },
+  "Barcelona, Parroquia San Cristóbal, Estado Anzoátegui": {
+    "wsf_km2_1985": 63.3,
+    "wsf_km2_2015": 85.3,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 2.38,
+        "ghsl_pct": 0.21,
+        "wsf_pct": 1.03,
+        "ods_ghsl": 0.09,
+        "ods_wsf": 0.43,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 2.88,
+        "ghsl_pct": 2.1,
+        "wsf_pct": 1.58,
+        "ods_ghsl": 0.73,
+        "ods_wsf": 0.55,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 1.49,
+        "ghsl_pct": 0.64,
+        "wsf_pct": 0.59,
+        "ods_ghsl": 0.43,
+        "ods_wsf": 0.4,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 2.1,
+        "ghsl_pct": 1.05,
+        "wsf_pct": 0.99,
+        "ods_ghsl": 0.5,
+        "ods_wsf": 0.47,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Maturín, Parroquia San Simón, Estado Monagas": {
+    "wsf_km2_1985": 45.2,
+    "wsf_km2_2015": 84.9,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 2.63,
+        "ghsl_pct": 0.57,
+        "wsf_pct": 0.44,
+        "ods_ghsl": 0.22,
+        "ods_wsf": 0.17,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 4.68,
+        "ghsl_pct": 7.61,
+        "wsf_pct": 2.33,
+        "ods_ghsl": 1.63,
+        "ods_wsf": 0.5,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 3.13,
+        "ghsl_pct": 3.29,
+        "wsf_pct": 2.51,
+        "ods_ghsl": 1.05,
+        "ods_wsf": 0.8,
+        "coinciden": false,
+        "lectura_ghsl": "equilibrio",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 3.56,
+        "ghsl_pct": 4.28,
+        "wsf_pct": 2.11,
+        "ods_ghsl": 1.2,
+        "ods_wsf": 0.59,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Parroquia El Valle, Estado Nueva Esparta": {
+    "wsf_km2_1985": 39.4,
+    "wsf_km2_2015": 72.9,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 4.37,
+        "ghsl_pct": 5.82,
+        "wsf_pct": 0.39,
+        "ods_ghsl": 1.33,
+        "ods_wsf": 0.09,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 5.08,
+        "ghsl_pct": 6.03,
+        "wsf_pct": 4.79,
+        "ods_ghsl": 1.19,
+        "ods_wsf": 0.94,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "equilibrio"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 2.83,
+        "ghsl_pct": 0.73,
+        "wsf_pct": 0.77,
+        "ods_ghsl": 0.26,
+        "ods_wsf": 0.27,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 3.84,
+        "ghsl_pct": 3.35,
+        "wsf_pct": 2.05,
+        "ods_ghsl": 0.87,
+        "ods_wsf": 0.53,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      }
+    ]
+  },
+  "Caracas metropolitana": {
+    "wsf_km2_1985": 263.7,
+    "wsf_km2_2015": 337.3,
+    "periodos": [
+      {
+        "periodo": "1985-1990",
+        "poblacion_pct": 1.05,
+        "ghsl_pct": 0.58,
+        "wsf_pct": 0.41,
+        "ods_ghsl": 0.55,
+        "ods_wsf": 0.39,
+        "coinciden": true,
+        "lectura_ghsl": "densificación",
+        "lectura_wsf": "densificación"
+      },
+      {
+        "periodo": "1990-2000",
+        "poblacion_pct": 0.87,
+        "ghsl_pct": 3.48,
+        "wsf_pct": 1.0,
+        "ods_ghsl": 4.0,
+        "ods_wsf": 1.15,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "2000-2015",
+        "poblacion_pct": 0.61,
+        "ghsl_pct": 1.13,
+        "wsf_pct": 0.84,
+        "ods_ghsl": 1.84,
+        "ods_wsf": 1.37,
+        "coinciden": true,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "expansión"
+      },
+      {
+        "periodo": "1985-2015",
+        "poblacion_pct": 0.77,
+        "ghsl_pct": 1.82,
+        "wsf_pct": 0.82,
+        "ods_ghsl": 2.36,
+        "ods_wsf": 1.06,
+        "coinciden": false,
+        "lectura_ghsl": "expansión",
+        "lectura_wsf": "equilibrio"
+      }
+    ]
+  }
+}
