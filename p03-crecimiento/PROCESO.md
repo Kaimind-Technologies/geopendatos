@@ -75,6 +75,8 @@ flowchart LR
 | 11 | `geolibre_project.py` | Proyectos de GeoLibre (video y explorar) | Ver la sección 4.2 |
 | 12 | `video/record_slider.py`, `video/edit_slider.py` | Grabación cuadro a cuadro dentro de GeoLibre y textos bilingües | Ver la sección 4.2 |
 | 13 | `lamina_proceso.py` | Lámina "Cómo verificamos" para el post | `output/como_verificamos.png` |
+| 14 | `verify_claims.py` | Validación antes de publicar, T1-T4: artefactos de la serie anual, ODS con censos, línea base de la concentración, 18 variantes de la LEI | Ver la sección 3.8 y [`VALIDACION.md`](VALIDACION.md) |
+| 15 | `verify_cities_census.py` | Validación T5: ODS por ciudad con el censo de los municipios, 36 combinaciones por ciudad | Ver la sección 3.8 y [`VALIDACION.md`](VALIDACION.md) |
 
 ---
 
@@ -195,6 +197,18 @@ La primera versión de P03 decía **"el 70% del crecimiento 2000-2015 cayó en e
 
 > La tipología 1975-2015 y los puntos calientes 1975-2020 calculados solo con el GHSL (`growth.py`) **no se publican**: incluyen las épocas poco confiables. Se publica la versión 2000-2015 contrastada.
 
+### 3.8 Validación antes de publicar (`verify_claims.py`, `verify_cities_census.py`)
+
+Antes de publicar se reprodujo todo desde cero (salidas idénticas; con DuckDB 2.0 `wsf_layers.py` falla, así que se fijó `duckdb<2`) y cada afirmación pasó por cinco pruebas que podían tumbarla. El detalle, los criterios y la guía de lenguaje están en **[`VALIDACION.md`](VALIDACION.md)**.
+
+| Prueba | Resultado | Qué cambia |
+|---|---|---|
+| T1 · Artefactos de la serie anual WSF | En 1996, 19 de 23 estados saltan a la vez (en 1991, 14); después de 2000, nunca más de 3 | "Los 90 más rápido" resiste aunque parte de lo de 1991 sea anterior; no se comenta ningún año antes de 2000 |
+| T2 · ODS nacional con censos del INE | 2000-2015: 0,88-0,95 en 6 combinaciones. Largo plazo: WSF 0,96, GHSL 1,22 | Se publica "el suelo no creció más rápido que la población" en 2000-2015; el "≈ 1 a largo plazo" queda solo con WSF |
+| T3 · Línea base de la concentración | Lo existente en 2000 estaba igual de concentrado (0,30% del territorio con hexágonos de ~5 km²); con hexágonos de ~250 km² la cifra pasa del 1% | "La mitad en menos del 1%" deja de ser el titular y va con su línea base |
+| T4 · 18 variantes de la LEI | Borde 51-74% (el tipo más común en las 18); relleno + borde 89-96% | Titular nuevo: "9 de cada 10 km² nuevos, pegados a lo existente". No se publican los repartos exactos |
+| T5 · Censo por municipio | Barquisimeto, Barcelona-PLC y Margarita resisten 36 de 36; Caracas sigue sin lectura (0,86-1,71) | Maracaibo queda pendiente del censo municipal de Zulia |
+
 ---
 
 ## 4. Resultados crudos, antes de verificar (lo publicable está en 4.1)
@@ -209,19 +223,23 @@ La primera versión de P03 decía **"el 70% del crecimiento 2000-2015 cayó en e
 
 ---
 
-## 4.1 Qué es publicable hoy (después de todas las verificaciones)
+## 4.1 Qué es publicable hoy (después de todas las verificaciones y de la validación §3.8)
 
 | Afirmación | Estado |
 |---|---|
-| A largo plazo (1985-2015), el suelo urbano creció al mismo ritmo que la población (ODS ≈ 1) | ✅ las dos fuentes de suelo coinciden |
-| Las ciudades crecieron más rápido en los 90 que en 2000-2015 | ✅ las dos fuentes coinciden (dirección, no magnitud) |
-| Entre 2000 y 2015, Maracaibo, Barquisimeto, Barcelona-Puerto La Cruz y Margarita se densificaron | ✅ las 4 combinaciones coinciden |
+| 2000-2015: 9 de cada 10 km² nuevos, pegados a lo ya urbanizado (relleno + borde 89-96%); el borde es la forma más común | ✅ dos fuentes y 18 variantes del método (T4) |
+| 2000-2015: el suelo urbano no creció más rápido que la población (ODS 0,88-0,95) | ✅ dos fuentes de suelo × modelo, censo y estimación del INE (T2) |
+| A largo plazo (1985/1990-2011/2015), el suelo urbano creció al ritmo de la población (ODS ≈ 1) | 🟡 solo con WSF (0,96-0,97); el GHSL da 1,07-1,22 (T2) |
+| Las ciudades crecieron más rápido en los 90 que en 2000-2015 | 🟡 dirección sí (resiste el escenario pesimista de T1), magnitud no |
+| Entre 2000 y 2015, en Barquisimeto, Barcelona-Puerto La Cruz y Margarita la población creció más rápido que la superficie urbanizada | ✅ 36 de 36 combinaciones, con censo municipal (T5) |
+| Ídem para Maracaibo | ⏳ 27 de 27 combinaciones disponibles; falta el censo municipal de Zulia (T5) |
 | Magnitud del salto de los 90 (3,28%/año, ODS 1,54) | ❌ no resiste |
+| Saltos de un año en 1991 y 1996 | ❌ artefacto de disponibilidad de imágenes (T1) |
 | Multiplicadores 1975→2020 por ciudad (Maturín ×4, Margarita ×6…) | ❌ no resisten |
-| "Caracas se expandió" | ❌ no concluyente |
+| "Caracas se expandió" / "Caracas se densificó" | ❌ no concluyente, también con censo municipal (T5) |
 | 2015-2020: la población cae y lo construido sigue creciendo | ⏳ solo modelo (GHSL + ONU), sin contraste posible |
-| Tipología 2000-2015: más de la mitad en los bordes, 32-38% relleno, ~1 de cada 10 saltos | ✅ GHSL y WSF coinciden (3.6) |
-| La mitad del crecimiento 2000-2015 cayó en menos del 1% del territorio | ✅ dos fuentes y tres escalas (3.6) |
+| Tipología 2000-2015 con repartos exactos (32-38% relleno, ~1 de cada 10 saltos) | ❌ dependen del método: relleno 21-41%, salto 4-11% (T4) |
+| La mitad del crecimiento 2000-2015 cayó en menos del 1% del territorio | 🟡 cierta con hexágonos de hasta ~36 km², pero igual de concentrada que lo que ya existía: no va como titular (T3) |
 | "El 70% del crecimiento 2000-2015 cayó en el 1,36% del territorio" (puntos calientes) | ❌ no resiste Monte Carlo (3.7) |
 | Tipología y puntos calientes desde 1975 (solo GHSL) | ❌ no se publican (épocas poco confiables) |
 | La cifra de P01 (10.861.395) frente a los límites del país | ✅ se sostiene; incertidumbre de límites ≤ ~0,6% (3.5) |
@@ -232,6 +250,7 @@ La primera versión de P03 decía **"el 70% del crecimiento 2000-2015 cayó en e
 - **Proyectos** (`geolibre_project.py`): `geolibre/p03_video.geolibre.json` y `geolibre/p03_explorar.geolibre.json`. Mapa base oscuro; en gris, lo que ya existía en 1985; de violeta (1986) a amarillo (2015), lo nuevo; con contornos celestes, las celdas de ~5 km² que suman la mitad del crecimiento 2000-2015 (WSF).
 - **Por qué el eje central y no todo el país:** el crecimiento total (≈4.400 km² en un país de 916.000) se ve como puntos sueltos a escala nacional; el eje Valencia-Maracay-Caracas-Valles del Tuy concentra buena parte del crecimiento.
 - **Video** (`video/record_slider.py` + `video/edit_slider.py`): 19,2 s, grabado dentro de GeoLibre cuadro a cuadro, con 0 diagnósticos de GeoLibre al grabar. El contador muestra el año y los km² de asentamiento de todo el país (serie WSF con el contorno de Venezuela). **Solo muestra hallazgos que resistieron las verificaciones** (§4.1): la mitad del crecimiento 2000-2015 en menos del 1% del territorio (0,38% con WSF en hexágonos de ~5 km²), y más de la mitad del crecimiento en los bordes de las ciudades.
+- **Pendiente tras la validación (§3.8):** los textos del video siguen siendo los de la primera versión. El primero queda en 🟡 (le falta la línea base de T3) y el segundo es más débil que "9 de cada 10 km² nuevos, pegados a lo existente" (T4). Además, el contador y el slider muestran los saltos de 1991 y 1996, que son artefactos (T1). Si no se regraba, el post debe aclararlo.
 
 ## 5. Decisiones y cuidados
 

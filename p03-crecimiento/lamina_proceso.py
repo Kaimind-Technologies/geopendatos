@@ -1,6 +1,6 @@
 """P03 · Lámina "Cómo verificamos" (1080×1350) para el post: fuentes, tests, qué se publica
-y qué se descartó. El contenido sale de PROCESO.md §3-§4.1; si cambia una verificación,
-actualizar aquí también.
+y qué se descartó. El contenido sale de PROCESO.md §3-§4.1 y de VALIDACION.md; si cambia una
+verificación, actualizar aquí también.
 
 Salida: output/como_verificamos.png
 
@@ -24,24 +24,24 @@ SECCIONES = [
     ("1 · Fuentes abiertas", "Open data sources", CYAN, None, [
         "GHSL (JRC): m² construidos 1975-2020, 100 m",
         "WSF-Evolution (DLR): año de asentamiento 1985-2015, 30 m",
-        "GHS-POP (JRC) y censos del INE 2001 y 2011",
+        "GHS-POP (JRC) y censos del INE 1990-2011, también por municipio",
     ]),
     ("2 · Tests a cada cifra", "Every number tested", YELLOW, None, [
-        "Dos satélites, dos métodos: GHSL contra WSF",
-        "Población modelada contra el censo (correlación 0,99)",
-        "Por ciudad: 4 combinaciones de fuentes deben coincidir",
-        "Significancia por simulación (Monte Carlo), no por la curva normal",
+        "Dos productos satelitales, dos métodos: GHSL contra WSF",
+        "Población modelada contra los censos (estados y municipios)",
+        "Por ciudad: 36 combinaciones de fuentes y métodos deben coincidir",
+        "Monte Carlo, 18 variantes de método y búsqueda de artefactos",
     ]),
     ("3 · Lo que publicamos", "What we publish", GREEN, "✓", [
-        "La mitad del crecimiento 2000-2015 cayó en menos del 1% del territorio",
-        "Más de la mitad del crecimiento fue en los bordes de las ciudades",
-        "Maracaibo, Barquisimeto, Barcelona-PLC y Margarita se densificaron",
-        "A largo plazo, el suelo urbano creció al ritmo de la población",
+        "9 de cada 10 km² nuevos aparecieron pegados a zonas ya urbanas",
+        "2000-2015: el suelo urbano creció algo más lento que la población",
+        "Barquisimeto, Barcelona-PLC y Margarita: más habitantes por km² urbano",
+        "En los 90 se creció más rápido que después de 2000, como la población",
     ]),
     ("4 · Lo que descartamos", "What we discarded", RED, "✗", [
-        "El \"boom\" de los 90 del GHSL: la otra fuente no lo confirma",
+        "El \"boom\" de los 90 del GHSL y los saltos de 1991 y 1996: artefactos",
         "Multiplicadores por ciudad desde 1975 (Maturín ×4, Margarita ×6)",
-        "\"Caracas se expandió\": depende de cómo se mida su población",
+        "Caracas: ni \"se expandió\" ni \"se densificó\", ni con censo municipal",
         "\"70% en el 1,36%\" (puntos calientes): no resistió Monte Carlo",
     ]),
 ]

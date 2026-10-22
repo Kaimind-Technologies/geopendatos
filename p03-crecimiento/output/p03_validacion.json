@@ -1,0 +1,416 @@
+{
+  "t1_artefactos_serie_anual": {
+    "incremento_mediano_nacional_km2": 55.3,
+    "incremento_nacional_km2_por_anio": {
+      "1986": 77.9,
+      "1987": 79.3,
+      "1988": 32.9,
+      "1989": 33.4,
+      "1990": 67.0,
+      "1991": 126.9,
+      "1992": 45.2,
+      "1993": 32.6,
+      "1994": 26.6,
+      "1995": 22.6,
+      "1996": 135.2,
+      "1997": 94.7,
+      "1998": 101.4,
+      "1999": 73.7,
+      "2000": 65.4,
+      "2001": 58.7,
+      "2002": 55.4,
+      "2003": 47.6,
+      "2004": 50.7,
+      "2005": 49.3,
+      "2006": 53.7,
+      "2007": 65.0,
+      "2008": 71.4,
+      "2009": 66.1,
+      "2010": 55.2,
+      "2011": 53.6,
+      "2012": 50.1,
+      "2013": 64.5,
+      "2014": 50.7,
+      "2015": 40.9
+    },
+    "razon_vs_mediana_nacional": {
+      "1986": 1.41,
+      "1987": 1.43,
+      "1988": 0.59,
+      "1989": 0.6,
+      "1990": 1.21,
+      "1991": 2.29,
+      "1992": 0.82,
+      "1993": 0.59,
+      "1994": 0.48,
+      "1995": 0.41,
+      "1996": 2.44,
+      "1997": 1.71,
+      "1998": 1.83,
+      "1999": 1.33,
+      "2000": 1.18,
+      "2001": 1.06,
+      "2002": 1.0,
+      "2003": 0.86,
+      "2004": 0.92,
+      "2005": 0.89,
+      "2006": 0.97,
+      "2007": 1.18,
+      "2008": 1.29,
+      "2009": 1.2,
+      "2010": 1.0,
+      "2011": 0.97,
+      "2012": 0.91,
+      "2013": 1.17,
+      "2014": 0.92,
+      "2015": 0.74
+    },
+    "estados_evaluados": 23,
+    "estados_que_saltan_por_anio": {
+      "1986": 2,
+      "1987": 4,
+      "1988": 0,
+      "1989": 0,
+      "1990": 4,
+      "1991": 14,
+      "1992": 2,
+      "1993": 1,
+      "1994": 0,
+      "1995": 0,
+      "1996": 19,
+      "1997": 10,
+      "1998": 9,
+      "1999": 3,
+      "2000": 0,
+      "2001": 1,
+      "2002": 0,
+      "2003": 0,
+      "2004": 0,
+      "2005": 0,
+      "2006": 0,
+      "2007": 1,
+      "2008": 3,
+      "2009": 0,
+      "2010": 0,
+      "2011": 0,
+      "2012": 0,
+      "2013": 1,
+      "2014": 0,
+      "2015": 0
+    },
+    "estados_que_saltan_1991": [
+      "Aragua",
+      "Barinas",
+      "Carabobo",
+      "Cojedes",
+      "Guárico",
+      "La Guaira",
+      "Lara",
+      "Mérida",
+      "Nueva Esparta",
+      "Portuguesa",
+      "Sucre",
+      "Táchira",
+      "Trujillo",
+      "Zulia"
+    ],
+    "estados_que_saltan_1996": [
+      "Amazonas",
+      "Anzoátegui",
+      "Apure",
+      "Aragua",
+      "Barinas",
+      "Bolívar",
+      "Carabobo",
+      "Cojedes",
+      "Guárico",
+      "La Guaira",
+      "Lara",
+      "Mérida",
+      "Miranda",
+      "Monagas",
+      "Portuguesa",
+      "Táchira",
+      "Trujillo",
+      "Yaracuy",
+      "Zulia"
+    ],
+    "exceso_1991_km2": 70.8,
+    "exceso_1996_km2": 79.0,
+    "contraste_90_vs_00": {
+      "tal_cual": {
+        "km2_por_anio_1990_2000": 72.4,
+        "km2_por_anio_2000_2015": 55.5,
+        "pct_anual_1990_2000": 2.28,
+        "pct_anual_2000_2015": 1.4
+      },
+      "exceso_1991_antes_de_1990": {
+        "km2_por_anio_1990_2000": 65.3,
+        "km2_por_anio_2000_2015": 55.5,
+        "pct_anual_1990_2000": 2.03,
+        "pct_anual_2000_2015": 1.4
+      }
+    },
+    "km2_mal_fechados_para_empatar": {
+      "en_km2_por_anio": 169.0,
+      "en_pct_anual": 258.7
+    },
+    "ghsl_pct_anual": {
+      "1990_2000": 3.28,
+      "2000_2015": 1.42
+    }
+  },
+  "t2_ods_nacional_con_censos": {
+    "con_censos": [
+      {
+        "periodo_censal": "1990-2001",
+        "poblacion_censo_pct": 2.2,
+        "wsf_pct_mismo_periodo": 2.22,
+        "ods_wsf_censo": 1.01,
+        "ghsl_periodo": "1990-2000",
+        "ghsl_pct": 3.28,
+        "ods_ghsl_censo": 1.49
+      },
+      {
+        "periodo_censal": "2001-2011",
+        "poblacion_censo_pct": 1.66,
+        "wsf_pct_mismo_periodo": 1.46,
+        "ods_wsf_censo": 0.88,
+        "ghsl_periodo": "2000-2010",
+        "ghsl_pct": 1.47,
+        "ods_ghsl_censo": 0.88
+      },
+      {
+        "periodo_censal": "1990-2011",
+        "poblacion_censo_pct": 1.94,
+        "wsf_pct_mismo_periodo": 1.86,
+        "ods_wsf_censo": 0.96,
+        "ghsl_periodo": "1990-2010",
+        "ghsl_pct": 2.38,
+        "ods_ghsl_censo": 1.22
+      }
+    ],
+    "sensibilidad_omision_censal": {
+      "poblacion_ine_estimada_pct_2001_2011": 1.54,
+      "ods_wsf_2001_2011": 0.95,
+      "ods_ghsl_2000_2010": 0.95
+    },
+    "version_publicada_con_ghs_pop": {
+      "ods_wsf_ghspop_1985_2015": 0.97,
+      "ods_ghsl_ghspop_1985_2015": 1.07
+    }
+  },
+  "t3_concentracion_vs_linea_base": {
+    "h3_res5": {
+      "km2_celda_media": 234.1,
+      "wsf": {
+        "pct_territorio_mitad_del_crecimiento": 1.85,
+        "pct_territorio_mitad_de_lo_existente_2000": 1.16,
+        "crecimiento_vs_existente": 1.59,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 99.9
+      },
+      "ghsl": {
+        "pct_territorio_mitad_del_crecimiento": 1.47,
+        "pct_territorio_mitad_de_lo_existente_2000": 1.18,
+        "crecimiento_vs_existente": 1.24,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 100.0
+      }
+    },
+    "h3_res6": {
+      "km2_celda_media": 33.4,
+      "wsf": {
+        "pct_territorio_mitad_del_crecimiento": 0.8,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.52,
+        "crecimiento_vs_existente": 1.53,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 99.7
+      },
+      "ghsl": {
+        "pct_territorio_mitad_del_crecimiento": 0.65,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.53,
+        "crecimiento_vs_existente": 1.21,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 100.0
+      }
+    },
+    "h3_res7": {
+      "km2_celda_media": 4.8,
+      "wsf": {
+        "pct_territorio_mitad_del_crecimiento": 0.38,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.3,
+        "crecimiento_vs_existente": 1.3,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 98.9
+      },
+      "ghsl": {
+        "pct_territorio_mitad_del_crecimiento": 0.34,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.3,
+        "crecimiento_vs_existente": 1.13,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 100.0
+      }
+    },
+    "h3_res8": {
+      "km2_celda_media": 0.7,
+      "wsf": {
+        "pct_territorio_mitad_del_crecimiento": 0.2,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.22,
+        "crecimiento_vs_existente": 0.89,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 96.5
+      },
+      "ghsl": {
+        "pct_territorio_mitad_del_crecimiento": 0.19,
+        "pct_territorio_mitad_de_lo_existente_2000": 0.22,
+        "crecimiento_vs_existente": 0.88,
+        "pct_crecimiento_en_celdas_con_asentamiento_en_2000": 99.9
+      }
+    },
+    "asentamiento_wsf_2015_pct_territorio": 0.48
+  },
+  "t4_sensibilidad_lei_2000_2015": {
+    "corridas": {
+      "wsf_cualquier_pixel_anillo_100m": {
+        "km2_nuevos": 786.6,
+        "manchas": 23247,
+        "pct_relleno": 40.6,
+        "pct_expansion_de_borde": 51.4,
+        "pct_salto": 8.0
+      },
+      "wsf_cualquier_pixel_anillo_200m": {
+        "km2_nuevos": 786.6,
+        "manchas": 23247,
+        "pct_relleno": 32.9,
+        "pct_expansion_de_borde": 60.2,
+        "pct_salto": 6.9
+      },
+      "wsf_cualquier_pixel_anillo_300m": {
+        "km2_nuevos": 786.6,
+        "manchas": 23247,
+        "pct_relleno": 28.4,
+        "pct_expansion_de_borde": 65.5,
+        "pct_salto": 6.1
+      },
+      "wsf_25pct_de_la_celda_anillo_100m": {
+        "km2_nuevos": 851.8,
+        "manchas": 26010,
+        "pct_relleno": 36.4,
+        "pct_expansion_de_borde": 55.3,
+        "pct_salto": 8.3
+      },
+      "wsf_25pct_de_la_celda_anillo_200m": {
+        "km2_nuevos": 851.8,
+        "manchas": 26010,
+        "pct_relleno": 29.1,
+        "pct_expansion_de_borde": 63.9,
+        "pct_salto": 7.0
+      },
+      "wsf_25pct_de_la_celda_anillo_300m": {
+        "km2_nuevos": 851.8,
+        "manchas": 26010,
+        "pct_relleno": 25.5,
+        "pct_expansion_de_borde": 68.6,
+        "pct_salto": 5.8
+      },
+      "wsf_50pct_de_la_celda_anillo_100m": {
+        "km2_nuevos": 840.7,
+        "manchas": 23754,
+        "pct_relleno": 31.9,
+        "pct_expansion_de_borde": 59.6,
+        "pct_salto": 8.5
+      },
+      "wsf_50pct_de_la_celda_anillo_200m": {
+        "km2_nuevos": 840.7,
+        "manchas": 23754,
+        "pct_relleno": 25.6,
+        "pct_expansion_de_borde": 67.5,
+        "pct_salto": 7.0
+      },
+      "wsf_50pct_de_la_celda_anillo_300m": {
+        "km2_nuevos": 840.7,
+        "manchas": 23754,
+        "pct_relleno": 22.8,
+        "pct_expansion_de_borde": 71.4,
+        "pct_salto": 5.8
+      },
+      "ghsl_10pct_anillo_100m": {
+        "km2_nuevos": 686.3,
+        "manchas": 26339,
+        "pct_relleno": 38.5,
+        "pct_expansion_de_borde": 54.6,
+        "pct_salto": 6.9
+      },
+      "ghsl_10pct_anillo_200m": {
+        "km2_nuevos": 686.3,
+        "manchas": 26339,
+        "pct_relleno": 30.0,
+        "pct_expansion_de_borde": 65.2,
+        "pct_salto": 4.8
+      },
+      "ghsl_10pct_anillo_300m": {
+        "km2_nuevos": 686.3,
+        "manchas": 26339,
+        "pct_relleno": 26.2,
+        "pct_expansion_de_borde": 70.1,
+        "pct_salto": 3.7
+      },
+      "ghsl_15pct_anillo_100m": {
+        "km2_nuevos": 706.5,
+        "manchas": 24262,
+        "pct_relleno": 33.2,
+        "pct_expansion_de_borde": 58.2,
+        "pct_salto": 8.6
+      },
+      "ghsl_15pct_anillo_200m": {
+        "km2_nuevos": 706.5,
+        "manchas": 24262,
+        "pct_relleno": 26.2,
+        "pct_expansion_de_borde": 68.1,
+        "pct_salto": 5.7
+      },
+      "ghsl_15pct_anillo_300m": {
+        "km2_nuevos": 706.5,
+        "manchas": 24262,
+        "pct_relleno": 23.7,
+        "pct_expansion_de_borde": 72.0,
+        "pct_salto": 4.3
+      },
+      "ghsl_20pct_anillo_100m": {
+        "km2_nuevos": 711.2,
+        "manchas": 22604,
+        "pct_relleno": 29.5,
+        "pct_expansion_de_borde": 59.3,
+        "pct_salto": 11.2
+      },
+      "ghsl_20pct_anillo_200m": {
+        "km2_nuevos": 711.2,
+        "manchas": 22604,
+        "pct_relleno": 23.4,
+        "pct_expansion_de_borde": 69.0,
+        "pct_salto": 7.6
+      },
+      "ghsl_20pct_anillo_300m": {
+        "km2_nuevos": 711.2,
+        "manchas": 22604,
+        "pct_relleno": 21.0,
+        "pct_expansion_de_borde": 73.5,
+        "pct_salto": 5.5
+      }
+    },
+    "rango": {
+      "pct_expansion_de_borde": [
+        51.4,
+        73.5
+      ],
+      "pct_relleno": [
+        21.0,
+        40.6
+      ],
+      "pct_salto": [
+        3.7,
+        11.2
+      ],
+      "pct_relleno_mas_borde": [
+        88.8,
+        96.3
+      ],
+      "borde_es_el_tipo_mas_comun_en_todas": true,
+      "borde_mas_de_la_mitad_en_todas": true
+    }
+  }
+}
