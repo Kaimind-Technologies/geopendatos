@@ -14,6 +14,8 @@ Una serie de **Kaimind** que explora Venezuela con datos abiertos y herramientas
 
 DuckDB · GeoParquet · H3 · Overture Maps · GHSL · WSF-Evolution · geoBoundaries · rasterio · GeoLibre (Time Slider, 3D) · estadística espacial (Gini, Getis-Ord Gi\*, Zipf, tipología LEI, ODS 11.3.1)
 
+Sitio web del proyecto (ES/EN) en [`web/`](web/).
+
 Utilidades compartidas en [`common/`](common/): límites de Venezuela, un servidor local con lectura por rangos para probar capas en GeoLibre, y un puente para exportar el estado de un proyecto de GeoLibre.
 
 ## Requisitos

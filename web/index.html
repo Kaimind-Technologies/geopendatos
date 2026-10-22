@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaimind Datos Abiertos · Datos geoespaciales donde el censo no llega</title>
+    <meta
+      name="description"
+      content="API open source de datos geoespaciales y sociodemográficos para países donde los datos censales son escasos o difíciles de conseguir. Empezamos por Venezuela."
+    />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <link rel="alternate" hreflang="es" href="%VITE_SITE_URL%/" />
+    <link rel="alternate" hreflang="en" href="%VITE_SITE_URL%/en/" />
+    <link rel="alternate" hreflang="x-default" href="%VITE_SITE_URL%/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:title" content="Kaimind Datos Abiertos" />
+    <meta
+      property="og:description"
+      content="Datos geoespaciales abiertos donde el censo no llega. Empezamos por Venezuela."
+    />
+    <meta property="og:locale" content="es_VE" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Tema antes del primer pintado (evita el destello). Igual en en/index.html -->
+    <script>
+      (function () {
+        var t;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Kaimind Datos Abiertos: datos geoespaciales abiertos donde el censo no llega. Activa JavaScript para ver la página.</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
