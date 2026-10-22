@@ -1,0 +1,1244 @@
+{
+  "Maracaibo": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.62,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.56,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.68,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.51,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.47,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.56,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.52,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.47,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.57,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.6,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.52,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.61,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.42,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.36,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.43,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.44,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.38,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.44,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.58,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.48,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.57,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.33,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.28,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.33,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.35,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.29,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.34
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "JESUS ENRIQUE LOSSADA (ZULIA)",
+          "MARA (ZULIA)",
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.7,
+        "sin_dato_censal": [
+          "JESUS ENRIQUE LOSSADA (ZULIA)",
+          "MARA (ZULIA)",
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ]
+      },
+      "15pct": {
+        "incluidos": [
+          "JESUS ENRIQUE LOSSADA (ZULIA)",
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.9,
+        "sin_dato_censal": [
+          "JESUS ENRIQUE LOSSADA (ZULIA)",
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ]
+      },
+      "20pct": {
+        "incluidos": [
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.9,
+        "sin_dato_censal": [
+          "MARACAIBO (ZULIA)",
+          "SAN FRANCISCO (ZULIA)"
+        ]
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 1.22,
+        "wsf_2000_2015": 1.01,
+        "wsf_2001_2011": 1.01,
+        "ghs_pop_2000_2015": 1.96,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.79
+      },
+      "15pct": {
+        "ghsl_2000_2015": 1.12,
+        "wsf_2000_2015": 0.78,
+        "wsf_2001_2011": 0.82,
+        "ghs_pop_2000_2015": 1.87,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.83
+      },
+      "20pct": {
+        "ghsl_2000_2015": 1.05,
+        "wsf_2000_2015": 0.6,
+        "wsf_2001_2011": 0.64,
+        "ghs_pop_2000_2015": 1.82,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.85
+      }
+    },
+    "n_combinaciones": 27,
+    "ods_min": 0.28,
+    "ods_max": 0.68,
+    "ods_solo_censo_municipal": null,
+    "lectura": "sin censo municipal",
+    "lectura_matriz_2x2": "densificación robusta"
+  },
+  "Valencia": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.79,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.0,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.97,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.06,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.55,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.7,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.68,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.74,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.65,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.83,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.8,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.88,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.8,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.96,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.96,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.01,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.54,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.65,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.64,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.68,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.64,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.77,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.77,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.82,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.79,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.95,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.95,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.0,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.52,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.62,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.62,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.66,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.63,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.75,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.75,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.79
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "GUACARA (CARABOBO)",
+          "LOS GUAYOS (CARABOBO)",
+          "NAGUANAGUA (CARABOBO)",
+          "SAN DIEGO (CARABOBO)",
+          "VALENCIA (CARABOBO)",
+          "LIBERTADOR (CARABOBO)",
+          "SAN JOAQUIN (CARABOBO)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 98.0,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "GUACARA (CARABOBO)",
+          "LOS GUAYOS (CARABOBO)",
+          "NAGUANAGUA (CARABOBO)",
+          "SAN DIEGO (CARABOBO)",
+          "VALENCIA (CARABOBO)",
+          "LIBERTADOR (CARABOBO)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "GUACARA (CARABOBO)",
+          "LOS GUAYOS (CARABOBO)",
+          "NAGUANAGUA (CARABOBO)",
+          "SAN DIEGO (CARABOBO)",
+          "VALENCIA (CARABOBO)",
+          "LIBERTADOR (CARABOBO)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 1.5,
+        "wsf_2000_2015": 1.06,
+        "wsf_2001_2011": 1.24,
+        "ghs_pop_2000_2015": 1.91,
+        "censo_estado_2001_2011": 1.5,
+        "censo_municipal_2001_2011": 1.56,
+        "ine_estimada_municipal_2001_2011": 1.42
+      },
+      "15pct": {
+        "ghsl_2000_2015": 1.44,
+        "wsf_2000_2015": 0.97,
+        "wsf_2001_2011": 1.16,
+        "ghs_pop_2000_2015": 1.81,
+        "censo_estado_2001_2011": 1.5,
+        "censo_municipal_2001_2011": 1.5,
+        "ine_estimada_municipal_2001_2011": 1.42
+      },
+      "20pct": {
+        "ghsl_2000_2015": 1.43,
+        "wsf_2000_2015": 0.94,
+        "wsf_2001_2011": 1.13,
+        "ghs_pop_2000_2015": 1.8,
+        "censo_estado_2001_2011": 1.5,
+        "censo_municipal_2001_2011": 1.5,
+        "ine_estimada_municipal_2001_2011": 1.42
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.52,
+    "ods_max": 1.06,
+    "ods_solo_censo_municipal": [
+      0.62,
+      0.97
+    ],
+    "lectura": "no concluyente",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Caracas (valle)": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 2.71,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.93,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.61,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.4,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.77,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.6,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 1.05,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.91,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.45,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.5,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.86,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.75,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 3.14,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.83,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.71,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.49,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 2.03,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.54,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 1.11,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.96,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.69,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.45,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.92,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.8,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 3.17,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.83,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.7,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.48,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.99,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.52,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 1.07,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.93,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.65,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.43,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.89,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.77
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CARRIZAL (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "GUAICAIPURO (MIRANDA)",
+          "LOS SALIAS (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SUCRE (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.8,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SUCRE (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.3,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SUCRE (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.4,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.96,
+        "wsf_2000_2015": 0.62,
+        "wsf_2001_2011": 0.51,
+        "ghs_pop_2000_2015": 0.35,
+        "censo_estado_2001_2011": 1.03,
+        "censo_municipal_2001_2011": 0.59,
+        "ine_estimada_municipal_2001_2011": 0.68
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.86,
+        "wsf_2000_2015": 0.55,
+        "wsf_2001_2011": 0.46,
+        "ghs_pop_2000_2015": 0.27,
+        "censo_estado_2001_2011": 1.03,
+        "censo_municipal_2001_2011": 0.5,
+        "ine_estimada_municipal_2001_2011": 0.58
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.85,
+        "wsf_2000_2015": 0.53,
+        "wsf_2001_2011": 0.44,
+        "ghs_pop_2000_2015": 0.27,
+        "censo_estado_2001_2011": 1.03,
+        "censo_municipal_2001_2011": 0.5,
+        "ine_estimada_municipal_2001_2011": 0.58
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.43,
+    "ods_max": 3.17,
+    "ods_solo_censo_municipal": [
+      0.86,
+      1.71
+    ],
+    "lectura": "no concluyente",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Maracay-Turmero": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 2.15,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.67,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.69,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.35,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.42,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.44,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.44,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.45,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.46,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 2.35,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.77,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.7,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.44,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.47,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.43,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.54,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.5,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.46,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.73,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.73,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.67,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.04,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.44,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.4,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.14,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.48,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.44
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "DIEGO IBARRA (CARABOBO)",
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "LIBERTADOR (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.8,
+        "sin_dato_censal": [
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "LIBERTADOR (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ]
+      },
+      "15pct": {
+        "incluidos": [
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "LIBERTADOR (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.8,
+        "sin_dato_censal": [
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "LIBERTADOR (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ]
+      },
+      "20pct": {
+        "incluidos": [
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.2,
+        "sin_dato_censal": [
+          "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+          "JOSE ANGEL LAMAS (ARAGUA)",
+          "MARIO BRICENO IRAGORRY (ARAGUA)",
+          "SANTIAGO MARINO (ARAGUA)",
+          "GIRARDOT (ARAGUA)",
+          "SUCRE (ARAGUA)"
+        ]
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.91,
+        "wsf_2000_2015": 0.57,
+        "wsf_2001_2011": 0.61,
+        "ghs_pop_2000_2015": 0.42,
+        "censo_estado_2001_2011": 1.36,
+        "ine_estimada_municipal_2001_2011": 1.32
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.9,
+        "wsf_2000_2015": 0.55,
+        "wsf_2001_2011": 0.59,
+        "ghs_pop_2000_2015": 0.38,
+        "censo_estado_2001_2011": 1.17,
+        "ine_estimada_municipal_2001_2011": 1.29
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.86,
+        "wsf_2000_2015": 0.51,
+        "wsf_2001_2011": 0.56,
+        "ghs_pop_2000_2015": 0.5,
+        "censo_estado_2001_2011": 1.17,
+        "ine_estimada_municipal_2001_2011": 1.28
+      }
+    },
+    "n_combinaciones": 27,
+    "ods_min": 0.4,
+    "ods_max": 2.35,
+    "ods_solo_censo_municipal": null,
+    "lectura": "sin censo municipal",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Barquisimeto": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.59,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.46,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.48,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.46,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.45,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.35,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.37,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.35,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.53,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.42,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.43,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.42,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.58,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.46,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.47,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.46,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.44,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.35,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.36,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.34,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.52,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.41,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.42,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.41,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.58,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.45,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.46,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.45,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.41,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.32,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.33,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.32,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.5,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.39,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.4,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.39
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "IRIBARREN (LARA)",
+          "PALAVECINO (LARA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "IRIBARREN (LARA)",
+          "PALAVECINO (LARA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "IRIBARREN (LARA)",
+          "PALAVECINO (LARA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.61,
+        "wsf_2000_2015": 0.47,
+        "wsf_2001_2011": 0.55,
+        "ghs_pop_2000_2015": 1.03,
+        "censo_estado_2001_2011": 1.31,
+        "censo_municipal_2001_2011": 1.27,
+        "ine_estimada_municipal_2001_2011": 1.32
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.6,
+        "wsf_2000_2015": 0.45,
+        "wsf_2001_2011": 0.54,
+        "ghs_pop_2000_2015": 1.03,
+        "censo_estado_2001_2011": 1.31,
+        "censo_municipal_2001_2011": 1.27,
+        "ine_estimada_municipal_2001_2011": 1.32
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.59,
+        "wsf_2000_2015": 0.43,
+        "wsf_2001_2011": 0.51,
+        "ghs_pop_2000_2015": 1.03,
+        "censo_estado_2001_2011": 1.31,
+        "censo_municipal_2001_2011": 1.27,
+        "ine_estimada_municipal_2001_2011": 1.32
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.32,
+    "ods_max": 0.59,
+    "ods_solo_censo_municipal": [
+      0.33,
+      0.48
+    ],
+    "lectura": "densificación robusta",
+    "lectura_matriz_2x2": "densificación robusta"
+  },
+  "Ciudad Guayana": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.13,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.54,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.42,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.88,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.42,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.33,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.02,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.49,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.38,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.11,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.53,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.41,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.86,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.41,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.32,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.01,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.48,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.37,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.11,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.52,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.4,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.83,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.39,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.3,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.97,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.46,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.35
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "CARONI (BOLIVAR)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "CARONI (BOLIVAR)"
+        ]
+      },
+      "15pct": {
+        "incluidos": [
+          "CARONI (BOLIVAR)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "CARONI (BOLIVAR)"
+        ]
+      },
+      "20pct": {
+        "incluidos": [
+          "CARONI (BOLIVAR)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "CARONI (BOLIVAR)"
+        ]
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.81,
+        "wsf_2000_2015": 0.63,
+        "wsf_2001_2011": 0.74,
+        "ghs_pop_2000_2015": 0.72,
+        "censo_estado_2001_2011": 1.51,
+        "ine_estimada_municipal_2001_2011": 1.94
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.8,
+        "wsf_2000_2015": 0.62,
+        "wsf_2001_2011": 0.72,
+        "ghs_pop_2000_2015": 0.72,
+        "censo_estado_2001_2011": 1.51,
+        "ine_estimada_municipal_2001_2011": 1.94
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.79,
+        "wsf_2000_2015": 0.59,
+        "wsf_2001_2011": 0.69,
+        "ghs_pop_2000_2015": 0.71,
+        "censo_estado_2001_2011": 1.51,
+        "ine_estimada_municipal_2001_2011": 1.94
+      }
+    },
+    "n_combinaciones": 27,
+    "ods_min": 0.3,
+    "ods_max": 1.13,
+    "ods_solo_censo_municipal": null,
+    "lectura": "sin censo municipal",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Costa Oriental del Lago": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.83,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.61,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.85,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.03,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.76,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.05,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.04,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.77,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.07,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.82,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.6,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.83,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.98,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.72,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.0,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.01,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.74,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.02,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.87,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.71,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.03,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.11,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.9,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.31,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.18,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.96,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.39
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "CABIMAS (ZULIA)",
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "CABIMAS (ZULIA)",
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ]
+      },
+      "15pct": {
+        "incluidos": [
+          "CABIMAS (ZULIA)",
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "CABIMAS (ZULIA)",
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ]
+      },
+      "20pct": {
+        "incluidos": [
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": [
+          "LAGUNILLAS (ZULIA)",
+          "SIMON BOLIVAR (ZULIA)"
+        ]
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 1.32,
+        "wsf_2000_2015": 1.64,
+        "wsf_2001_2011": 1.66,
+        "ghs_pop_2000_2015": 1.6,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.56
+      },
+      "15pct": {
+        "ghsl_2000_2015": 1.3,
+        "wsf_2000_2015": 1.56,
+        "wsf_2001_2011": 1.6,
+        "ghs_pop_2000_2015": 1.59,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.56
+      },
+      "20pct": {
+        "ghsl_2000_2015": 1.54,
+        "wsf_2000_2015": 1.95,
+        "wsf_2001_2011": 2.08,
+        "ghs_pop_2000_2015": 1.76,
+        "censo_estado_2001_2011": 2.16,
+        "ine_estimada_municipal_2001_2011": 1.49
+      }
+    },
+    "n_combinaciones": 27,
+    "ods_min": 0.6,
+    "ods_max": 1.39,
+    "ods_solo_censo_municipal": null,
+    "lectura": "sin censo municipal",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Barcelona-Puerto La Cruz": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.45,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.37,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.38,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.38,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.44,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.36,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.37,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.37,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.45,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.36,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.38,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.38,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.44,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.35,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.37,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.37,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.4,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.32,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.33,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.33,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.4,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.33,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.34,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.34,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.43,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.34,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.36,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.36,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.36,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.29,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.3,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.3,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.37,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.3,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.31,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.31
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "GUANTA (ANZOATEGUI)",
+          "JUAN ANTONIO SOTILLO (ANZOATEGUI)",
+          "DIEGO BAUTISTA URBANEJA (ANZOATEGUI)",
+          "SIMON BOLIVAR (ANZOATEGUI)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "GUANTA (ANZOATEGUI)",
+          "JUAN ANTONIO SOTILLO (ANZOATEGUI)",
+          "DIEGO BAUTISTA URBANEJA (ANZOATEGUI)",
+          "SIMON BOLIVAR (ANZOATEGUI)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "GUANTA (ANZOATEGUI)",
+          "JUAN ANTONIO SOTILLO (ANZOATEGUI)",
+          "DIEGO BAUTISTA URBANEJA (ANZOATEGUI)",
+          "SIMON BOLIVAR (ANZOATEGUI)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.68,
+        "wsf_2000_2015": 0.66,
+        "wsf_2001_2011": 0.67,
+        "ghs_pop_2000_2015": 1.5,
+        "censo_estado_2001_2011": 1.84,
+        "censo_municipal_2001_2011": 1.78,
+        "ine_estimada_municipal_2001_2011": 1.78
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.65,
+        "wsf_2000_2015": 0.59,
+        "wsf_2001_2011": 0.6,
+        "ghs_pop_2000_2015": 1.49,
+        "censo_estado_2001_2011": 1.84,
+        "censo_municipal_2001_2011": 1.78,
+        "ine_estimada_municipal_2001_2011": 1.78
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.63,
+        "wsf_2000_2015": 0.53,
+        "wsf_2001_2011": 0.55,
+        "ghs_pop_2000_2015": 1.48,
+        "censo_estado_2001_2011": 1.84,
+        "censo_municipal_2001_2011": 1.78,
+        "ine_estimada_municipal_2001_2011": 1.78
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.29,
+    "ods_max": 0.45,
+    "ods_solo_censo_municipal": [
+      0.3,
+      0.38
+    ],
+    "lectura": "densificación robusta",
+    "lectura_matriz_2x2": "densificación robusta"
+  },
+  "Maturín": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.05,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.38,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.13,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.59,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.82,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 1.08,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.88,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.25,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.91,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 1.19,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.98,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.38,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.05,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.37,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.12,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.58,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.8,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 1.05,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.86,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.21,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.89,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 1.17,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.95,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.35,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.05,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.36,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.11,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.57,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.77,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 1.01,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.82,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.16,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.87,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 1.13,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.93,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 1.31
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "MATURIN (MONAGAS)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "MATURIN (MONAGAS)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "MATURIN (MONAGAS)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 3.3,
+        "wsf_2000_2015": 2.58,
+        "wsf_2001_2011": 2.86,
+        "ghs_pop_2000_2015": 3.14,
+        "censo_estado_2001_2011": 2.39,
+        "censo_municipal_2001_2011": 2.93,
+        "ine_estimada_municipal_2001_2011": 2.08
+      },
+      "15pct": {
+        "ghsl_2000_2015": 3.29,
+        "wsf_2000_2015": 2.51,
+        "wsf_2001_2011": 2.79,
+        "ghs_pop_2000_2015": 3.13,
+        "censo_estado_2001_2011": 2.39,
+        "censo_municipal_2001_2011": 2.93,
+        "ine_estimada_municipal_2001_2011": 2.08
+      },
+      "20pct": {
+        "ghsl_2000_2015": 3.26,
+        "wsf_2000_2015": 2.41,
+        "wsf_2001_2011": 2.71,
+        "ghs_pop_2000_2015": 3.11,
+        "censo_estado_2001_2011": 2.39,
+        "censo_municipal_2001_2011": 2.93,
+        "ine_estimada_municipal_2001_2011": 2.08
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.77,
+    "ods_max": 1.59,
+    "ods_solo_censo_municipal": [
+      0.82,
+      1.13
+    ],
+    "lectura": "no concluyente",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "Margarita": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.26,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.27,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.25,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.31,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.28,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.29,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.27,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.33,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.3,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.31,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.29,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.36,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.25,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.26,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.25,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.3,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.27,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.28,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.26,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.33,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.3,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.31,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.29,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.35,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 0.25,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 0.25,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 0.24,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 0.29,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 0.26,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.27,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.25,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 0.31,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 0.29,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.29,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.27,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.34
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "ANTOLIN DEL CAMPO (NUEVA ESPARTA)",
+          "DIAZ (NUEVA ESPARTA)",
+          "GARCIA (NUEVA ESPARTA)",
+          "MANEIRO (NUEVA ESPARTA)",
+          "ARISMENDI (NUEVA ESPARTA)",
+          "MARINO (NUEVA ESPARTA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.0,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "ANTOLIN DEL CAMPO (NUEVA ESPARTA)",
+          "DIAZ (NUEVA ESPARTA)",
+          "GARCIA (NUEVA ESPARTA)",
+          "MANEIRO (NUEVA ESPARTA)",
+          "ARISMENDI (NUEVA ESPARTA)",
+          "MARINO (NUEVA ESPARTA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "ANTOLIN DEL CAMPO (NUEVA ESPARTA)",
+          "DIAZ (NUEVA ESPARTA)",
+          "GARCIA (NUEVA ESPARTA)",
+          "MANEIRO (NUEVA ESPARTA)",
+          "ARISMENDI (NUEVA ESPARTA)",
+          "MARINO (NUEVA ESPARTA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 0.74,
+        "wsf_2000_2015": 0.79,
+        "wsf_2001_2011": 0.86,
+        "ghs_pop_2000_2015": 2.83,
+        "censo_estado_2001_2011": 2.74,
+        "censo_municipal_2001_2011": 2.92,
+        "ine_estimada_municipal_2001_2011": 2.38
+      },
+      "15pct": {
+        "ghsl_2000_2015": 0.72,
+        "wsf_2000_2015": 0.77,
+        "wsf_2001_2011": 0.84,
+        "ghs_pop_2000_2015": 2.83,
+        "censo_estado_2001_2011": 2.74,
+        "censo_municipal_2001_2011": 2.92,
+        "ine_estimada_municipal_2001_2011": 2.38
+      },
+      "20pct": {
+        "ghsl_2000_2015": 0.7,
+        "wsf_2000_2015": 0.73,
+        "wsf_2001_2011": 0.8,
+        "ghs_pop_2000_2015": 2.81,
+        "censo_estado_2001_2011": 2.74,
+        "censo_municipal_2001_2011": 2.92,
+        "ine_estimada_municipal_2001_2011": 2.38
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.24,
+    "ods_max": 0.36,
+    "ods_solo_censo_municipal": [
+      0.24,
+      0.29
+    ],
+    "lectura": "densificación robusta",
+    "lectura_matriz_2x2": "densificación robusta"
+  },
+  "Caracas metropolitana": {
+    "combinaciones": {
+      "10pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.82,
+      "10pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.08,
+      "10pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.37,
+      "10pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.39,
+      "10pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.42,
+      "10pct · wsf_2000_2015 · censo_estado_2001_2011": 0.84,
+      "10pct · wsf_2000_2015 · censo_municipal_2001_2011": 1.06,
+      "10pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.08,
+      "10pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.26,
+      "10pct · wsf_2001_2011 · censo_estado_2001_2011": 0.75,
+      "10pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.95,
+      "10pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.96,
+      "15pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.84,
+      "15pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.05,
+      "15pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.36,
+      "15pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.36,
+      "15pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.37,
+      "15pct · wsf_2000_2015 · censo_estado_2001_2011": 0.78,
+      "15pct · wsf_2000_2015 · censo_municipal_2001_2011": 1.02,
+      "15pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.01,
+      "15pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.21,
+      "15pct · wsf_2001_2011 · censo_estado_2001_2011": 0.69,
+      "15pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.9,
+      "15pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.9,
+      "20pct · ghsl_2000_2015 · ghs_pop_2000_2015": 1.74,
+      "20pct · ghsl_2000_2015 · censo_estado_2001_2011": 1.16,
+      "20pct · ghsl_2000_2015 · censo_municipal_2001_2011": 1.31,
+      "20pct · ghsl_2000_2015 · ine_estimada_municipal_2001_2011": 1.43,
+      "20pct · wsf_2000_2015 · ghs_pop_2000_2015": 1.31,
+      "20pct · wsf_2000_2015 · censo_estado_2001_2011": 0.88,
+      "20pct · wsf_2000_2015 · censo_municipal_2001_2011": 0.99,
+      "20pct · wsf_2000_2015 · ine_estimada_municipal_2001_2011": 1.08,
+      "20pct · wsf_2001_2011 · ghs_pop_2000_2015": 1.2,
+      "20pct · wsf_2001_2011 · censo_estado_2001_2011": 0.8,
+      "20pct · wsf_2001_2011 · censo_municipal_2001_2011": 0.91,
+      "20pct · wsf_2001_2011 · ine_estimada_municipal_2001_2011": 0.99
+    },
+    "municipios": {
+      "10pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CARRIZAL (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "GUAICAIPURO (MIRANDA)",
+          "LOS SALIAS (MIRANDA)",
+          "PAZ CASTILLO (MIRANDA)",
+          "PLAZA (MIRANDA)",
+          "VARGAS (LA GUAIRA)",
+          "INDEPENDENCIA (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SIMON BOLIVAR (MIRANDA)",
+          "SUCRE (MIRANDA)",
+          "ZAMORA (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.8,
+        "sin_dato_censal": []
+      },
+      "15pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CARRIZAL (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "GUAICAIPURO (MIRANDA)",
+          "LOS SALIAS (MIRANDA)",
+          "PAZ CASTILLO (MIRANDA)",
+          "PLAZA (MIRANDA)",
+          "VARGAS (LA GUAIRA)",
+          "INDEPENDENCIA (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SUCRE (MIRANDA)",
+          "ZAMORA (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 99.7,
+        "sin_dato_censal": []
+      },
+      "20pct": {
+        "incluidos": [
+          "BARUTA (MIRANDA)",
+          "CARRIZAL (MIRANDA)",
+          "CHACAO (MIRANDA)",
+          "CRISTOBAL ROJAS (MIRANDA)",
+          "EL HATILLO (MIRANDA)",
+          "GUAICAIPURO (MIRANDA)",
+          "LOS SALIAS (MIRANDA)",
+          "PAZ CASTILLO (MIRANDA)",
+          "PLAZA (MIRANDA)",
+          "VARGAS (LA GUAIRA)",
+          "INDEPENDENCIA (MIRANDA)",
+          "LIBERTADOR (DISTRITO CAPITAL)",
+          "SUCRE (MIRANDA)",
+          "URDANETA (MIRANDA)",
+          "ZAMORA (MIRANDA)"
+        ],
+        "pct_poblacion_de_la_mancha_en_esos_municipios": 100.0,
+        "sin_dato_censal": []
+      }
+    },
+    "tasas_pct_anual": {
+      "10pct": {
+        "ghsl_2000_2015": 1.16,
+        "wsf_2000_2015": 0.9,
+        "wsf_2001_2011": 0.8,
+        "ghs_pop_2000_2015": 0.64,
+        "censo_estado_2001_2011": 1.07,
+        "censo_municipal_2001_2011": 0.85,
+        "ine_estimada_municipal_2001_2011": 0.84
+      },
+      "15pct": {
+        "ghsl_2000_2015": 1.13,
+        "wsf_2000_2015": 0.84,
+        "wsf_2001_2011": 0.74,
+        "ghs_pop_2000_2015": 0.61,
+        "censo_estado_2001_2011": 1.07,
+        "censo_municipal_2001_2011": 0.83,
+        "ine_estimada_municipal_2001_2011": 0.83
+      },
+      "20pct": {
+        "ghsl_2000_2015": 1.25,
+        "wsf_2000_2015": 0.94,
+        "wsf_2001_2011": 0.86,
+        "ghs_pop_2000_2015": 0.72,
+        "censo_estado_2001_2011": 1.07,
+        "censo_municipal_2001_2011": 0.95,
+        "ine_estimada_municipal_2001_2011": 0.87
+      }
+    },
+    "n_combinaciones": 36,
+    "ods_min": 0.69,
+    "ods_max": 1.84,
+    "ods_solo_censo_municipal": [
+      0.9,
+      1.37
+    ],
+    "lectura": "no concluyente",
+    "lectura_matriz_2x2": "no concluyente"
+  },
+  "_control_censo_municipal": {
+    "ANZOATEGUI": "cuadra",
+    "ARAGUA": "sin censo municipal",
+    "BOLIVAR": "sin censo municipal",
+    "CARABOBO": "cuadra",
+    "DISTRITO CAPITAL": "cuadra",
+    "LA GUAIRA": "cuadra",
+    "LARA": "cuadra",
+    "MIRANDA": "cuadra",
+    "MONAGAS": "cuadra",
+    "NUEVA ESPARTA": "cuadra",
+    "ZULIA": "sin censo municipal"
+  }
+}
