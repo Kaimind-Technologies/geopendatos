@@ -33,6 +33,7 @@ Cada construcción es **el contorno de un techo** (huella o *footprint*): un pol
 - Las imágenes satelitales son de distintos años, así que las construcciones recientes pueden faltar.
 - La IA puede unir techos pegados en zonas muy densas (cuenta de menos) o detectar estructuras que no son construcciones (cuenta de más).
 - Cada construcción se asigna al estado que contiene el centro de su techo, dentro de los límites de geoBoundaries (sin la Guayana Esequiba).
+- Los límites de geoBoundaries son simplificados, así que el borde cuenta. En [P03](../p03-crecimiento/PROCESO.md) se revisó la cifra contra el contorno del país: el 98,29% de las construcciones cae dentro; el 0,56% en la franja donde los polígonos simplificados de Venezuela y Colombia se superponen; el 1,12% en la costa, fuera del contorno simplificado pero en territorio venezolano; y solo el 0,04% (4.364) queda fuera según todos los polígonos. La cifra se sostiene, con una incertidumbre por los límites de como máximo ~0,6%.
 - No hay duplicados entre fuentes: Overture las fusiona, y en Caracas solo el 0,03% de los techos se solapa con otro.
 
 **Construcción ≠ vivienda.** Frente a las 8.216.443 viviendas del censo 2011 hay 1,32 construcciones por vivienda, con un patrón claro: en el Distrito Capital hay 2,4 viviendas por construcción (torres de apartamentos) y en Apure, 2 construcciones por vivienda (anexos rurales).
