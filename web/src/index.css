@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/* ============================================
+   KAIMIND DATOS ABIERTOS — tokens de diseño
+   Paleta oficial de Kaimind (BrandBook feb/2026), con una versión clara:
+   el verde y el turquesa de marca no llegan a 4,5:1 sobre blanco, así que en
+   modo claro el texto usa versiones más oscuras y la marca queda en rellenos.
+   ============================================ */
+
+/* Caffie Lofie (display de marca) se carga desde kaimindconsulting.com, que la
+   sirve con CORS, en vez de copiarla a este repo open source: no tenemos
+   confirmado que su licencia permita redistribuirla. Si no carga, cae a Poppins. */
+@font-face {
+  font-family: "Caffie Lofie";
+  src: url("https://kaimindconsulting.com/fonts/caffie-lofie-italic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Modo claro (por defecto) */
+:root {
+  color-scheme: light;
+  --page: #f7f9f8;
+  --card: #ffffff;
+  --ink: #0b0d0c;
+  --ink-muted: #4b5350;
+  --line: rgb(11 13 12 / 0.1);
+  --accent: #2a7350; /* Data Green oscurecido: 5,4:1 sobre --page */
+  --eyebrow: #2a6f66; /* Human Turquoise oscurecido: 5,6:1 */
+  --glow-a: rgb(76 174 126 / 0.16);
+  --glow-b: rgb(99 93 194 / 0.1);
+  /* Mapa: un solo tono, de claro (pocas) a oscuro (muchas construcciones) */
+  --hx-0: #e3e8e5;
+  --hx-1: #7ec4a1;
+  --hx-2: #54a87d;
+  --hx-3: #3a8a61;
+  --hx-4: #276a49;
+  --hx-5: #154530;
+}
+
+/* Modo oscuro: el negro de marca del sitio principal */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #000000;
+  --card: #0b0c0c;
+  --ink: #ffffff;
+  --ink-muted: #a6aba9;
+  --line: rgb(255 255 255 / 0.12);
+  --accent: #4cae7e;
+  --eyebrow: #7fd7c3;
+  --glow-a: rgb(76 174 126 / 0.16);
+  --glow-b: rgb(99 93 194 / 0.14);
+  /* Mapa: se invierte el ancla, más construcciones = más luz */
+  --hx-0: #1c211f;
+  --hx-1: #215c40;
+  --hx-2: #2e7f58;
+  --hx-3: #43a373;
+  --hx-4: #6fc79a;
+  --hx-5: #a9e7c8;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-eyebrow: var(--eyebrow);
+}
+
+@theme {
+  /* Colores de marca fijos (iguales en ambos temas) */
+  --color-kgreen: #4cae7e;
+  --color-kblue: #1f2aa5;
+  --color-ksystem: #465da9;
+  --color-kpurple: #635dc2;
+  --color-kturquoise: #7fd7c3;
+
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Caffie Lofie", "Poppins", sans-serif;
+  --font-code: "Source Code Pro Variable", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    background-color: var(--page);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    background-color: var(--page);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: var(--color-kgreen);
+    color: #000;
+  }
+}
+
+@layer components {
+  /* Etiqueta pequeña tipo código, como en el sitio principal */
+  .k-eyebrow {
+    font-family: var(--font-code);
+    font-size: 0.78rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--eyebrow);
+  }
+  .font-display {
+    font-style: italic;
+  }
+}
+
+/* Clases del mapa de hexágonos (hx-0 = sin construcciones) */
+.hx-0 { fill: var(--hx-0); }
+.hx-1 { fill: var(--hx-1); }
+.hx-2 { fill: var(--hx-2); }
+.hx-3 { fill: var(--hx-3); }
+.hx-4 { fill: var(--hx-4); }
+.hx-5 { fill: var(--hx-5); }
