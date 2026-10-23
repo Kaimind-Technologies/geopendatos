@@ -7,8 +7,8 @@ Las dos tienen las mismas capas: hexágonos res 8 con el año de urbanización (
 y contornos celestes en las celdas de ~5 km² que suman la mitad del crecimiento 2000-2015 (WSF).
 
 Parte del estado real de GeoLibre 3.4.0 capturado en P02 (plantilla con el puente embed).
-Colores: lo que ya era asentamiento en 1985 en gris tenue; lo nuevo, de violeta (1986) a
-amarillo (2015). Altura 3D según el % del hexágono que es asentamiento en 2015.
+Colores: lo que ya era asentamiento en 1985 en verde azulado; lo nuevo, de fucsia (1986) a
+amarillo (2015). Debajo, el país (fondo azul y contorno claro) y los límites de los estados. Altura 3D según el % del hexágono que es asentamiento en 2015.
 
 Uso:
     python -P geolibre_project.py --base http://localhost:8766/p03-crecimiento   (pruebas)
@@ -29,9 +29,10 @@ TEMPLATE = HERE.parent / "p02-concentracion" / "geolibre" / "plantilla_estado_ge
 GEO = HERE / "geolibre"
 DARK = "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 
-COLOR_ANIO = ["case", ["<=", ["get", "anio"], 1985], "#4b5563",
+# Ya existía en 1985: verde azulado (paleta Kaimind). Lo nuevo: de fucsia (1986) a amarillo (2015).
+COLOR_ANIO = ["case", ["<=", ["get", "anio"], 1985], "#3f8f87",
               ["interpolate", ["linear"], ["get", "anio"],
-               1986, "#5b2a86", 1995, "#b0307a", 2005, "#f0614a", 2015, "#fde725"]]
+               1986, "#c026d3", 1995, "#f43f5e", 2005, "#fb923c", 2015, "#fde047"]]
 
 
 def year_ms(y: int) -> int:
@@ -103,6 +104,14 @@ def main() -> None:
     }
     for fname, view in vistas.items():
         proj, tpl = base_project("Kaimind · Así crecieron las ciudades de Venezuela, 1985-2015 (P03)", view)
+        # Contexto: el país (fondo y contorno) y sus estados, debajo de los hexágonos.
+        add_layer(proj, tpl, "Venezuela", f"{args.base}/output/ven_contorno.parquet", ["nombre"],
+                  cnt("ven_contorno.parquet"),
+                  {"vectorStyleMode": "single", "fillColor": "#1F2AA5", "fillOpacity": 0.28, "strokeColor": "#e5e7eb",
+                   "strokeWidth": 2.5, "extrusionEnabled": False}, False)
+        add_layer(proj, tpl, "Estados", f"{args.base}/output/ven_estados.parquet", ["nombre"], cnt("ven_estados.parquet"),
+                  {"vectorStyleMode": "single", "fillColor": "#000000", "fillOpacity": 0, "strokeColor": "#64748b",
+                   "strokeWidth": 1, "extrusionEnabled": False}, False)
         add_layer(proj, tpl, "La mitad del crecimiento 2000-2015 (~5 km²)", f"{args.base}/output/hex_r7_mitad_crecimiento.parquet",
                   ["h3", "nuevo_wsf_m2", "nuevo_ghsl_m2", "tambien_en_ghsl"], cnt("hex_r7_mitad_crecimiento.parquet"),
                   {"vectorStyleMode": "single", "fillColor": "#22d3ee", "fillOpacity": 0.14, "strokeColor": "#67e8f9",

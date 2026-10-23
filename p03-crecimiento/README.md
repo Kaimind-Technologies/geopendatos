@@ -11,7 +11,8 @@
 Cómo leerlo:
 
 - Cada hexágono mide ~0,74 km² (H3 resolución 8). Aparece el año en que su asentamiento superó el 10% de su área.
-- **Gris**: ya era asentamiento en 1985 (o antes). **De violeta (1986) a amarillo (2015)**: lo nuevo.
+- **Verde azulado**: ya era asentamiento en 1985 (o antes). **De fucsia (1986) a amarillo (2015)**: lo nuevo.
+- **Fondo azul con contorno claro**: Venezuela (sin la Guayana Esequiba); las líneas grises finas son los límites de los estados (geoBoundaries).
 - **Altura**: cuánto del hexágono es asentamiento en 2015.
 - **Contornos celestes**: las celdas de ~5 km² que, juntas, suman la mitad del crecimiento 2000-2015 (WSF). La capa dice además si cada celda también está entre las que suman la mitad según el GHSL.
 - A diferencia de P02, aquí los años del slider **son años reales**.

@@ -34,7 +34,11 @@ YELLOW, CYAN = (253, 231, 37), (56, 189, 248)
 BOX = (11, 16, 32, 180)
 FADE = 8
 # Mismos colores que geolibre_project.py (COLOR_ANIO)
-RAMP = [(1986, (91, 42, 134)), (1995, (176, 48, 122)), (2005, (240, 97, 74)), (2015, (253, 231, 37))]
+RAMP = [(1986, (192, 38, 211)), (1995, (244, 63, 94)), (2005, (251, 146, 60)), (2015, (253, 224, 71))]
+EXISTENTE = (63, 143, 135)
+# Zona que muestra la cámara del video (aprox.), para el minimapa de ubicación
+VISTA = (-68.7, 9.1, -66.4, 11.0)
+CONTORNO = VIDEO.parent / "output" / "ven_contorno.parquet"
 
 
 def font(path: str, size: int, text: str, max_w: int) -> ImageFont.FreeTypeFont:
@@ -73,7 +77,7 @@ def counter(d, year: int, km2: float) -> None:
     d.text((x0, y0 + 144), es, font=font(FONT_R, 26, es, 570), fill=SOFT + (255,))
     # Leyenda: gris = ya existía en 1985; rampa 1986 → 2015 = nuevo.
     ly = y0 + 192
-    d.rectangle([x0, ly, x0 + 28, ly + 18], fill=(75, 85, 99, 255))
+    d.rectangle([x0, ly, x0 + 28, ly + 18], fill=EXISTENTE + (255,))
     d.text((x0 + 36, ly - 4), "1985", font=ImageFont.truetype(FONT_R, 20), fill=SOFT + (255,))
     gx = x0 + 110
     for i in range(220):
@@ -81,6 +85,32 @@ def counter(d, year: int, km2: float) -> None:
     d.text((gx + 228, ly - 4), "1986 → 2015", font=ImageFont.truetype(FONT_R, 20), fill=SOFT + (255,))
     d.rectangle([gx + 360, ly, gx + 388, ly + 18], outline=CYAN + (255,), width=2)
     d.text((gx + 396, ly - 4), "½ of growth", font=ImageFont.truetype(FONT_R, 20), fill=CYAN + (255,))
+
+
+def locator() -> Image.Image:
+    """Minimapa: Venezuela completa con un recuadro en la zona que muestra el video."""
+    import duckdb
+    con = duckdb.connect()
+    con.execute("INSTALL spatial; LOAD spatial;")
+    gj = json.loads(con.execute(f"SELECT ST_AsGeoJSON(geometry) FROM read_parquet('{CONTORNO.as_posix()}')").fetchone()[0])
+    polys = gj["coordinates"] if gj["type"] == "MultiPolygon" else [gj["coordinates"]]
+    pts = [p for poly in polys for p in poly[0]]
+    x0, x1 = min(p[0] for p in pts), max(p[0] for p in pts)
+    y0, y1 = min(p[1] for p in pts), max(p[1] for p in pts)
+    mw, pad, top = 230, 14, 34
+    k = mw / (x1 - x0)
+    mh = int((y1 - y0) * k)
+    img = Image.new("RGBA", (mw + 2 * pad, mh + top + pad), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([0, 0, img.width - 1, img.height - 1], radius=14, fill=BOX)
+    xy = lambda lon, lat: (pad + (lon - x0) * k, top + (y1 - lat) * k)
+    for poly in polys:
+        d.polygon([xy(*p) for p in poly[0]], fill=(31, 42, 165, 255), outline=(229, 231, 235, 255))
+    d.rectangle([xy(VISTA[0], VISTA[3]), xy(VISTA[2], VISTA[1])], outline=YELLOW + (255,), width=3)
+    lab = "Venezuela · zona del video"
+    f = font(FONT_R, 18, lab, img.width - 2 * pad)
+    d.text(((img.width - f.getlength(lab)) / 2, 8), lab, font=f, fill=SOFT + (255,))
+    return img
 
 
 def credit(d) -> None:
@@ -101,6 +131,7 @@ def main() -> None:
     for i, y in enumerate(schedule):
         first.setdefault(y, i)
     end0 = first[2015]
+    mini = locator()
 
     for i, y in enumerate(schedule):
         img = Image.open(FRAMES / f"{i:06d}.jpg").convert("RGBA")
@@ -138,6 +169,8 @@ def main() -> None:
                           ("Link in comments · Link en comentarios", FONT_R, 30, MUTED)], a)
         if y > 1985 and k < 165:
             counter(d, y, serie[y])
+        if k < 165:
+            layer.alpha_composite(mini, (W - 52 - mini.width, 300))
         credit(d)
         Image.alpha_composite(img, layer).convert("RGB").save(OUT_FRAMES / f"{i:06d}.jpg", quality=94)
 
