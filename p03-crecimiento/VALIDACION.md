@@ -160,8 +160,8 @@ Sensibilidad a la omisión censal: con la población estimada por el INE (correg
 ## Pendientes
 
 - **Censo municipal de Zulia, Aragua y Bolívar.** Sus PDF del INE (`ESTADO-ZULIA.pdf`, `ESTADO-ARAGUA-1.pdf`, `ESTADO-BOLIVAR.pdf`) no se pudieron descargar el 22 de octubre de 2026: el servidor del INE rechazaba las conexiones y la copia del Internet Archive limitaba las descargas. Sus municipios ya están en el CSV con las columnas del censo vacías: basta con llenar `censo_2001` y `censo_2011` desde el Cuadro 2.2 y volver a correr `verify_cities_census.py`. El script comprueba que los municipios de cada estado sumen el total estatal y se detiene si no cuadra. Solo Zulia puede cambiar lo publicable (Maracaibo). Si con el censo municipal Maracaibo da < 0,9 en las 36 combinaciones, se suma a las otras tres ciudades; si no, queda "no concluyente".
-- **Video.** Sus textos son los de la primera versión: "la mitad del crecimiento en menos del 1% del territorio (0,38%)" queda en 🟡 y "más de la mitad en los bordes" es más débil que "9 de cada 10 km² nuevos, pegados a lo existente". Además, el contador y el slider muestran los saltos de 1991 y 1996 (T1). Si no se regraba, el texto del post debe aclarar ambas cosas.
-- **Lámina.** `lamina_proceso.py` ya tiene los textos nuevos, pero usa fuentes de Windows (Segoe UI): el PNG se regenera en esa máquina.
+- ~~**Video.**~~ Resuelto el 22 de octubre: los textos del video siguen esta validación ("9 de cada 10 km² nuevos, pegados a zonas ya urbanas" y "el suelo urbano creció algo más lento que la población", ODS 0,88-0,95), y antes de 2000 avisa que los saltos de 1991 y 1996 son huecos en las imágenes (T1). Los contornos celestes siguen marcando la mitad del crecimiento 2000-2015 (T3, 🟡).
+- ~~**Lámina.**~~ Resuelto el 22 de octubre: `output/como_verificamos.png` regenerada con los textos nuevos.
 
 ## Fuentes nuevas
 

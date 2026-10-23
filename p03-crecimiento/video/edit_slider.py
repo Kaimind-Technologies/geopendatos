@@ -2,9 +2,10 @@
 anual y leyenda de colores, dibujados cuadro a cuadro con Pillow.
 
 Solo se muestran hallazgos que resistieron las verificaciones (PROCESO.md §4.1):
-  - 2000-2015: la mitad del crecimiento cayó en menos del 1% del territorio (0,34-0,38% en
-    hexágonos de ~5 km², GHSL y WSF; contornos celestes en el video);
-  - 2000-2015: más de la mitad del crecimiento fue en los bordes de las ciudades.
+  - 2000-2015: 9 de cada 10 km² nuevos aparecieron pegados a zonas ya urbanas (relleno o
+    bordes; 18 variantes del método, VALIDACION.md T4);
+  - 2000-2015: el suelo urbano creció algo más lento que la población (ODS 0,88-0,95, T2).
+Antes de 2000 se avisa que los saltos de 1991 y 1996 son artefactos de las imágenes (T1).
 
 Lee video/frames_slider/ (record_slider.py) y video/serie_anual.json (layers_slider.py).
 Salida: video/p03_geolibre_bilingue.mp4
@@ -111,20 +112,25 @@ def main() -> None:
             top_block(d, [("How Venezuela's central cities grew, 1985-2015", FONT_B, 42, WHITE),
                           ("Así crecieron las ciudades del centro de Venezuela, 1985-2015", FONT_R, 32, SOFT),
                           ("Valencia · Maracay · Caracas · Valles del Tuy", FONT_R, 26, MUTED)], a)
+        elif y < 2000:
+            top_block(d, [("Year by year, from satellite data", FONT_B, 40, WHITE),
+                          ("Año a año, con datos satelitales", FONT_R, 32, SOFT),
+                          ("Before 2000, read it by decade: the 1991 and 1996 jumps are imagery gaps", FONT_R, 22, MUTED),
+                          ("Antes de 2000, léelo por décadas: los saltos de 1991 y 1996 son huecos en las imágenes", FONT_R, 22, MUTED)], 1)
         elif y < 2015 or k < 30:
             top_block(d, [("Year by year, from satellite data", FONT_B, 40, WHITE),
                           ("Año a año, con datos satelitales", FONT_R, 32, SOFT)], 1)
         elif k < 105:
             a = min(1, (k - 29) / FADE)
-            top_block(d, [("Half of 2000-2015 growth landed on less than 1% of the land", FONT_B, 40, CYAN),
-                          ("La mitad del crecimiento 2000-2015 cayó en menos del 1% del territorio", FONT_B, 32, WHITE),
-                          ("(light-blue outlines · 0.38% of the land · two satellite datasets agree)", FONT_R, 24, MUTED),
-                          ("(contornos celestes · el 0,38% del territorio · coinciden dos fuentes satelitales)", FONT_R, 24, MUTED)], a)
+            top_block(d, [("9 in 10 km² of new settlement grew next to existing urban areas", FONT_B, 40, CYAN),
+                          ("9 de cada 10 km² nuevos crecieron pegados a zonas ya urbanas", FONT_B, 32, WHITE),
+                          ("(2000-2015 · infill or city edges · two satellite products agree)", FONT_R, 24, MUTED),
+                          ("(2000-2015 · relleno o bordes · coinciden dos productos satelitales)", FONT_R, 24, MUTED)], a)
         elif k < 165:
             a = min(1, (k - 104) / FADE)
-            top_block(d, [("More than half of it grew at the edges of cities", FONT_B, 42, YELLOW),
-                          ("Más de la mitad creció en los bordes de las ciudades", FONT_B, 34, WHITE),
-                          ("(2000-2015 · GHSL and WSF agree / GHSL y WSF coinciden)", FONT_R, 24, MUTED)], a)
+            top_block(d, [("2000-2015: urban land grew slightly slower than the population", FONT_B, 40, YELLOW),
+                          ("2000-2015: el suelo urbano creció algo más lento que la población", FONT_B, 32, WHITE),
+                          ("(UN SDG 11.3.1: 0.88-0.95 · satellites and censuses / satélites y censos)", FONT_R, 24, MUTED)], a)
         else:
             a = min(1, (k - 164) / FADE)
             top_block(d, [("Explore it yourself in GeoLibre", FONT_B, 48, WHITE),
