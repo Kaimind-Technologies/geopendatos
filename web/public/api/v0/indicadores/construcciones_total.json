@@ -1,0 +1,36 @@
+{
+  "id": "construcciones_total",
+  "publicacion": "P01",
+  "nombre": {
+    "es": "Construcciones en Venezuela",
+    "en": "Structures in Venezuela"
+  },
+  "valor": 10861395,
+  "rango": null,
+  "unidad": "construcciones",
+  "escala": null,
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": {
+    "es": "Son techos, no viviendas ni personas. El 92% de los contornos viene de imágenes satelitales anteriores al sismo del 24 de junio de 2026: no reflejan los daños.",
+    "en": "Rooftops, not dwellings or people. 92% of footprints come from satellite imagery predating the 24 June 2026 earthquake: they do not reflect the damage."
+  },
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "Cada contorno de techo de Overture cuyo centro cae dentro de Venezuela. Una casa cuenta como una y una torre también.",
+    "en": "Every Overture rooftop footprint whose centre falls inside Venezuela. A house counts as one, and so does a tower."
+  },
+  "pruebas": [
+    "Correlación 0,87 con las viviendas del censo de 2011 por estado",
+    "Control de límites: incertidumbre de como máximo ~0,6% (P03, PROCESO.md §3.5)",
+    "0,03% de posibles duplicados entre fuentes en Caracas"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p01-edificios-overture/output/p01_cifras.json#total_edificios"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p01-edificios-overture"
+}

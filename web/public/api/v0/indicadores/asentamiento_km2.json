@@ -1,0 +1,37 @@
+{
+  "id": "asentamiento_km2",
+  "publicacion": "P03",
+  "nombre": {
+    "es": "Superficie de asentamiento de Venezuela",
+    "en": "Settlement area of Venezuela"
+  },
+  "valor": {
+    "1985": 2541.9,
+    "2015": 4389.4
+  },
+  "rango": null,
+  "unidad": "km²",
+  "escala": null,
+  "periodo": "1985-2015",
+  "estado": "verificada",
+  "nota": {
+    "es": "Los saltos de 1991 y 1996 de la serie anual son huecos en las imágenes, no auges (VALIDACION.md T1).",
+    "en": "The 1991 and 1996 jumps in the yearly series are imagery gaps, not booms (VALIDACION.md T1)."
+  },
+  "fuentes": [
+    "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "Píxeles de ~30 m marcados como asentamiento por WSF-Evolution, recortados con el contorno del país. Serie anual en /series/asentamiento.json.",
+    "en": "~30 m pixels flagged as settlement by WSF-Evolution, clipped to the country outline. Yearly series in /series/asentamiento.json."
+  },
+  "pruebas": [
+    "Recortado con otro polígono (ADM1) cambia ~1,5%: redondear a 'unos 2.500 y 4.400 km²'"
+  ],
+  "licencia": "ccby",
+  "origen": [
+    "p03-crecimiento/video/serie_anual.json#km2_acumulados"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+}

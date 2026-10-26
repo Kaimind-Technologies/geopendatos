@@ -1,0 +1,34 @@
+{
+  "codigo": "la-guaira",
+  "nombre": "La Guaira",
+  "construcciones": {
+    "valor": 116964,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 22.9,
+    "2015": 34.3,
+    "pct_anual": {
+      "1985-1990": 2.52,
+      "1990-2000": 1.87,
+      "2000-2015": 0.6
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 298109,
+    "censo_2011": 352920,
+    "ghs_pop_2000": 279765,
+    "ghs_pop_2010": 328664,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.69,
+      "ghs_pop_2000_2010": 1.61
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

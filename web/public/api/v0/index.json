@@ -1,0 +1,67 @@
+{
+  "nombre": "Venezuela en datos abiertos",
+  "version": "0.1.0",
+  "proyecto": "Kaimind",
+  "descripcion": {
+    "es": "Métricas proxy, verificadas con una segunda fuente, para un país sin cifras oficiales actualizadas.",
+    "en": "Proxy metrics, checked against a second source, for a country without up-to-date official figures."
+  },
+  "recursos": [
+    "indicadores.json",
+    "estados.json",
+    "ciudades.json",
+    "series/asentamiento.json",
+    "capas.json",
+    "descartes.json",
+    "openapi.json"
+  ],
+  "publicaciones": {
+    "P01": {
+      "titulo": {
+        "es": "¿Cuántas construcciones tiene Venezuela?",
+        "en": "How many structures does Venezuela have?"
+      },
+      "carpeta": "p01-edificios-overture",
+      "licencia": "odbl"
+    },
+    "P02": {
+      "titulo": {
+        "es": "La Venezuela concentrada",
+        "en": "Concentrated Venezuela"
+      },
+      "carpeta": "p02-concentracion",
+      "licencia": "odbl"
+    },
+    "P03": {
+      "titulo": {
+        "es": "Así crecieron las ciudades de Venezuela, 1985-2015",
+        "en": "How Venezuela's cities grew, 1985-2015"
+      },
+      "carpeta": "p03-crecimiento",
+      "licencia": "ccby"
+    }
+  },
+  "licencias": {
+    "odbl": {
+      "id": "ODbL-1.0",
+      "nombre": "Open Database License 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "atribucion": "© OpenStreetMap contributors, Overture Maps Foundation",
+      "nota": "Si redistribuyes los datos o una base derivada, debe ser con la misma licencia."
+    },
+    "ccby": {
+      "id": "CC-BY-4.0",
+      "nombre": "Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "atribucion": "GHSL © European Commission, JRC · WSF-Evolution © DLR · censos del INE"
+    },
+    "geoboundaries": {
+      "id": "CC-BY-3.0-IGO",
+      "nombre": "Creative Commons Attribution 3.0 IGO",
+      "url": "https://creativecommons.org/licenses/by/3.0/igo/",
+      "atribucion": "geoBoundaries (Runfola et al., 2020)"
+    }
+  },
+  "repositorio": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos",
+  "como_citar": "Kaimind (2026). Venezuela en datos abiertos. https://github.com/Kaimind-Technologies/venezuela-datos-abiertos"
+}

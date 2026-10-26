@@ -3,7 +3,7 @@ import { useI18n } from "../i18n";
 import Section from "./Section";
 
 const ICONOS = [FiUnlock, FiRefreshCw, FiCheckCircle];
-const STACK = ["DuckDB", "GeoParquet", "H3", "Overture Maps", "OpenStreetMap", "geoBoundaries", "GeoLibre"];
+const STACK = ["DuckDB", "GeoParquet", "H3", "Overture Maps", "OpenStreetMap", "GHSL (JRC)", "WSF-Evolution (DLR)", "INE", "geoBoundaries", "GeoLibre"];
 
 export default function Method() {
   const { t } = useI18n();

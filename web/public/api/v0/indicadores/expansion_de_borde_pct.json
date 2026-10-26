@@ -1,0 +1,34 @@
+{
+  "id": "expansion_de_borde_pct",
+  "publicacion": "P03",
+  "nombre": {
+    "es": "Expansión de borde, la forma de crecimiento más común",
+    "en": "Edge expansion, the most common form of growth"
+  },
+  "valor": null,
+  "rango": [
+    51,
+    74
+  ],
+  "unidad": "% del área nueva",
+  "escala": null,
+  "periodo": "2000-2015",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+    "GHS-BUILT-S R2023A (JRC, Comisión Europea), 100 m"
+  ],
+  "metodo": {
+    "es": "Tipología LEI, igual que el indicador anterior.",
+    "en": "LEI typology, as above."
+  },
+  "pruebas": [
+    "Es la forma más común en las 18 variantes"
+  ],
+  "licencia": "ccby",
+  "origen": [
+    "p03-crecimiento/output/p03_validacion.json#t4_sensibilidad_lei_2000_2015"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "codigo": "maracaibo",
+    "nombre": "Maracaibo",
+    "estado": "pendiente",
+    "lectura": {
+      "es": "Las 27 combinaciones disponibles dan menos de 0,9; falta el censo de sus municipios.",
+      "en": "All 27 available combinations are below 0.9; its municipal census is missing."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.28,
+      "max": 0.68,
+      "combinaciones": 27,
+      "solo_censo_municipal": null
+    },
+    "municipios": [
+      "JESUS ENRIQUE LOSSADA (ZULIA)",
+      "MARACAIBO (ZULIA)",
+      "SAN FRANCISCO (ZULIA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "valencia",
+    "nombre": "Valencia",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.52,
+      "max": 1.06,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.62,
+        0.97
+      ]
+    },
+    "municipios": [
+      "GUACARA (CARABOBO)",
+      "LOS GUAYOS (CARABOBO)",
+      "NAGUANAGUA (CARABOBO)",
+      "SAN DIEGO (CARABOBO)",
+      "VALENCIA (CARABOBO)",
+      "LIBERTADOR (CARABOBO)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "caracas-valle",
+    "nombre": "Caracas (valle)",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.43,
+      "max": 3.17,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.86,
+        1.71
+      ]
+    },
+    "municipios": [
+      "BARUTA (MIRANDA)",
+      "CHACAO (MIRANDA)",
+      "EL HATILLO (MIRANDA)",
+      "LIBERTADOR (DISTRITO CAPITAL)",
+      "SUCRE (MIRANDA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "maracay-turmero",
+    "nombre": "Maracay-Turmero",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.4,
+      "max": 2.35,
+      "combinaciones": 27,
+      "solo_censo_municipal": null
+    },
+    "municipios": [
+      "FRANCISCO LINARES ALCANTARA (ARAGUA)",
+      "JOSE ANGEL LAMAS (ARAGUA)",
+      "MARIO BRICENO IRAGORRY (ARAGUA)",
+      "SANTIAGO MARINO (ARAGUA)",
+      "GIRARDOT (ARAGUA)",
+      "LIBERTADOR (ARAGUA)",
+      "SUCRE (ARAGUA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "barquisimeto",
+    "nombre": "Barquisimeto",
+    "estado": "verificada",
+    "lectura": {
+      "es": "La población creció más rápido que la superficie urbanizada en las 36 combinaciones probadas.",
+      "en": "Population grew faster than urbanised land in all 36 combinations tested."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.32,
+      "max": 0.59,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.33,
+        0.48
+      ]
+    },
+    "municipios": [
+      "IRIBARREN (LARA)",
+      "PALAVECINO (LARA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "ciudad-guayana",
+    "nombre": "Ciudad Guayana",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.3,
+      "max": 1.13,
+      "combinaciones": 27,
+      "solo_censo_municipal": null
+    },
+    "municipios": [
+      "CARONI (BOLIVAR)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "costa-oriental-del-lago",
+    "nombre": "Costa Oriental del Lago",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.6,
+      "max": 1.39,
+      "combinaciones": 27,
+      "solo_censo_municipal": null
+    },
+    "municipios": [
+      "CABIMAS (ZULIA)",
+      "LAGUNILLAS (ZULIA)",
+      "SIMON BOLIVAR (ZULIA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "barcelona-puerto-la-cruz",
+    "nombre": "Barcelona-Puerto La Cruz",
+    "estado": "verificada",
+    "lectura": {
+      "es": "La población creció más rápido que la superficie urbanizada en las 36 combinaciones probadas.",
+      "en": "Population grew faster than urbanised land in all 36 combinations tested."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.29,
+      "max": 0.45,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.3,
+        0.38
+      ]
+    },
+    "municipios": [
+      "GUANTA (ANZOATEGUI)",
+      "JUAN ANTONIO SOTILLO (ANZOATEGUI)",
+      "DIEGO BAUTISTA URBANEJA (ANZOATEGUI)",
+      "SIMON BOLIVAR (ANZOATEGUI)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "maturin",
+    "nombre": "Maturín",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.77,
+      "max": 1.59,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.82,
+        1.13
+      ]
+    },
+    "municipios": [
+      "MATURIN (MONAGAS)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "margarita",
+    "nombre": "Margarita",
+    "estado": "verificada",
+    "lectura": {
+      "es": "La población creció más rápido que la superficie urbanizada en las 36 combinaciones probadas.",
+      "en": "Population grew faster than urbanised land in all 36 combinations tested."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.24,
+      "max": 0.36,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.24,
+        0.29
+      ]
+    },
+    "municipios": [
+      "ANTOLIN DEL CAMPO (NUEVA ESPARTA)",
+      "DIAZ (NUEVA ESPARTA)",
+      "GARCIA (NUEVA ESPARTA)",
+      "MANEIRO (NUEVA ESPARTA)",
+      "ARISMENDI (NUEVA ESPARTA)",
+      "MARINO (NUEVA ESPARTA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  },
+  {
+    "codigo": "caracas-metropolitana",
+    "nombre": "Caracas metropolitana",
+    "estado": "sin_lectura",
+    "lectura": {
+      "es": "Sin lectura: según la fuente y el método, el resultado cambia de sentido.",
+      "en": "No reading: depending on source and method, the result changes direction."
+    },
+    "ods_11_3_1_2000_2015": {
+      "min": 0.69,
+      "max": 1.84,
+      "combinaciones": 36,
+      "solo_censo_municipal": [
+        0.9,
+        1.37
+      ]
+    },
+    "municipios": [
+      "BARUTA (MIRANDA)",
+      "CARRIZAL (MIRANDA)",
+      "CHACAO (MIRANDA)",
+      "EL HATILLO (MIRANDA)",
+      "GUAICAIPURO (MIRANDA)",
+      "LOS SALIAS (MIRANDA)",
+      "PAZ CASTILLO (MIRANDA)",
+      "PLAZA (MIRANDA)",
+      "VARGAS (LA GUAIRA)",
+      "INDEPENDENCIA (MIRANDA)",
+      "LIBERTADOR (DISTRITO CAPITAL)",
+      "SUCRE (MIRANDA)",
+      "ZAMORA (MIRANDA)"
+    ],
+    "licencia": "ccby",
+    "origen": "p03-crecimiento/output/p03_validacion_ciudades.json"
+  }
+]

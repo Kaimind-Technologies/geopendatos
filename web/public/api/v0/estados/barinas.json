@@ -1,0 +1,34 @@
+{
+  "codigo": "barinas",
+  "nombre": "Barinas",
+  "construcciones": {
+    "valor": 484271,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 74.5,
+    "2015": 148.7,
+    "pct_anual": {
+      "1985-1990": 1.35,
+      "1990-2000": 3.31,
+      "2000-2015": 1.95
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 624508,
+    "censo_2011": 816264,
+    "ghs_pop_2000": 635070,
+    "ghs_pop_2010": 829679,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 2.68,
+      "ghs_pop_2000_2010": 2.67
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

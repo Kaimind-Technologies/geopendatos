@@ -1,0 +1,34 @@
+{
+  "codigo": "merida",
+  "nombre": "Mérida",
+  "construcciones": {
+    "valor": 329426,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 56.0,
+    "2015": 97.5,
+    "pct_anual": {
+      "1985-1990": 1.68,
+      "1990-2000": 2.92,
+      "2000-2015": 1.18
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 715268,
+    "censo_2011": 828592,
+    "ghs_pop_2000": 705394,
+    "ghs_pop_2010": 814054,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.47,
+      "ghs_pop_2000_2010": 1.43
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

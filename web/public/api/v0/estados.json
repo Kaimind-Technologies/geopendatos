@@ -1,0 +1,852 @@
+[
+  {
+    "codigo": "amazonas",
+    "nombre": "Amazonas",
+    "construcciones": {
+      "valor": 73423,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 14.7,
+      "2015": 27.7,
+      "pct_anual": {
+        "1985-1990": 0.34,
+        "1990-2000": 3.78,
+        "2000-2015": 1.59
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 70464,
+      "censo_2011": 146480,
+      "ghs_pop_2000": 112716,
+      "ghs_pop_2010": 151737,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 7.32,
+        "ghs_pop_2000_2010": 2.97
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "anzoategui",
+    "nombre": "Anzoátegui",
+    "construcciones": {
+      "valor": 657925,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 238.2,
+      "2015": 329.1,
+      "pct_anual": {
+        "1985-1990": 0.51,
+        "1990-2000": 1.64,
+        "2000-2015": 0.9
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1222225,
+      "censo_2011": 1469747,
+      "ghs_pop_2000": 1225466,
+      "ghs_pop_2010": 1472046,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.84,
+        "ghs_pop_2000_2010": 1.83
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "apure",
+    "nombre": "Apure",
+    "construcciones": {
+      "valor": 260652,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 32.3,
+      "2015": 75.6,
+      "pct_anual": {
+        "1985-1990": 1.96,
+        "1990-2000": 3.98,
+        "2000-2015": 2.36
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 377756,
+      "censo_2011": 459025,
+      "ghs_pop_2000": 398566,
+      "ghs_pop_2010": 489684,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.95,
+        "ghs_pop_2000_2010": 2.06
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "aragua",
+    "nombre": "Aragua",
+    "construcciones": {
+      "valor": 513191,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 173.5,
+      "2015": 252.9,
+      "pct_anual": {
+        "1985-1990": 1.37,
+        "1990-2000": 1.74,
+        "2000-2015": 0.9
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1449616,
+      "censo_2011": 1630308,
+      "ghs_pop_2000": 1731398,
+      "ghs_pop_2010": 1862636,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.17,
+        "ghs_pop_2000_2010": 0.73
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "barinas",
+    "nombre": "Barinas",
+    "construcciones": {
+      "valor": 484271,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 74.5,
+      "2015": 148.7,
+      "pct_anual": {
+        "1985-1990": 1.35,
+        "1990-2000": 3.31,
+        "2000-2015": 1.95
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 624508,
+      "censo_2011": 816264,
+      "ghs_pop_2000": 635070,
+      "ghs_pop_2010": 829679,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.68,
+        "ghs_pop_2000_2010": 2.67
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "bolivar",
+    "nombre": "Bolívar",
+    "construcciones": {
+      "valor": 655473,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 200.5,
+      "2015": 306.8,
+      "pct_anual": {
+        "1985-1990": 1.02,
+        "1990-2000": 1.96,
+        "2000-2015": 1.19
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1214846,
+      "censo_2011": 1413115,
+      "ghs_pop_2000": 1351582,
+      "ghs_pop_2010": 1568169,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.51,
+        "ghs_pop_2000_2010": 1.49
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "carabobo",
+    "nombre": "Carabobo",
+    "construcciones": {
+      "valor": 751634,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 173.6,
+      "2015": 420.1,
+      "pct_anual": {
+        "1985-1990": 9.94,
+        "1990-2000": 1.92,
+        "2000-2015": 1.3
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1932168,
+      "censo_2011": 2245744,
+      "ghs_pop_2000": 1844575,
+      "ghs_pop_2010": 2236439,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.5,
+        "ghs_pop_2000_2010": 1.93
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "cojedes",
+    "nombre": "Cojedes",
+    "construcciones": {
+      "valor": 182422,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 31.0,
+      "2015": 74.3,
+      "pct_anual": {
+        "1985-1990": 5.41,
+        "1990-2000": 3.27,
+        "2000-2015": 1.84
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 253105,
+      "censo_2011": 323165,
+      "ghs_pop_2000": 274870,
+      "ghs_pop_2010": 349903,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.44,
+        "ghs_pop_2000_2010": 2.41
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "delta-amacuro",
+    "nombre": "Delta Amacuro",
+    "construcciones": {
+      "valor": 77952,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 8.0,
+      "2015": 18.6,
+      "pct_anual": {
+        "1985-1990": 0.81,
+        "1990-2000": 4.48,
+        "2000-2015": 2.38
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 97987,
+      "censo_2011": 165525,
+      "ghs_pop_2000": 104170,
+      "ghs_pop_2010": 167508,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 5.24,
+        "ghs_pop_2000_2010": 4.75
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "dependencias-federales",
+    "nombre": "Dependencias Federales",
+    "construcciones": {
+      "valor": 877,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 0.0,
+      "2015": 0.0,
+      "pct_anual": {
+        "1985-1990": 0.0,
+        "1990-2000": 0.0,
+        "2000-2015": 0.0
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1651,
+      "censo_2011": 2155,
+      "ghs_pop_2000": 5,
+      "ghs_pop_2010": 6,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.66,
+        "ghs_pop_2000_2010": 1.82
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "distrito-capital",
+    "nombre": "Distrito Capital",
+    "construcciones": {
+      "valor": 244833,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 91.4,
+      "2015": 101.2,
+      "pct_anual": {
+        "1985-1990": 0.12,
+        "1990-2000": 0.27,
+        "2000-2015": 0.46
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1836286,
+      "censo_2011": 1943901,
+      "ghs_pop_2000": 1698493,
+      "ghs_pop_2010": 1777972,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 0.57,
+        "ghs_pop_2000_2010": 0.46
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "falcon",
+    "nombre": "Falcón",
+    "construcciones": {
+      "valor": 461739,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 69.4,
+      "2015": 164.3,
+      "pct_anual": {
+        "1985-1990": 3.91,
+        "1990-2000": 3.03,
+        "2000-2015": 2.43
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 763188,
+      "censo_2011": 902847,
+      "ghs_pop_2000": 764497,
+      "ghs_pop_2010": 913103,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.68,
+        "ghs_pop_2000_2010": 1.78
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "guarico",
+    "nombre": "Guárico",
+    "construcciones": {
+      "valor": 388140,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 106.0,
+      "2015": 163.0,
+      "pct_anual": {
+        "1985-1990": 0.83,
+        "1990-2000": 1.99,
+        "2000-2015": 1.27
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 627086,
+      "censo_2011": 747739,
+      "ghs_pop_2000": 628696,
+      "ghs_pop_2010": 744597,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.76,
+        "ghs_pop_2000_2010": 1.69
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "la-guaira",
+    "nombre": "La Guaira",
+    "construcciones": {
+      "valor": 116964,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 22.9,
+      "2015": 34.3,
+      "pct_anual": {
+        "1985-1990": 2.52,
+        "1990-2000": 1.87,
+        "2000-2015": 0.6
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 298109,
+      "censo_2011": 352920,
+      "ghs_pop_2000": 279765,
+      "ghs_pop_2010": 328664,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.69,
+        "ghs_pop_2000_2010": 1.61
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "lara",
+    "nombre": "Lara",
+    "construcciones": {
+      "valor": 824152,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 178.8,
+      "2015": 273.9,
+      "pct_anual": {
+        "1985-1990": 2.53,
+        "1990-2000": 1.61,
+        "2000-2015": 0.92
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 1556415,
+      "censo_2011": 1774867,
+      "ghs_pop_2000": 1626263,
+      "ghs_pop_2010": 1854683,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.31,
+        "ghs_pop_2000_2010": 1.31
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "miranda",
+    "nombre": "Miranda",
+    "construcciones": {
+      "valor": 738954,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 213.5,
+      "2015": 337.2,
+      "pct_anual": {
+        "1985-1990": 0.26,
+        "1990-2000": 1.89,
+        "2000-2015": 1.7
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 2330872,
+      "censo_2011": 2675165,
+      "ghs_pop_2000": 2745228,
+      "ghs_pop_2010": 3105164,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.38,
+        "ghs_pop_2000_2010": 1.23
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "monagas",
+    "nombre": "Monagas",
+    "construcciones": {
+      "valor": 421995,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 104.5,
+      "2015": 200.4,
+      "pct_anual": {
+        "1985-1990": 0.32,
+        "1990-2000": 2.81,
+        "2000-2015": 2.36
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 712626,
+      "censo_2011": 905443,
+      "ghs_pop_2000": 719019,
+      "ghs_pop_2010": 916717,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.39,
+        "ghs_pop_2000_2010": 2.43
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "merida",
+    "nombre": "Mérida",
+    "construcciones": {
+      "valor": 329426,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 56.0,
+      "2015": 97.5,
+      "pct_anual": {
+        "1985-1990": 1.68,
+        "1990-2000": 2.92,
+        "2000-2015": 1.18
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 715268,
+      "censo_2011": 828592,
+      "ghs_pop_2000": 705394,
+      "ghs_pop_2010": 814054,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.47,
+        "ghs_pop_2000_2010": 1.43
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "nueva-esparta",
+    "nombre": "Nueva Esparta",
+    "construcciones": {
+      "valor": 208846,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 67.0,
+      "2015": 118.9,
+      "pct_anual": {
+        "1985-1990": 0.46,
+        "1990-2000": 4.28,
+        "2000-2015": 0.82
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 373851,
+      "censo_2011": 491610,
+      "ghs_pop_2000": 347960,
+      "ghs_pop_2010": 462193,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.74,
+        "ghs_pop_2000_2010": 2.84
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "portuguesa",
+    "nombre": "Portuguesa",
+    "construcciones": {
+      "valor": 448007,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 103.6,
+      "2015": 167.4,
+      "pct_anual": {
+        "1985-1990": 1.37,
+        "1990-2000": 2.18,
+        "2000-2015": 1.29
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 725740,
+      "censo_2011": 876496,
+      "ghs_pop_2000": 745468,
+      "ghs_pop_2010": 900105,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.89,
+        "ghs_pop_2000_2010": 1.88
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "sucre",
+    "nombre": "Sucre",
+    "construcciones": {
+      "valor": 361627,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 86.3,
+      "2015": 131.7,
+      "pct_anual": {
+        "1985-1990": 0.78,
+        "1990-2000": 1.79,
+        "2000-2015": 1.36
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 786483,
+      "censo_2011": 896291,
+      "ghs_pop_2000": 822295,
+      "ghs_pop_2010": 935724,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.31,
+        "ghs_pop_2000_2010": 1.29
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "trujillo",
+    "nombre": "Trujillo",
+    "construcciones": {
+      "valor": 335761,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 54.8,
+      "2015": 87.4,
+      "pct_anual": {
+        "1985-1990": 0.9,
+        "1990-2000": 2.22,
+        "2000-2015": 1.33
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 608563,
+      "censo_2011": 686367,
+      "ghs_pop_2000": 642727,
+      "ghs_pop_2010": 722780,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.2,
+        "ghs_pop_2000_2010": 1.17
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "tachira",
+    "nombre": "Táchira",
+    "construcciones": {
+      "valor": 488959,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 90.4,
+      "2015": 164.6,
+      "pct_anual": {
+        "1985-1990": 1.43,
+        "1990-2000": 3.32,
+        "2000-2015": 1.3
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 992669,
+      "censo_2011": 1168908,
+      "ghs_pop_2000": 1033313,
+      "ghs_pop_2010": 1221694,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.63,
+        "ghs_pop_2000_2010": 1.67
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "yaracuy",
+    "nombre": "Yaracuy",
+    "construcciones": {
+      "valor": 279842,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 56.2,
+      "2015": 102.1,
+      "pct_anual": {
+        "1985-1990": 1.62,
+        "1990-2000": 2.65,
+        "2000-2015": 1.68
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 499049,
+      "censo_2011": 600852,
+      "ghs_pop_2000": 526715,
+      "ghs_pop_2010": 635780,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 1.86,
+        "ghs_pop_2000_2010": 1.88
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  },
+  {
+    "codigo": "zulia",
+    "nombre": "Zulia",
+    "construcciones": {
+      "valor": 1554330,
+      "fuente": "P01",
+      "licencia": "odbl"
+    },
+    "asentamiento_wsf_km2": {
+      "1985": 347.7,
+      "2015": 659.9,
+      "pct_anual": {
+        "1985-1990": 2.77,
+        "1990-2000": 2.61,
+        "2000-2015": 1.61
+      },
+      "fuente": "P03",
+      "licencia": "ccby",
+      "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+    },
+    "poblacion": {
+      "censo_2001": 2983679,
+      "censo_2011": 3704404,
+      "ghs_pop_2000": 3043042,
+      "ghs_pop_2010": 3754045,
+      "crecimiento_pct_anual": {
+        "censo_2001_2011": 2.16,
+        "ghs_pop_2000_2010": 2.1
+      },
+      "fuente": "P03 (INE y GHS-POP)",
+      "licencia": "ccby",
+      "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+    }
+  }
+]

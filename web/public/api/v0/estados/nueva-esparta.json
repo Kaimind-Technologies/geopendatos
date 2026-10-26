@@ -1,0 +1,34 @@
+{
+  "codigo": "nueva-esparta",
+  "nombre": "Nueva Esparta",
+  "construcciones": {
+    "valor": 208846,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 67.0,
+    "2015": 118.9,
+    "pct_anual": {
+      "1985-1990": 0.46,
+      "1990-2000": 4.28,
+      "2000-2015": 0.82
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 373851,
+    "censo_2011": 491610,
+    "ghs_pop_2000": 347960,
+    "ghs_pop_2010": 462193,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 2.74,
+      "ghs_pop_2000_2010": 2.84
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

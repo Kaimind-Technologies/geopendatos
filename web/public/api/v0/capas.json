@@ -1,0 +1,374 @@
+[
+  {
+    "id": "ven_h3_r7",
+    "publicacion": "P01",
+    "descripcion": {
+      "es": "Construcciones por hexágono H3 de ~5 km² (res 7)",
+      "en": "Structures per ~5 km² H3 hexagon (res 7)"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p01-edificios-overture/output/ven_h3_r7.parquet",
+    "filas": 88987,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "edificios",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p01-edificios-overture/output/ven_h3_r7.parquet' LIMIT 10;"
+  },
+  {
+    "id": "caracas_edificios",
+    "publicacion": "P01",
+    "descripcion": {
+      "es": "Cada construcción de Caracas, con su fuente (OSM, Microsoft o Google)",
+      "en": "Every structure in Caracas, with its source"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p01-edificios-overture/output/caracas_edificios.parquet",
+    "filas": 244833,
+    "campos": [
+      {
+        "nombre": "id",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "fuente",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "subtype",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "num_floors",
+        "tipo": "INTEGER"
+      },
+      {
+        "nombre": "height",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p01-edificios-overture/output/caracas_edificios.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r7_ranking",
+    "publicacion": "P02",
+    "descripcion": {
+      "es": "Hexágonos de ~5 km² ordenados de más a menos construcciones, con el % acumulado",
+      "en": "~5 km² hexagons ranked by structures, with cumulative %"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r7_ranking.parquet",
+    "filas": 88987,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "construcciones",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "ranking",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "pct_acumulado",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "anio",
+        "tipo": "INTEGER"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": "https://web.geolibre.app/?welcome=0&theme=dark&url=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp02-concentracion%2Fgeolibre%2Fp02_concentracion.geolibre.json",
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r7_ranking.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r7_gistar",
+    "publicacion": "P02",
+    "descripcion": {
+      "es": "Gi* por hexágono: z, p por Monte Carlo, p normal y clase",
+      "en": "Gi* per hexagon: z, Monte Carlo p, normal p and class"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r7_gistar.parquet",
+    "filas": 154130,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "construcciones",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "z",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "p",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "p_normal",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "clase",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r7_gistar.parquet' LIMIT 10;"
+  },
+  {
+    "id": "aglomeraciones",
+    "publicacion": "P02",
+    "descripcion": {
+      "es": "Las 200 aglomeraciones urbanas más grandes, por construcciones",
+      "en": "The 200 largest urban agglomerations, by structures"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/aglomeraciones.parquet",
+    "filas": 200,
+    "campos": [
+      {
+        "nombre": "rango",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "construcciones",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/aglomeraciones.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r9_top",
+    "publicacion": "P02",
+    "descripcion": {
+      "es": "Hexágonos de ~0,1 km² con más construcciones: techo total, cobertura y techo mediano",
+      "en": "~0.1 km² hexagons with most structures"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r9_top.parquet",
+    "filas": 2751,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "construcciones",
+        "tipo": "BIGINT"
+      },
+      {
+        "nombre": "techo_m2",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "cobertura_pct",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "techo_mediana_m2",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "estado",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "odbl",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p02-concentracion/output/hex_r9_top.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r8_urbanizacion_wsf",
+    "publicacion": "P03",
+    "descripcion": {
+      "es": "Año en que cada hexágono de ~0,74 km² superó el 10% de asentamiento (1985-2015)",
+      "en": "Year each ~0.74 km² hexagon passed 10% settlement (1985-2015)"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r8_urbanizacion_wsf.parquet",
+    "filas": 13009,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "anio",
+        "tipo": "SMALLINT"
+      },
+      {
+        "nombre": "asentamiento_2015_pct",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "ccby",
+    "geolibre": "https://web.geolibre.app/?welcome=0&theme=dark&url=https%3A%2F%2Fraw.githubusercontent.com%2FKaimind-Technologies%2Fvenezuela-datos-abiertos%2Fmain%2Fp03-crecimiento%2Fgeolibre%2Fp03_explorar.geolibre.json",
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r8_urbanizacion_wsf.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r7_urbanizacion_wsf",
+    "publicacion": "P03",
+    "descripcion": {
+      "es": "Lo mismo, con hexágonos de ~5 km²",
+      "en": "Same, with ~5 km² hexagons"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r7_urbanizacion_wsf.parquet",
+    "filas": 2168,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "anio",
+        "tipo": "INTEGER"
+      },
+      {
+        "nombre": "asentamiento_2015_pct",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "ccby",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r7_urbanizacion_wsf.parquet' LIMIT 10;"
+  },
+  {
+    "id": "hex_r7_mitad_crecimiento",
+    "publicacion": "P03",
+    "descripcion": {
+      "es": "Hexágonos de ~5 km² que suman la mitad del crecimiento 2000-2015 (WSF), y si GHSL coincide",
+      "en": "~5 km² hexagons adding up to half of 2000-2015 growth (WSF), and whether GHSL agrees"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r7_mitad_crecimiento.parquet",
+    "filas": 755,
+    "campos": [
+      {
+        "nombre": "h3",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "nuevo_wsf_m2",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "nuevo_ghsl_m2",
+        "tipo": "DOUBLE"
+      },
+      {
+        "nombre": "tambien_en_ghsl",
+        "tipo": "BOOLEAN"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "ccby",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/hex_r7_mitad_crecimiento.parquet' LIMIT 10;"
+  },
+  {
+    "id": "ven_contorno",
+    "publicacion": "P03",
+    "descripcion": {
+      "es": "Contorno de Venezuela (sin la Guayana Esequiba)",
+      "en": "Outline of Venezuela (without Guayana Esequiba)"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/ven_contorno.parquet",
+    "filas": 1,
+    "campos": [
+      {
+        "nombre": "nombre",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "geoboundaries",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/ven_contorno.parquet' LIMIT 10;"
+  },
+  {
+    "id": "ven_estados",
+    "publicacion": "P03",
+    "descripcion": {
+      "es": "Límites de los 25 estados (simplificados)",
+      "en": "Boundaries of the 25 states (simplified)"
+    },
+    "formato": "GeoParquet",
+    "url": "https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/ven_estados.parquet",
+    "filas": 25,
+    "campos": [
+      {
+        "nombre": "nombre",
+        "tipo": "VARCHAR"
+      },
+      {
+        "nombre": "geometry",
+        "tipo": "GEOMETRY('OGC:CRS84')"
+      }
+    ],
+    "licencia": "geoboundaries",
+    "geolibre": null,
+    "duckdb": "INSTALL spatial; LOAD spatial; SELECT * FROM 'https://raw.githubusercontent.com/Kaimind-Technologies/venezuela-datos-abiertos/main/p03-crecimiento/output/ven_estados.parquet' LIMIT 10;"
+  }
+]

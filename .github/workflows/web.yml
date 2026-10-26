@@ -1,4 +1,5 @@
-# Publica web/ en GitHub Pages en cada push a main que toque el sitio o las cifras.
+# Publica web/ (con la API v0 en web/public/api/v0/) en GitHub Pages en cada push a main que toque
+# el sitio, las cifras o las capas.
 # Requiere: Settings → Pages → Source: "GitHub Actions".
 name: Sitio web
 
@@ -9,6 +10,10 @@ on:
       - "web/**"
       - "p01-edificios-overture/output/*.json"
       - "p02-concentracion/output/*.json"
+      - "p03-crecimiento/output/*.json"
+      - "p03-crecimiento/video/serie_anual.json"
+      - "p0*/output/*.parquet"
+      - "api/**"
       - ".github/workflows/web.yml"
   workflow_dispatch:
 
@@ -39,6 +44,14 @@ jobs:
       # Da la URL real del sitio: github.io/<repo> o el dominio propio si está configurado
       - id: pages
         uses: actions/configure-pages@v6
+      # La API v0 publicada tiene que coincidir con los resultados del repo: si alguien cambió
+      # un output/*.json sin regenerarla (python -P api/build_api.py), no se publica nada.
+      - name: Verificar la API v0
+        working-directory: .
+        run: |
+          python3 -m venv /tmp/venv
+          /tmp/venv/bin/pip install --quiet "duckdb>=1.5.0,<2"
+          /tmp/venv/bin/python -P api/build_api.py --check
       - run: npm ci
       - run: npm run build
         env:

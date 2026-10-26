@@ -1,0 +1,128 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Venezuela en datos abiertos · API estática",
+    "version": "0.1.0",
+    "description": "Métricas proxy verificadas sobre Venezuela, como archivos JSON estáticos. Cada recurso trae su licencia y su origen.",
+    "license": {
+      "name": "Datos: ODbL-1.0 (P01, P02) y CC-BY-4.0 (P03) · Código: MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "."
+    }
+  ],
+  "paths": {
+    "/index.json": {
+      "get": {
+        "summary": "Catálogo de recursos",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/indicadores.json": {
+      "get": {
+        "summary": "Todos los indicadores verificados",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/indicadores/{id}.json": {
+      "get": {
+        "summary": "Un indicador",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/estados.json": {
+      "get": {
+        "summary": "Los 25 estados: construcciones, asentamiento y población",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/estados/{codigo}.json": {
+      "get": {
+        "summary": "Un estado",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        },
+        "parameters": [
+          {
+            "name": "codigo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/ciudades.json": {
+      "get": {
+        "summary": "Lecturas por ciudad del ODS 11.3.1, con su estado de verificación",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/series/asentamiento.json": {
+      "get": {
+        "summary": "Superficie de asentamiento anual, 1985-2015",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/capas.json": {
+      "get": {
+        "summary": "Capas GeoParquet descargables, con campos, filas y licencia",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    },
+    "/descartes.json": {
+      "get": {
+        "summary": "Lo que no resistió las verificaciones, y por qué",
+        "responses": {
+          "200": {
+            "description": "JSON"
+          }
+        }
+      }
+    }
+  }
+}

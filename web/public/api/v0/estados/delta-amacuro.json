@@ -1,0 +1,34 @@
+{
+  "codigo": "delta-amacuro",
+  "nombre": "Delta Amacuro",
+  "construcciones": {
+    "valor": 77952,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 8.0,
+    "2015": 18.6,
+    "pct_anual": {
+      "1985-1990": 0.81,
+      "1990-2000": 4.48,
+      "2000-2015": 2.38
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 97987,
+    "censo_2011": 165525,
+    "ghs_pop_2000": 104170,
+    "ghs_pop_2010": 167508,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 5.24,
+      "ghs_pop_2000_2010": 4.75
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

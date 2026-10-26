@@ -1,0 +1,37 @@
+{
+  "id": "crecimiento_pegado_a_lo_urbano_pct",
+  "publicacion": "P03",
+  "nombre": {
+    "es": "Asentamiento nuevo pegado a zonas ya urbanas (relleno o borde)",
+    "en": "New settlement next to existing urban areas (infill or edge)"
+  },
+  "valor": null,
+  "rango": [
+    89,
+    96
+  ],
+  "unidad": "% del área nueva",
+  "escala": null,
+  "periodo": "2000-2015",
+  "estado": "verificada",
+  "nota": {
+    "es": "9 de cada 10 km² nuevos. Los repartos exactos de relleno y salto no se publican: dependen del método.",
+    "en": "9 in 10 new km². Exact infill and leapfrog shares are not published: they depend on the method."
+  },
+  "fuentes": [
+    "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+    "GHS-BUILT-S R2023A (JRC, Comisión Europea), 100 m"
+  ],
+  "metodo": {
+    "es": "Tipología LEI: cada mancha nueva se clasifica como relleno, expansión de borde o salto según lo urbano que la rodea.",
+    "en": "LEI typology: each new patch is classed as infill, edge expansion or leapfrog depending on the urban area around it."
+  },
+  "pruebas": [
+    "18 variantes: 2 fuentes, 3 reglas o umbrales por fuente y anillos de 100, 200 y 300 m"
+  ],
+  "licencia": "ccby",
+  "origen": [
+    "p03-crecimiento/output/p03_validacion.json#t4_sensibilidad_lei_2000_2015"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "noventa_pct_construcciones_pct_territorio",
+  "publicacion": "P02",
+  "nombre": {
+    "es": "Territorio que concentra el 90% de las construcciones",
+    "en": "Land holding 90% of all structures"
+  },
+  "valor": 6.27,
+  "rango": [
+    3.65,
+    10.1
+  ],
+  "unidad": "% del territorio",
+  "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "Igual que la mitad, con el 90%.",
+    "en": "Same as for half, with 90%."
+  },
+  "pruebas": [
+    "Depende de la escala: se publica siempre con ella"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p02-concentracion/output/p02_robustez.json"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+}

@@ -4,18 +4,23 @@ import { useI18n } from "../i18n";
 import Section from "./Section";
 
 export default function Progress() {
-  const { t, num, pct } = useI18n();
+  const { t, lang, num, pct } = useI18n();
+  // Rango con raya: 89–96 % (es) / 89–96% (en)
+  const rango = ([a, b], d = 0, signo = false) =>
+    `${num(a, d)}–${num(b, d)}` + (signo ? (lang === "es" ? " %" : "%") : "");
   const s = t.avances;
   const cifras = [
     [num(CIFRAS.construcciones), s.cifras.construcciones],
     [pct(CIFRAS.mitadPctTerritorio, 2), s.cifras.mitad],
     [pct(CIFRAS.vacioPctTerritorio, 1), s.cifras.vacio],
     [num(CIFRAS.gini, 2), s.cifras.gini],
+    [rango(CIFRAS.pegadoUrbanoPct, 0, true), s.cifras.pegado],
+    [rango(CIFRAS.ods2000_2015, 2), s.cifras.ods],
   ];
 
   return (
     <Section id={s.id} eyebrow={s.eyebrow} titulo={s.titulo} intro={s.intro}>
-      <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <dl className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {cifras.map(([valor, etiqueta]) => (
           <div key={etiqueta} className="rounded-2xl border border-line bg-card p-6">
             <dt className="sr-only">{etiqueta}</dt>
@@ -29,7 +34,7 @@ export default function Progress() {
       </dl>
       <p className="mt-5 text-sm text-ink-muted">{s.nota}</p>
 
-      <div className="mt-12 grid gap-4 md:grid-cols-2">
+      <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {s.publicaciones.map((p) => (
           <article key={p.codigo} className="flex flex-col rounded-2xl border border-line bg-card p-6 sm:p-8">
             <span className="font-code text-xs font-semibold tracking-widest text-eyebrow">{p.codigo}</span>
@@ -47,7 +52,7 @@ export default function Progress() {
               </a>
               {p.geolibre && (
                 <a
-                  href={ENLACES.geolibreP02}
+                  href={ENLACES[`geolibre${p.codigo}`]}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-accent hover:underline"

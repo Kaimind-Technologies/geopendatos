@@ -1,0 +1,34 @@
+{
+  "codigo": "monagas",
+  "nombre": "Monagas",
+  "construcciones": {
+    "valor": 421995,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 104.5,
+    "2015": 200.4,
+    "pct_anual": {
+      "1985-1990": 0.32,
+      "1990-2000": 2.81,
+      "2000-2015": 2.36
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 712626,
+    "censo_2011": 905443,
+    "ghs_pop_2000": 719019,
+    "ghs_pop_2010": 916717,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 2.39,
+      "ghs_pop_2000_2010": 2.43
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

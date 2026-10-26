@@ -1,0 +1,435 @@
+[
+  {
+    "id": "construcciones_total",
+    "publicacion": "P01",
+    "nombre": {
+      "es": "Construcciones en Venezuela",
+      "en": "Structures in Venezuela"
+    },
+    "valor": 10861395,
+    "rango": null,
+    "unidad": "construcciones",
+    "escala": null,
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": {
+      "es": "Son techos, no viviendas ni personas. El 92% de los contornos viene de imágenes satelitales anteriores al sismo del 24 de junio de 2026: no reflejan los daños.",
+      "en": "Rooftops, not dwellings or people. 92% of footprints come from satellite imagery predating the 24 June 2026 earthquake: they do not reflect the damage."
+    },
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "Cada contorno de techo de Overture cuyo centro cae dentro de Venezuela. Una casa cuenta como una y una torre también.",
+      "en": "Every Overture rooftop footprint whose centre falls inside Venezuela. A house counts as one, and so does a tower."
+    },
+    "pruebas": [
+      "Correlación 0,87 con las viviendas del censo de 2011 por estado",
+      "Control de límites: incertidumbre de como máximo ~0,6% (P03, PROCESO.md §3.5)",
+      "0,03% de posibles duplicados entre fuentes en Caracas"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p01-edificios-overture/output/p01_cifras.json#total_edificios"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p01-edificios-overture"
+  },
+  {
+    "id": "construcciones_por_fuente",
+    "publicacion": "P01",
+    "nombre": {
+      "es": "Construcciones según quién las trazó",
+      "en": "Structures by who traced them"
+    },
+    "valor": [
+      {
+        "fuente": "Microsoft ML Buildings",
+        "construcciones": 5204571,
+        "pct": 47.9
+      },
+      {
+        "fuente": "Google Open Buildings",
+        "construcciones": 4799703,
+        "pct": 44.2
+      },
+      {
+        "fuente": "OpenStreetMap",
+        "construcciones": 857121,
+        "pct": 7.9
+      }
+    ],
+    "rango": null,
+    "unidad": "construcciones y %",
+    "escala": null,
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)"
+    ],
+    "metodo": {
+      "es": "Fuente de cada contorno según Overture: IA de Microsoft o Google, o voluntarios de OpenStreetMap.",
+      "en": "Source of each footprint according to Overture: Microsoft or Google AI, or OpenStreetMap volunteers."
+    },
+    "pruebas": [
+      "Overture fusiona las fuentes sin duplicados (0,03% de solapes en Caracas)"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p01-edificios-overture/output/p01_cifras.json#por_fuente"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p01-edificios-overture"
+  },
+  {
+    "id": "mitad_construcciones_pct_territorio",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Territorio que concentra la mitad de las construcciones",
+      "en": "Land holding half of all structures"
+    },
+    "valor": 0.5,
+    "rango": [
+      0.35,
+      0.91
+    ],
+    "unidad": "% del territorio",
+    "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "Celdas ordenadas de más a menos construcciones; % del territorio (por área real) que suma la mitad.",
+      "en": "Cells sorted from most to fewest structures; share of land (true area) that adds up to half."
+    },
+    "pruebas": [
+      "Menos del 1% en las tres escalas",
+      "Sin techos de menos de 20 m²: igual",
+      "Aunque las zonas densas tuvieran el doble de techos: 0,93%"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_robustez.json"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "noventa_pct_construcciones_pct_territorio",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Territorio que concentra el 90% de las construcciones",
+      "en": "Land holding 90% of all structures"
+    },
+    "valor": 6.27,
+    "rango": [
+      3.65,
+      10.1
+    ],
+    "unidad": "% del territorio",
+    "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "Igual que la mitad, con el 90%.",
+      "en": "Same as for half, with 90%."
+    },
+    "pruebas": [
+      "Depende de la escala: se publica siempre con ella"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_robustez.json"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "territorio_sin_construcciones_pct",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Territorio sin ninguna construcción",
+      "en": "Land without a single structure"
+    },
+    "valor": 54.4,
+    "rango": [
+      34.6,
+      78.5
+    ],
+    "unidad": "% del territorio",
+    "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "depende_de_la_escala",
+    "nota": {
+      "es": "En la selva la IA puede no ver techos bajo los árboles.",
+      "en": "Under forest canopy the AI may miss rooftops."
+    },
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "% del territorio (por área) en celdas sin ningún techo.",
+      "en": "Share of land (by area) in cells with no rooftop at all."
+    },
+    "pruebas": [
+      "Cambia mucho con la escala: nunca se publica sin ella"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_robustez.json"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "gini_espacial",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Gini espacial de las construcciones",
+      "en": "Spatial Gini of structures"
+    },
+    "valor": 0.953,
+    "rango": null,
+    "unidad": "índice (0-1)",
+    "escala": "H3 res 7 (~5 km²), todo el territorio, incluidas las celdas vacías",
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "0 = repartidas por igual en el territorio; 1 = todas en un solo punto.",
+      "en": "0 = evenly spread across the land; 1 = all in a single spot."
+    },
+    "pruebas": [
+      "Calculado sobre las 192.832 celdas del país"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_stats.json#gini_espacial_territorio"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "techo_total_km2",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Superficie de todos los techos juntos",
+      "en": "Area of all rooftops combined"
+    },
+    "valor": 1155.6,
+    "rango": null,
+    "unidad": "km²",
+    "escala": null,
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)"
+    ],
+    "metodo": {
+      "es": "Suma del área de cada contorno (EPSG:6933): 0.126% del territorio.",
+      "en": "Sum of every footprint's area (EPSG:6933): 0.126% of the land."
+    },
+    "pruebas": [
+      "Mismo orden de magnitud que la superficie construida del GHSL 2020 (1.457 km²), una fuente independiente"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_cifras.json#techo_total_km2"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "puntos_calientes_construcciones",
+    "publicacion": "P02",
+    "nombre": {
+      "es": "Puntos calientes de construcciones (Gi*, Monte Carlo)",
+      "en": "Structure hot spots (Gi*, Monte Carlo)"
+    },
+    "valor": {
+      "pct_territorio": 0.35,
+      "pct_construcciones": 36.4
+    },
+    "rango": null,
+    "unidad": "% del territorio y % de las construcciones",
+    "escala": "H3 res 7 (~5 km²), 99% con FDR",
+    "periodo": "Overture Maps 2026-09-23.1",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "Getis-Ord Gi* con p-valores por Monte Carlo (5.000.000 simulaciones) y FDR de Benjamini-Hochberg.",
+      "en": "Getis-Ord Gi* with Monte Carlo p-values (5,000,000 simulations) and Benjamini-Hochberg FDR."
+    },
+    "pruebas": [
+      "Reemplaza a la versión con la curva normal, que exageraba la significancia (ver descartes)"
+    ],
+    "licencia": "odbl",
+    "origen": [
+      "p02-concentracion/output/p02_gistar.json#montecarlo"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+  },
+  {
+    "id": "asentamiento_km2",
+    "publicacion": "P03",
+    "nombre": {
+      "es": "Superficie de asentamiento de Venezuela",
+      "en": "Settlement area of Venezuela"
+    },
+    "valor": {
+      "1985": 2541.9,
+      "2015": 4389.4
+    },
+    "rango": null,
+    "unidad": "km²",
+    "escala": null,
+    "periodo": "1985-2015",
+    "estado": "verificada",
+    "nota": {
+      "es": "Los saltos de 1991 y 1996 de la serie anual son huecos en las imágenes, no auges (VALIDACION.md T1).",
+      "en": "The 1991 and 1996 jumps in the yearly series are imagery gaps, not booms (VALIDACION.md T1)."
+    },
+    "fuentes": [
+      "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+      "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+    ],
+    "metodo": {
+      "es": "Píxeles de ~30 m marcados como asentamiento por WSF-Evolution, recortados con el contorno del país. Serie anual en /series/asentamiento.json.",
+      "en": "~30 m pixels flagged as settlement by WSF-Evolution, clipped to the country outline. Yearly series in /series/asentamiento.json."
+    },
+    "pruebas": [
+      "Recortado con otro polígono (ADM1) cambia ~1,5%: redondear a 'unos 2.500 y 4.400 km²'"
+    ],
+    "licencia": "ccby",
+    "origen": [
+      "p03-crecimiento/video/serie_anual.json#km2_acumulados"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+  },
+  {
+    "id": "crecimiento_pegado_a_lo_urbano_pct",
+    "publicacion": "P03",
+    "nombre": {
+      "es": "Asentamiento nuevo pegado a zonas ya urbanas (relleno o borde)",
+      "en": "New settlement next to existing urban areas (infill or edge)"
+    },
+    "valor": null,
+    "rango": [
+      89,
+      96
+    ],
+    "unidad": "% del área nueva",
+    "escala": null,
+    "periodo": "2000-2015",
+    "estado": "verificada",
+    "nota": {
+      "es": "9 de cada 10 km² nuevos. Los repartos exactos de relleno y salto no se publican: dependen del método.",
+      "en": "9 in 10 new km². Exact infill and leapfrog shares are not published: they depend on the method."
+    },
+    "fuentes": [
+      "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+      "GHS-BUILT-S R2023A (JRC, Comisión Europea), 100 m"
+    ],
+    "metodo": {
+      "es": "Tipología LEI: cada mancha nueva se clasifica como relleno, expansión de borde o salto según lo urbano que la rodea.",
+      "en": "LEI typology: each new patch is classed as infill, edge expansion or leapfrog depending on the urban area around it."
+    },
+    "pruebas": [
+      "18 variantes: 2 fuentes, 3 reglas o umbrales por fuente y anillos de 100, 200 y 300 m"
+    ],
+    "licencia": "ccby",
+    "origen": [
+      "p03-crecimiento/output/p03_validacion.json#t4_sensibilidad_lei_2000_2015"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+  },
+  {
+    "id": "expansion_de_borde_pct",
+    "publicacion": "P03",
+    "nombre": {
+      "es": "Expansión de borde, la forma de crecimiento más común",
+      "en": "Edge expansion, the most common form of growth"
+    },
+    "valor": null,
+    "rango": [
+      51,
+      74
+    ],
+    "unidad": "% del área nueva",
+    "escala": null,
+    "periodo": "2000-2015",
+    "estado": "verificada",
+    "nota": null,
+    "fuentes": [
+      "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+      "GHS-BUILT-S R2023A (JRC, Comisión Europea), 100 m"
+    ],
+    "metodo": {
+      "es": "Tipología LEI, igual que el indicador anterior.",
+      "en": "LEI typology, as above."
+    },
+    "pruebas": [
+      "Es la forma más común en las 18 variantes"
+    ],
+    "licencia": "ccby",
+    "origen": [
+      "p03-crecimiento/output/p03_validacion.json#t4_sensibilidad_lei_2000_2015"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+  },
+  {
+    "id": "ods_11_3_1_nacional_2000_2015",
+    "publicacion": "P03",
+    "nombre": {
+      "es": "ODS 11.3.1: ritmo del suelo urbano frente al de la población",
+      "en": "SDG 11.3.1: urban land growth vs population growth"
+    },
+    "valor": null,
+    "rango": [
+      0.88,
+      0.95
+    ],
+    "unidad": "cociente",
+    "escala": null,
+    "periodo": "2000-2015 (2001-2011 con censos)",
+    "estado": "verificada",
+    "nota": {
+      "es": "No dice si eso es bueno o malo: puede ser altura, ocupación de lotes vacíos o hacinamiento.",
+      "en": "It does not say whether that is good or bad: it can be height, vacant lots filling up or overcrowding."
+    },
+    "fuentes": [
+      "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+      "GHS-BUILT-S R2023A (JRC, Comisión Europea), 100 m",
+      "GHS-POP R2023A (JRC, Comisión Europea), población modelada, 100 m",
+      "INE, censos de población 1990, 2001 y 2011 (también por municipio)"
+    ],
+    "metodo": {
+      "es": "Tasa de consumo de suelo ÷ tasa de crecimiento de la población. Menor que 1: la población crece más rápido que el suelo urbanizado.",
+      "en": "Land consumption rate ÷ population growth rate. Below 1: population grows faster than urbanised land."
+    },
+    "pruebas": [
+      "6 combinaciones: 2 fuentes de suelo × población modelada, censos y estimación del INE"
+    ],
+    "licencia": "ccby",
+    "origen": [
+      "p03-crecimiento/output/p03_nacional.json",
+      "p03-crecimiento/video/serie_anual.json",
+      "p03-crecimiento/output/p03_validacion.json#t2_ods_nacional_con_censos"
+    ],
+    "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p03-crecimiento"
+  }
+]

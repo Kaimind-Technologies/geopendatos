@@ -10,6 +10,17 @@ Una serie de **Kaimind** que explora Venezuela con datos abiertos y herramientas
 | P02 | La Venezuela concentrada / Concentrated Venezuela | [`p02-concentracion/`](p02-concentracion/) |
 | P03 | Así crecieron las ciudades de Venezuela, 1985-2015 / How Venezuela's cities grew, 1985-2015 | [`p03-crecimiento/`](p03-crecimiento/) |
 
+## API abierta v0
+
+Cada cifra verificada de la serie está publicada como JSON estático en el sitio (`/api/v0/`): indicadores, los 25 estados, ciudades, la serie de asentamiento 1985-2015, el catálogo de capas GeoParquet y el registro de lo que descartamos. Cada recurso trae su método, sus fuentes, las pruebas que pasó y su licencia. La genera [`api/build_api.py`](api/build_api.py) a partir de los `output/*.json` de cada publicación, con pruebas de coherencia; el despliegue se detiene si la API publicada no coincide con los datos del repo.
+
+> **EN** · Every verified figure in the series is published as static JSON on the site (`/api/v0/`), each with its method, sources, tests and license.
+
+```bash
+python -P api/build_api.py           # regenera web/public/api/v0/
+python -P api/build_api.py --check   # comprueba que esté al día
+```
+
 ## Stack
 
 DuckDB · GeoParquet · H3 · Overture Maps · GHSL · WSF-Evolution · geoBoundaries · rasterio · GeoLibre (Time Slider, 3D) · estadística espacial (Gini, Getis-Ord Gi\*, Zipf, tipología LEI, ODS 11.3.1)

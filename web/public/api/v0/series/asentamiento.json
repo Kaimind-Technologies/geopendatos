@@ -1,0 +1,137 @@
+{
+  "unidad": "km²",
+  "fuente": "World Settlement Footprint Evolution (DLR), 1985-2015, ~30 m",
+  "licencia": "ccby",
+  "recorte": "contorno de Venezuela (geoBoundaries ADM0)",
+  "valores": [
+    {
+      "anio": 1985,
+      "km2": 2541.9
+    },
+    {
+      "anio": 1986,
+      "km2": 2619.8
+    },
+    {
+      "anio": 1987,
+      "km2": 2699.1
+    },
+    {
+      "anio": 1988,
+      "km2": 2732.0
+    },
+    {
+      "anio": 1989,
+      "km2": 2765.4
+    },
+    {
+      "anio": 1990,
+      "km2": 2832.3
+    },
+    {
+      "anio": 1991,
+      "km2": 2959.2
+    },
+    {
+      "anio": 1992,
+      "km2": 3004.4
+    },
+    {
+      "anio": 1993,
+      "km2": 3037.0
+    },
+    {
+      "anio": 1994,
+      "km2": 3063.6
+    },
+    {
+      "anio": 1995,
+      "km2": 3086.1
+    },
+    {
+      "anio": 1996,
+      "km2": 3221.3
+    },
+    {
+      "anio": 1997,
+      "km2": 3316.0
+    },
+    {
+      "anio": 1998,
+      "km2": 3417.4
+    },
+    {
+      "anio": 1999,
+      "km2": 3491.1
+    },
+    {
+      "anio": 2000,
+      "km2": 3556.5
+    },
+    {
+      "anio": 2001,
+      "km2": 3615.2
+    },
+    {
+      "anio": 2002,
+      "km2": 3670.6
+    },
+    {
+      "anio": 2003,
+      "km2": 3718.2
+    },
+    {
+      "anio": 2004,
+      "km2": 3768.9
+    },
+    {
+      "anio": 2005,
+      "km2": 3818.1
+    },
+    {
+      "anio": 2006,
+      "km2": 3871.9
+    },
+    {
+      "anio": 2007,
+      "km2": 3936.9
+    },
+    {
+      "anio": 2008,
+      "km2": 4008.3
+    },
+    {
+      "anio": 2009,
+      "km2": 4074.4
+    },
+    {
+      "anio": 2010,
+      "km2": 4129.6
+    },
+    {
+      "anio": 2011,
+      "km2": 4183.2
+    },
+    {
+      "anio": 2012,
+      "km2": 4233.3
+    },
+    {
+      "anio": 2013,
+      "km2": 4297.7
+    },
+    {
+      "anio": 2014,
+      "km2": 4348.5
+    },
+    {
+      "anio": 2015,
+      "km2": 4389.4
+    }
+  ],
+  "nota": {
+    "es": "Los saltos de 1991 y 1996 son huecos en las imágenes Landsat, no auges. Antes de 2000, leer por décadas.",
+    "en": "The 1991 and 1996 jumps are Landsat imagery gaps, not booms. Before 2000, read by decade."
+  },
+  "origen": "p03-crecimiento/video/serie_anual.json"
+}

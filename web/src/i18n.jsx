@@ -13,6 +13,7 @@ export const TEXTOS = {
       mision: "Misión",
       metodo: "Método",
       ruta: "Hoja de ruta",
+      api: "Datos y API",
     },
     hero: {
       estado: "En desarrollo",
@@ -21,7 +22,7 @@ export const TEXTOS = {
         "Estamos construyendo una API open source de datos sociodemográficos y territoriales para países donde los datos censales son escasos, viejos o difíciles de conseguir. Empezamos por Venezuela.",
       ctaGithub: "Ver en GitHub",
       ctaMapa: "Explorar el mapa en GeoLibre",
-      nota: "La API todavía no está disponible. Mientras tanto publicamos análisis reproducibles y sus datos en GeoParquet.",
+      nota: "Ya está abierta la API v0: cada cifra en JSON, con su método, sus fuentes y su licencia, más las capas en GeoParquet.",
     },
     mapa: {
       aria: "Mapa de Venezuela en hexágonos coloreados según cuántas construcciones tiene cada uno. Las mayores concentraciones están en el norte del país.",
@@ -53,8 +54,10 @@ export const TEXTOS = {
         mitad: "del territorio concentra la mitad de esas construcciones, en celdas de ~5 km²",
         vacio: "del territorio no tiene ni una construcción a esa misma escala",
         gini: "de Gini espacial: lo construido está muy concentrado (1 sería todo en un solo punto)",
+        pegado: "del asentamiento nuevo de 2000-2015 apareció pegado a zonas ya urbanas, como relleno o en los bordes (18 variantes del método)",
+        ods: "ODS 11.3.1 en 2000-2015: el suelo urbano creció algo más lento que la población (satélites y censos)",
       },
-      nota: "Son techos, no personas ni viviendas: una casa cuenta como una y una torre también.",
+      nota: "Las cifras de P01 y P02 son techos, no personas ni viviendas: una casa cuenta como una y una torre también. Las de P03 son superficie de asentamiento. Casi todos los contornos de techo son de imágenes anteriores al sismo del 24 de junio de 2026: no reflejan los daños.",
       publicaciones: [
         {
           codigo: "P01",
@@ -67,6 +70,13 @@ export const TEXTOS = {
           carpeta: "p02-concentracion",
           titulo: "La Venezuela concentrada",
           texto: "Cuánto territorio ocupa lo construido, dónde están los puntos calientes y qué tan robustas son las cifras.",
+          geolibre: true,
+        },
+        {
+          codigo: "P03",
+          carpeta: "p03-crecimiento",
+          titulo: "Así crecieron las ciudades de Venezuela, 1985-2015",
+          texto: "Treinta años de crecimiento urbano con dos productos satelitales y los censos del INE, incluido lo que no resistió las pruebas.",
           geolibre: true,
         },
       ],
@@ -95,7 +105,7 @@ export const TEXTOS = {
       puntos: [
         {
           titulo: "Abierto de punta a punta",
-          texto: "Fuentes abiertas (Overture Maps, OpenStreetMap, geoBoundaries), herramientas open source y código con licencia MIT.",
+          texto: "Fuentes abiertas (Overture Maps, OpenStreetMap, GHSL, WSF-Evolution, censos del INE, geoBoundaries), herramientas open source y código con licencia MIT.",
         },
         {
           titulo: "Reproducible",
@@ -103,7 +113,7 @@ export const TEXTOS = {
         },
         {
           titulo: "Verificable",
-          texto: "Contrastamos con fuentes oficiales, probamos la robustez ante la escala y la fuente de los datos, y publicamos las limitaciones junto con los resultados.",
+          texto: "Cada cifra se contrasta con una segunda fuente y con los censos, se prueba ante la escala y el método, y se publica con sus limitaciones. Lo que no resiste se descarta, y lo contamos.",
         },
       ],
       stack: "Herramientas y fuentes",
@@ -116,7 +126,9 @@ export const TEXTOS = {
       items: [
         { estado: "hecho", titulo: "P01 · Conteo de construcciones", texto: "Todas las construcciones del país, por estado y en hexágonos H3." },
         { estado: "hecho", titulo: "P02 · Concentración territorial", texto: "Gini espacial, puntos calientes y aglomeraciones urbanas." },
-        { estado: "proximo", titulo: "API abierta v0", texto: "Acceso programático a las capas de Venezuela." },
+        { estado: "hecho", titulo: "P03 · Crecimiento urbano 1985-2015", texto: "Cómo y dónde crecieron las ciudades, con dos productos satelitales y los censos." },
+        { estado: "hecho", titulo: "API abierta v0", texto: "Indicadores, estados, ciudades, series y capas en JSON y GeoParquet, cada uno con su licencia." },
+        { estado: "proximo", titulo: "API de consultas", texto: "Preguntar por un punto, un polígono o un hexágono y recibir las métricas de esa zona." },
         {
           estado: "despues",
           titulo: "Indicadores sociodemográficos",
@@ -125,18 +137,46 @@ export const TEXTOS = {
         { estado: "despues", titulo: "Más países", texto: "Llevar el mismo método a otros países sin datos censales a mano." },
       ],
     },
+    api: {
+      id: "datos",
+      eyebrow: "// api_v0_",
+      titulo: "Usa los datos",
+      intro:
+        "Cada cifra que publicamos está en una API abierta: archivos JSON estáticos, sin registro ni clave, con su método, sus fuentes, las pruebas que pasó y su licencia. Las capas completas están en GeoParquet, listas para DuckDB, QGIS o GeoLibre.",
+      recursos: [
+        ["indicadores.json", "Las métricas verificadas de cada publicación, como valor o como rango"],
+        ["estados.json", "Los 25 estados: construcciones, asentamiento 1985-2015 y población de censos y modelo"],
+        ["ciudades.json", "Lecturas por ciudad del ODS 11.3.1, con su estado de verificación"],
+        ["series/asentamiento.json", "Superficie de asentamiento de Venezuela, año a año, 1985-2015"],
+        ["capas.json", "Capas GeoParquet descargables, con sus campos, filas y licencia"],
+        ["descartes.json", "Lo que no resistió las verificaciones, y por qué"],
+      ],
+      ejemplos: "Ejemplos",
+      ctaIndice: "Ver el catálogo",
+      ctaOpenapi: "Especificación OpenAPI",
+      licencia:
+        "Si usas los datos, cita la fuente y respeta la licencia de cada recurso: ODbL para lo derivado de Overture Maps (P01, P02), CC BY 4.0 para P03.",
+    },
+    descartes: {
+      id: "descartes",
+      eyebrow: "// lo_que_descartamos_",
+      titulo: "Lo que descartamos",
+      intro:
+        "Antes de publicar intentamos tumbar cada cifra. Estas no resistieron, así que no las publicamos como hallazgos, y explicamos por qué.",
+      verDocumento: "Ver la prueba",
+    },
     openSource: {
       id: "open-source",
       eyebrow: "// open_source_",
       titulo: "Construyámoslo en abierto",
       texto:
-        "El código es MIT y los datos derivados heredan la licencia ODbL de Overture Maps. Si usas los datos, encuentras un error o quieres proponer un análisis, abre un issue en GitHub.",
+        "El código es MIT. Los datos derivados de Overture Maps (P01 y P02) heredan su licencia ODbL, y los de P03 (GHSL, WSF-Evolution e INE) se publican con CC BY 4.0. Si usas los datos, encuentras un error o quieres proponer un análisis, abre un issue en GitHub.",
       ctaRepo: "Ver el repositorio",
       ctaIssue: "Abrir un issue",
     },
     footer: {
       proyecto: "Un proyecto de",
-      datos: "Datos: © OpenStreetMap contributors, Overture Maps Foundation (ODbL) · geoBoundaries (CC BY 3.0 IGO)",
+      datos: "Datos: © OpenStreetMap contributors, Overture Maps Foundation (ODbL) · GHSL © Comisión Europea, JRC y WSF-Evolution © DLR (CC BY 4.0) · INE · geoBoundaries (CC BY 3.0 IGO)",
       fuentes: "Fuentes y licencias",
       codigo: "Código bajo licencia MIT",
     },
@@ -152,6 +192,7 @@ export const TEXTOS = {
       mision: "Mission",
       metodo: "Method",
       ruta: "Roadmap",
+      api: "Data & API",
     },
     hero: {
       estado: "In development",
@@ -160,7 +201,7 @@ export const TEXTOS = {
         "We're building an open-source API of socio-demographic and territorial data for countries where census data is scarce, outdated or hard to get. We're starting with Venezuela.",
       ctaGithub: "View on GitHub",
       ctaMapa: "Explore the map in GeoLibre",
-      nota: "The API isn't available yet. In the meantime we publish reproducible analyses and their data in GeoParquet.",
+      nota: "API v0 is now open: every figure as JSON, with its method, sources and license, plus the layers in GeoParquet.",
     },
     mapa: {
       aria: "Map of Venezuela in hexagons colored by how many structures each one contains. The largest concentrations are in the north of the country.",
@@ -192,8 +233,10 @@ export const TEXTOS = {
         mitad: "of the land holds half of those structures, on ~5 km² cells",
         vacio: "of the land has not a single structure at that same scale",
         gini: "spatial Gini: the built environment is highly concentrated (1 would be everything in one spot)",
+        pegado: "of new settlement in 2000-2015 appeared right next to existing urban areas, as infill or at the edges (18 method variants)",
+        ods: "SDG 11.3.1 in 2000-2015: urban land grew slightly slower than the population (satellites and censuses)",
       },
-      nota: "These are rooftops, not people or homes: a house counts as one, and so does a tower.",
+      nota: "P01 and P02 figures are rooftops, not people or homes: a house counts as one, and so does a tower. P03 figures are settlement area. Almost all rooftop footprints come from imagery predating the 24 June 2026 earthquake: they do not reflect the damage.",
       publicaciones: [
         {
           codigo: "P01",
@@ -206,6 +249,13 @@ export const TEXTOS = {
           carpeta: "p02-concentracion",
           titulo: "Concentrated Venezuela",
           texto: "How much land the built environment takes up, where the hot spots are, and how robust the figures are.",
+          geolibre: true,
+        },
+        {
+          codigo: "P03",
+          carpeta: "p03-crecimiento",
+          titulo: "How Venezuela's cities grew, 1985-2015",
+          texto: "Thirty years of urban growth with two satellite products and the national censuses, including what didn't survive our tests.",
           geolibre: true,
         },
       ],
@@ -234,7 +284,7 @@ export const TEXTOS = {
       puntos: [
         {
           titulo: "Open end to end",
-          texto: "Open sources (Overture Maps, OpenStreetMap, geoBoundaries), open-source tools and MIT-licensed code.",
+          texto: "Open sources (Overture Maps, OpenStreetMap, GHSL, WSF-Evolution, national censuses, geoBoundaries), open-source tools and MIT-licensed code.",
         },
         {
           titulo: "Reproducible",
@@ -242,7 +292,7 @@ export const TEXTOS = {
         },
         {
           titulo: "Verifiable",
-          texto: "We check against official sources, test robustness to scale and data source, and publish limitations alongside the results.",
+          texto: "Every figure is checked against a second source and the censuses, tested against scale and method, and published with its limitations. What doesn't hold is discarded, and we say so.",
         },
       ],
       stack: "Tools and sources",
@@ -255,7 +305,9 @@ export const TEXTOS = {
       items: [
         { estado: "hecho", titulo: "P01 · Structure count", texto: "Every structure in the country, by state and on H3 hexagons." },
         { estado: "hecho", titulo: "P02 · Territorial concentration", texto: "Spatial Gini, hot spots and urban agglomerations." },
-        { estado: "proximo", titulo: "Open API v0", texto: "Programmatic access to the Venezuela layers." },
+        { estado: "hecho", titulo: "P03 · Urban growth 1985-2015", texto: "How and where cities grew, with two satellite products and the censuses." },
+        { estado: "hecho", titulo: "Open API v0", texto: "Indicators, states, cities, series and layers as JSON and GeoParquet, each with its license." },
+        { estado: "proximo", titulo: "Query API", texto: "Ask about a point, a polygon or a hexagon and get the metrics for that area." },
         {
           estado: "despues",
           titulo: "Socio-demographic indicators",
@@ -264,18 +316,45 @@ export const TEXTOS = {
         { estado: "despues", titulo: "More countries", texto: "Bringing the same method to other countries where census data is hard to get." },
       ],
     },
+    api: {
+      id: "data",
+      eyebrow: "// api_v0_",
+      titulo: "Use the data",
+      intro:
+        "Every figure we publish is in an open API: static JSON files, no sign-up or key, with its method, sources, the tests it passed and its license. The full layers are in GeoParquet, ready for DuckDB, QGIS or GeoLibre.",
+      recursos: [
+        ["indicadores.json", "The verified metrics from each post, as a value or a range"],
+        ["estados.json", "The 25 states: structures, 1985-2015 settlement and census and modelled population"],
+        ["ciudades.json", "SDG 11.3.1 readings by city, with their verification status"],
+        ["series/asentamiento.json", "Venezuela's settlement area, year by year, 1985-2015"],
+        ["capas.json", "Downloadable GeoParquet layers, with their fields, rows and license"],
+        ["descartes.json", "What didn't survive verification, and why"],
+      ],
+      ejemplos: "Examples",
+      ctaIndice: "Browse the catalog",
+      ctaOpenapi: "OpenAPI specification",
+      licencia:
+        "If you use the data, cite the source and respect each resource's license: ODbL for data derived from Overture Maps (P01, P02), CC BY 4.0 for P03.",
+    },
+    descartes: {
+      id: "discarded",
+      eyebrow: "// what_we_discarded_",
+      titulo: "What we discarded",
+      intro: "Before publishing, we try to break every figure. These didn't hold, so we don't publish them as findings, and we explain why.",
+      verDocumento: "See the test",
+    },
     openSource: {
       id: "open-source",
       eyebrow: "// open_source_",
       titulo: "Let's build it in the open",
       texto:
-        "The code is MIT-licensed and the derived data inherits Overture Maps' ODbL license. If you use the data, find a bug or want to propose an analysis, open an issue on GitHub.",
+        "The code is MIT-licensed. Data derived from Overture Maps (P01 and P02) inherits its ODbL license, and P03 data (GHSL, WSF-Evolution and national censuses) is published under CC BY 4.0. If you use the data, find a bug or want to propose an analysis, open an issue on GitHub.",
       ctaRepo: "View the repository",
       ctaIssue: "Open an issue",
     },
     footer: {
       proyecto: "A project by",
-      datos: "Data: © OpenStreetMap contributors, Overture Maps Foundation (ODbL) · geoBoundaries (CC BY 3.0 IGO)",
+      datos: "Data: © OpenStreetMap contributors, Overture Maps Foundation (ODbL) · GHSL © European Commission, JRC and WSF-Evolution © DLR (CC BY 4.0) · INE · geoBoundaries (CC BY 3.0 IGO)",
       fuentes: "Sources and licenses",
       codigo: "Code under the MIT license",
     },

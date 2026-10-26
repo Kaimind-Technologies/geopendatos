@@ -1,0 +1,36 @@
+{
+  "id": "mitad_construcciones_pct_territorio",
+  "publicacion": "P02",
+  "nombre": {
+    "es": "Territorio que concentra la mitad de las construcciones",
+    "en": "Land holding half of all structures"
+  },
+  "valor": 0.5,
+  "rango": [
+    0.35,
+    0.91
+  ],
+  "unidad": "% del territorio",
+  "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "Celdas ordenadas de más a menos construcciones; % del territorio (por área real) que suma la mitad.",
+    "en": "Cells sorted from most to fewest structures; share of land (true area) that adds up to half."
+  },
+  "pruebas": [
+    "Menos del 1% en las tres escalas",
+    "Sin techos de menos de 20 m²: igual",
+    "Aunque las zonas densas tuvieran el doble de techos: 0,93%"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p02-concentracion/output/p02_robustez.json"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+}

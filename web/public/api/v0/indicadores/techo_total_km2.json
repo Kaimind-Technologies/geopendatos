@@ -1,0 +1,30 @@
+{
+  "id": "techo_total_km2",
+  "publicacion": "P02",
+  "nombre": {
+    "es": "Superficie de todos los techos juntos",
+    "en": "Area of all rooftops combined"
+  },
+  "valor": 1155.6,
+  "rango": null,
+  "unidad": "km²",
+  "escala": null,
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)"
+  ],
+  "metodo": {
+    "es": "Suma del área de cada contorno (EPSG:6933): 0.126% del territorio.",
+    "en": "Sum of every footprint's area (EPSG:6933): 0.126% of the land."
+  },
+  "pruebas": [
+    "Mismo orden de magnitud que la superficie construida del GHSL 2020 (1.457 km²), una fuente independiente"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p02-concentracion/output/p02_cifras.json#techo_total_km2"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+}

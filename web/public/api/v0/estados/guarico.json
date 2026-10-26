@@ -1,0 +1,34 @@
+{
+  "codigo": "guarico",
+  "nombre": "Guárico",
+  "construcciones": {
+    "valor": 388140,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 106.0,
+    "2015": 163.0,
+    "pct_anual": {
+      "1985-1990": 0.83,
+      "1990-2000": 1.99,
+      "2000-2015": 1.27
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 627086,
+    "censo_2011": 747739,
+    "ghs_pop_2000": 628696,
+    "ghs_pop_2010": 744597,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.76,
+      "ghs_pop_2000_2010": 1.69
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

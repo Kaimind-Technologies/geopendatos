@@ -1,0 +1,37 @@
+{
+  "id": "territorio_sin_construcciones_pct",
+  "publicacion": "P02",
+  "nombre": {
+    "es": "Territorio sin ninguna construcción",
+    "en": "Land without a single structure"
+  },
+  "valor": 54.4,
+  "rango": [
+    34.6,
+    78.5
+  ],
+  "unidad": "% del territorio",
+  "escala": "H3 res 7 (~5 km²); el rango cubre hexágonos H3 de ~0,74, ~5 y ~36 km² (res 8, 7 y 6)",
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "depende_de_la_escala",
+  "nota": {
+    "es": "En la selva la IA puede no ver techos bajo los árboles.",
+    "en": "Under forest canopy the AI may miss rooftops."
+  },
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "% del territorio (por área) en celdas sin ningún techo.",
+    "en": "Share of land (by area) in cells with no rooftop at all."
+  },
+  "pruebas": [
+    "Cambia mucho con la escala: nunca se publica sin ella"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p02-concentracion/output/p02_robustez.json"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+}

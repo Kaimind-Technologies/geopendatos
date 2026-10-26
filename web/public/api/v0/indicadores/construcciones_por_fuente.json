@@ -1,0 +1,46 @@
+{
+  "id": "construcciones_por_fuente",
+  "publicacion": "P01",
+  "nombre": {
+    "es": "Construcciones según quién las trazó",
+    "en": "Structures by who traced them"
+  },
+  "valor": [
+    {
+      "fuente": "Microsoft ML Buildings",
+      "construcciones": 5204571,
+      "pct": 47.9
+    },
+    {
+      "fuente": "Google Open Buildings",
+      "construcciones": 4799703,
+      "pct": 44.2
+    },
+    {
+      "fuente": "OpenStreetMap",
+      "construcciones": 857121,
+      "pct": 7.9
+    }
+  ],
+  "rango": null,
+  "unidad": "construcciones y %",
+  "escala": null,
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)"
+  ],
+  "metodo": {
+    "es": "Fuente de cada contorno según Overture: IA de Microsoft o Google, o voluntarios de OpenStreetMap.",
+    "en": "Source of each footprint according to Overture: Microsoft or Google AI, or OpenStreetMap volunteers."
+  },
+  "pruebas": [
+    "Overture fusiona las fuentes sin duplicados (0,03% de solapes en Caracas)"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p01-edificios-overture/output/p01_cifras.json#por_fuente"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p01-edificios-overture"
+}

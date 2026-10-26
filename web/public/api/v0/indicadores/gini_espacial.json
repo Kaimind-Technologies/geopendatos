@@ -1,0 +1,31 @@
+{
+  "id": "gini_espacial",
+  "publicacion": "P02",
+  "nombre": {
+    "es": "Gini espacial de las construcciones",
+    "en": "Spatial Gini of structures"
+  },
+  "valor": 0.953,
+  "rango": null,
+  "unidad": "índice (0-1)",
+  "escala": "H3 res 7 (~5 km²), todo el territorio, incluidas las celdas vacías",
+  "periodo": "Overture Maps 2026-09-23.1",
+  "estado": "verificada",
+  "nota": null,
+  "fuentes": [
+    "Overture Maps, tema buildings, release 2026-09-23.1 (incluye OpenStreetMap, Microsoft ML Buildings y Google Open Buildings)",
+    "geoBoundaries gbOpen VEN ADM0/ADM1 (sin la Guayana Esequiba)"
+  ],
+  "metodo": {
+    "es": "0 = repartidas por igual en el territorio; 1 = todas en un solo punto.",
+    "en": "0 = evenly spread across the land; 1 = all in a single spot."
+  },
+  "pruebas": [
+    "Calculado sobre las 192.832 celdas del país"
+  ],
+  "licencia": "odbl",
+  "origen": [
+    "p02-concentracion/output/p02_stats.json#gini_espacial_territorio"
+  ],
+  "documentacion": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/tree/main/p02-concentracion"
+}

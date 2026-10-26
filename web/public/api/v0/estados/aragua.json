@@ -1,0 +1,34 @@
+{
+  "codigo": "aragua",
+  "nombre": "Aragua",
+  "construcciones": {
+    "valor": 513191,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 173.5,
+    "2015": 252.9,
+    "pct_anual": {
+      "1985-1990": 1.37,
+      "1990-2000": 1.74,
+      "2000-2015": 0.9
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 1449616,
+    "censo_2011": 1630308,
+    "ghs_pop_2000": 1731398,
+    "ghs_pop_2010": 1862636,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.17,
+      "ghs_pop_2000_2010": 0.73
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

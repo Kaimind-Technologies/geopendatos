@@ -1,0 +1,119 @@
+[
+  {
+    "id": "p02_puntos_calientes_curva_normal",
+    "publicacion": "P02",
+    "afirmacion": {
+      "es": "Los puntos calientes ocupan el 1,56% del territorio con el 65,7% de las construcciones",
+      "en": "Hot spots cover 1.56% of the land with 65.7% of structures"
+    },
+    "por_que": {
+      "es": "La significancia salía de la curva normal, que exagera con datos tan sesgados. Con Monte Carlo: 0,35% del territorio con el 36,4%.",
+      "en": "Significance came from the normal curve, which overstates it with such skewed data. With Monte Carlo: 0.35% of the land with 36.4%."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p02-concentracion/README.md"
+  },
+  {
+    "id": "p03_puntos_calientes_curva_normal",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "El 70,4% del crecimiento 2000-2015 cayó en el 1,36% del territorio",
+      "en": "70.4% of 2000-2015 growth landed on 1.36% of the land"
+    },
+    "por_que": {
+      "es": "Con p-valores por Monte Carlo, los puntos calientes en las dos fuentes son el 0,07% del territorio con el 10,8% del crecimiento, y las fuentes apenas coinciden.",
+      "en": "With Monte Carlo p-values, hot spots in both sources are 0.07% of the land with 10.8% of growth, and the sources barely agree."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/PROCESO.md"
+  },
+  {
+    "id": "p03_mitad_en_menos_del_1pct_como_titular",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "La mitad del crecimiento 2000-2015 cayó en menos del 1% del territorio (como hallazgo de concentración)",
+      "en": "Half of 2000-2015 growth landed on less than 1% of the land (as a concentration finding)"
+    },
+    "por_que": {
+      "es": "Es cierto, pero los asentamientos ya ocupaban el ~0,5% del país: el crecimiento estuvo tan concentrado como las ciudades existentes. No es una concentración nueva.",
+      "en": "True, but settlements already covered ~0.5% of the country: growth was as concentrated as existing cities. Not a new concentration."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/VALIDACION.md"
+  },
+  {
+    "id": "p03_boom_de_los_90",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "Un 'boom' en los 90 (GHSL: 3,28%/año en 1990-2000)",
+      "en": "A 1990s 'boom' (GHSL: 3.28%/yr in 1990-2000)"
+    },
+    "por_que": {
+      "es": "WSF-Evolution no lo confirma (2,28%/año). Se publica solo la dirección: los 90 crecieron más rápido que 2000-2015.",
+      "en": "WSF-Evolution does not confirm it (2.28%/yr). Only the direction is published: the 1990s grew faster than 2000-2015."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/README.md"
+  },
+  {
+    "id": "p03_auges_1991_1996",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "Auges de construcción en 1991 y 1996",
+      "en": "Construction booms in 1991 and 1996"
+    },
+    "por_que": {
+      "es": "Casi todos los estados 'saltan' el mismo año tras años anormalmente bajos: firma de huecos en las imágenes Landsat.",
+      "en": "Nearly all states 'jump' the same year after abnormally low years: the signature of Landsat imagery gaps."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/VALIDACION.md"
+  },
+  {
+    "id": "p03_multiplicadores_desde_1975",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "Multiplicadores por ciudad desde 1975 (Maturín ×4, Margarita ×6)",
+      "en": "City multipliers since 1975 (Maturín ×4, Margarita ×6)"
+    },
+    "por_que": {
+      "es": "Con WSF, en 1985-2015, las dos crecen ×1,9; la base de 1975 del GHSL parece subestimada.",
+      "en": "With WSF, in 1985-2015, both grow ×1.9; the GHSL 1975 baseline looks underestimated."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/README.md"
+  },
+  {
+    "id": "p03_caracas",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "Caracas se expandió (o se densificó)",
+      "en": "Caracas expanded (or densified)"
+    },
+    "por_que": {
+      "es": "Con el censo de sus municipios el ODS va de 0,86 a 1,71 según la fuente de suelo: no hay lectura en ningún sentido.",
+      "en": "With its municipal census the SDG ranges from 0.86 to 1.71 depending on the land source: no reading either way."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/VALIDACION.md"
+  },
+  {
+    "id": "p03_repartos_exactos_lei",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "Repartos exactos de relleno y salto",
+      "en": "Exact infill and leapfrog shares"
+    },
+    "por_que": {
+      "es": "Según el método, el relleno va del 21% al 41% y los saltos del 4% al 11%. Solo se publica lo que no cambia.",
+      "en": "Depending on the method, infill ranges 21-41% and leapfrog 4-11%. Only what doesn't change is published."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/VALIDACION.md"
+  },
+  {
+    "id": "p03_2015_2020",
+    "publicacion": "P03",
+    "afirmacion": {
+      "es": "2015-2020: la población cae mientras se sigue construyendo",
+      "en": "2015-2020: population falls while building continues"
+    },
+    "por_que": {
+      "es": "WSF-Evolution termina en 2015: no hay segunda fuente.",
+      "en": "WSF-Evolution ends in 2015: there is no second source."
+    },
+    "documento": "https://github.com/Kaimind-Technologies/venezuela-datos-abiertos/blob/main/p03-crecimiento/README.md"
+  }
+]

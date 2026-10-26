@@ -11,6 +11,7 @@ export default function Header() {
     [t.avances.id, t.nav.avances],
     [t.mision.id, t.nav.mision],
     [t.metodo.id, t.nav.metodo],
+    [t.api.id, t.nav.api],
     [t.ruta.id, t.nav.ruta],
   ];
   const idioma = t.otroIdioma;

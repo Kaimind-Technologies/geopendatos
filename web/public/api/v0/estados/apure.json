@@ -1,0 +1,34 @@
+{
+  "codigo": "apure",
+  "nombre": "Apure",
+  "construcciones": {
+    "valor": 260652,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 32.3,
+    "2015": 75.6,
+    "pct_anual": {
+      "1985-1990": 1.96,
+      "1990-2000": 3.98,
+      "2000-2015": 2.36
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 377756,
+    "censo_2011": 459025,
+    "ghs_pop_2000": 398566,
+    "ghs_pop_2010": 489684,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.95,
+      "ghs_pop_2000_2010": 2.06
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}

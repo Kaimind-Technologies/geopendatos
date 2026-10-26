@@ -1,0 +1,34 @@
+{
+  "codigo": "carabobo",
+  "nombre": "Carabobo",
+  "construcciones": {
+    "valor": 751634,
+    "fuente": "P01",
+    "licencia": "odbl"
+  },
+  "asentamiento_wsf_km2": {
+    "1985": 173.6,
+    "2015": 420.1,
+    "pct_anual": {
+      "1985-1990": 9.94,
+      "1990-2000": 1.92,
+      "2000-2015": 1.3
+    },
+    "fuente": "P03",
+    "licencia": "ccby",
+    "nota": "Recortado con los límites de cada estado (ADM1); la suma nacional difiere ~1,5% de la serie con el contorno del país."
+  },
+  "poblacion": {
+    "censo_2001": 1932168,
+    "censo_2011": 2245744,
+    "ghs_pop_2000": 1844575,
+    "ghs_pop_2010": 2236439,
+    "crecimiento_pct_anual": {
+      "censo_2001_2011": 1.5,
+      "ghs_pop_2000_2010": 1.93
+    },
+    "fuente": "P03 (INE y GHS-POP)",
+    "licencia": "ccby",
+    "nota": "Población empadronada del INE (sin corrección por omisión) y población modelada de GHS-POP."
+  }
+}
