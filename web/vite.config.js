@@ -19,6 +19,14 @@ export default defineConfig({
         es: resolve(import.meta.dirname, "index.html"),
         en: resolve(import.meta.dirname, "en/index.html"),
       },
+      // Nombres fijos (sin hash): GitHub Pages guarda el HTML en caché varios minutos y, con
+      // hashes, una página vieja pedía un JS que el despliegue nuevo ya había borrado (pantalla
+      // en negro). Con nombres fijos el archivo siempre existe.
+      output: {
+        entryFileNames: "assets/[name].js",
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name][extname]",
+      },
     },
   },
 });

@@ -8,7 +8,7 @@ Las cifras salen de los JSON del repo (P01, P02 y la API v0), no se escriben a m
 se captura de la web construida (`npm run build` + `npx vite preview --port 4173`).
 
 Uso (desde la raíz del repo, con la vista previa corriendo):
-    python -P web/video/p04_video.py --url datos.kaimindconsulting.com
+    python -P web/video/p04_video.py --url geopendatos.kaimindconsulting.com
 Salida: web/video/p04_web_bilingue.mp4 (no va al repo)
 """
 
@@ -128,7 +128,10 @@ def escena_cierre(url: str, n_ind: int) -> Image.Image:
     centrado(d, 360, "Explóralo y úsalo", f(B, 72), TINTA)
     centrado(d, 455, "Explore it and use it", f(R, 40), SUAVE)
     d.rounded_rectangle([90, 580, W - 90, 700], radius=30, fill=VERDE_K)
-    centrado(d, 607, url, f(B, 52), (0, 0, 0))
+    tam = 52
+    while f(B, tam).getlength(url) > W - 240:  # que la dirección entre en el recuadro
+        tam -= 2
+    centrado(d, 640 - tam * 0.62, url, f(B, tam), (0, 0, 0))
     for i, linea in enumerate([f"{n_ind} indicadores en una API abierta", "cada uno con su método, su fuente y su licencia",
                                "y lo que descartamos, también"]):
         centrado(d, 780 + i * 52, linea, f(R, 36), SUAVE)
@@ -138,7 +141,7 @@ def escena_cierre(url: str, n_ind: int) -> Image.Image:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--url", default="datos.kaimindconsulting.com", help="dirección que se muestra en el video")
+    ap.add_argument("--url", default="geopendatos.kaimindconsulting.com", help="dirección que se muestra en el video")
     ap.add_argument("--base", default="http://localhost:4173/", help="web construida para el recorrido")
     args = ap.parse_args()
     c = cifras()
